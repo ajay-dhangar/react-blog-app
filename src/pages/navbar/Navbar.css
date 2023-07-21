@@ -1,0 +1,50 @@
+.header {
+    position: relative;  
+    padding: 10px;  
+    margin-top: 15px;  
+  }
+  
+  .roted {    
+    transform: rotate(-90deg);  
+    background-color: #262626;
+    position: absolute;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    margin-right: 55px;
+    padding: 5px;    
+    border-radius: 5px;
+  }
+  .normal{
+    margin-left: 55px;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #navbar{
+    margin-top: 30px;
+  }
+  .nav-item{
+    list-style: none;
+  }
+  .navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  a{
+    text-decoration: none;
+  }
+  .nav-bottom-line{
+    height: 3px;
+    width: 95%;
+    background-color: red;
+  }
+  @media screen and (max-width:799px){
+    .navbar-nav{
+        display: block;
+    }
+  }

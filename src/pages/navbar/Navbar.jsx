@@ -1,40 +1,29 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css'
 
 function Navbar() {
-  const [state, setstate] = useState(true);
-
-  const handleNavToggler = () => {
-    setstate(!state);
-  };
+  
 
   return (
     <div>
-      <header>
-        <h1>
+      <div className='header'>        
           <span className="roted">The</span>
           <span className='normal'>SIREN</span>
-        </h1>
-      </header>
-      <nav className="navbar navbar-dark navbar-expand-lg bg-dark py-lg-4" id="mainNav">
+      </div>
+      <nav className="navbar" id="navbar">
         <div className="container">
-          <Link className="navbar-brand text-uppercase d-lg-none text-expanded" to={'#'}>
+
+          {/* <Link className="" to={'#'}>
             React Blog App
-          </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded={!state}
-            aria-label="Toggle navigation"
-            onClick={handleNavToggler}
-          >
+          </Link> */}
+
+          {/* <button onClick={handleNavToggler}>
             <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className={`${state ? 'collapse' : ''} navbar-collapse`} id="navbarResponsive">
-            <ul className="navbar-nav mx-auto">
+          </button> */}
+
+          <div className='' id="navbarResponsive">
+            <ul className="navbar-nav">
               <li className="nav-item">
                 <Link className="nav-link" to={'/Home'}>
                   Home
@@ -67,6 +56,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
+          <hr className='nav-bottom-line' />
         </div>
       </nav>
     </div>
