@@ -1,0 +1,7 @@
+export {default as Bollywood} from './Bollywood'
+export {default as Fitness} from './Fitness'
+export {default as Food} from './Food'
+export {default as Hollywood} from './Hollywood'
+export {default as Technology} from './Technology'
+export {default as Navbar} from './Navbar'
+export {default as Home} from './Home'
