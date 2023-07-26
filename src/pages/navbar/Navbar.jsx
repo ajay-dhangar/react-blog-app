@@ -45,10 +45,10 @@ function Navbar() {
                 </li>
               </ul>
             </div>            
-          </div>
-          <hr className='nav-bottom-line' />
-        </nav>
+          </div>          
+        </nav>        
       </div>
+      <hr className='nav-bottom-line' />
     </div>
   );
 }
