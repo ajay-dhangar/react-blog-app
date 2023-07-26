@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-blog-app/static/css/main.dbce1e2b.css",
-    "main.js": "/react-blog-app/static/js/main.e72174e4.js",
+    "main.css": "/react-blog-app/static/css/main.c5f6a9c5.css",
+    "main.js": "/react-blog-app/static/js/main.077395eb.js",
     "static/media/mountainSmall.jpg": "/react-blog-app/static/media/mountainSmall.a48c8070a3cd5e7f80f6.jpg",
     "static/media/mountain.jpg": "/react-blog-app/static/media/mountain.be19f54eec4964dbe571.jpg",
     "static/media/sports1.jpg": "/react-blog-app/static/media/sports1.1da73c39e1429d2f68e6.jpg",
     "static/media/badminton.jpg": "/react-blog-app/static/media/badminton.b9c6305c039cb7fceb2d.jpg",
     "static/media/tableTennis.jpg": "/react-blog-app/static/media/tableTennis.e2c836e646f4d5e8f3e6.jpg",
     "index.html": "/react-blog-app/index.html",
-    "main.dbce1e2b.css.map": "/react-blog-app/static/css/main.dbce1e2b.css.map",
-    "main.e72174e4.js.map": "/react-blog-app/static/js/main.e72174e4.js.map"
+    "main.c5f6a9c5.css.map": "/react-blog-app/static/css/main.c5f6a9c5.css.map",
+    "main.077395eb.js.map": "/react-blog-app/static/js/main.077395eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbce1e2b.css",
-    "static/js/main.e72174e4.js"
+    "static/css/main.c5f6a9c5.css",
+    "static/js/main.077395eb.js"
   ]
 }
