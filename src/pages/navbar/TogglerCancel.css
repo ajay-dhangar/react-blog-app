@@ -1,0 +1,19 @@
+/* TogglerCancel.css */
+
+/* Additional style for the cross symbol */
+.aside .nav-toggler.active span::before,
+.aside .nav-toggler.active span::after {
+  top: 0;
+}
+
+.aside .nav-toggler.active span {  
+  background: transparent;
+  
+}
+.aside .nav-toggler.active span::before {
+  transform: rotate(45deg);
+}
+
+.aside .nav-toggler.active span::after {
+  transform: rotate(-45deg);
+}

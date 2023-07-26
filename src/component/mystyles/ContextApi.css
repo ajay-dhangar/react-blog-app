@@ -45,8 +45,6 @@
 }
 
 .home-latest-food-stories-title {
-
-
   text-align: center;
   font-family: sans-serif;
   position: relative;
@@ -76,11 +74,11 @@
 
 }
 
-hr {
+/* hr {
   width: 70%;
   margin: auto;
   background-color: lightgrey;
-}
+} */
 
 .mountain-big {
   width: 60%;
@@ -92,13 +90,12 @@ hr {
 .mountain-wrapper {
   width: 60%;
   height: 60vh;
-
   margin: auto;
-  position: relative;
+  /* position: relative; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .mountain-small {
@@ -536,8 +533,7 @@ h2 {
 @media only screen and (max-width:1000px) and (orientation:portrait) {
 
   .header {
-    width: 100%;
-
+    width: auto;
   }
 
   .underline {

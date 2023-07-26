@@ -72,34 +72,6 @@ a {
   transition: all 0.3s ease;
 }
 
-.aside .nav-toggler span {
-  height: 2px;
-  width: 20px;
-  background: #262626;
-  display: inline-block;
-  position: relative;
-}
-
-.aside .nav-toggler span::before {
-  content: "";
-  height: 2px;
-  width: 20px;
-  background: #262626;
-  position: absolute;
-  top: -6px;
-  left: 0;
-}
-
-.aside .nav-toggler span::after {
-  content: "";
-  height: 2px;
-  width: 20px;
-  background: #262626;
-  position: absolute;
-  top: 6px;
-  left: 0;
-}
-
 .aside .nav {
   margin-top: 10px;
   display: flex;

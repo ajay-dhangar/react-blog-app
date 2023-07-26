@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.css'
 
+import './TogglerClick.css';
+import './TogglerCancel.css';
+
+
 function Navbar() {
   const [isAsideOpen, setIsAsideOpen] = useState(false);
 
@@ -17,7 +21,7 @@ function Navbar() {
       </div>
 
       <div className={`aside ${isAsideOpen ? 'open' : ''}`}>
-        <div className="nav-toggler" onClick={toggleAside}>
+        <div className={`nav-toggler ${isAsideOpen ? 'active' : ''}`} onClick={toggleAside}>
           <span></span>
         </div>
         

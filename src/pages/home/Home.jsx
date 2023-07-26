@@ -389,10 +389,15 @@ const Home = () => {
       </div>
 
       <Sportstories />
+      <br />
       <Techstories />
+      <br />
       <Bollystories />
+      <br />
       <Hollystories />
+      <br />
       <Foodstories />
+      <br />
       <Fitstories />
     </>
   );
