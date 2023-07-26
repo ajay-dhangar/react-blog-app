@@ -1,50 +1,153 @@
 .header {
-    position: relative;  
-    padding: 10px;  
-    margin-top: 15px;  
+  position: relative;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.roted {
+  transform: rotate(-90deg);
+  background-color: #262626;
+  position: absolute;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: 55px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.normal {
+  margin-left: 55px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#navbar {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bottom-line {
+  height: 3px;
+  background-color: red;
+}
+
+@media screen and (max-width:799px) {
+  .navbar-nav {
+    display: block;
   }
-  
-  .roted {    
-    transform: rotate(-90deg);  
-    background-color: #262626;
-    position: absolute;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 26px;
-    font-weight: bold;
-    margin-right: 55px;
-    padding: 5px;    
-    border-radius: 5px;
+}
+
+.aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transition: all 0.3s ease;
+  gap: 20px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.aside .nav-toggler {
+  height: 40px;
+  width: 45px;
+  border: 1px solid #262626;
+  cursor: pointer;
+  position: fixed;
+  left: 300px;
+  top: 20px;
+  border-radius: 5px;
+  background: #f4f4f4;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.aside .nav-toggler span {
+  height: 2px;
+  width: 20px;
+  background: #262626;
+  display: inline-block;
+  position: relative;
+}
+
+.aside .nav-toggler span::before {
+  content: "";
+  height: 2px;
+  width: 20px;
+  background: #262626;
+  position: absolute;
+  top: -6px;
+  left: 0;
+}
+
+.aside .nav-toggler span::after {
+  content: "";
+  height: 2px;
+  width: 20px;
+  background: #262626;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.aside .nav {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aside .nav li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.aside .nav li a {
+  padding: 5px 15px;
+}
+
+.aside .nav li a.active {
+  color: orange;
+}
+
+.aside .nav li a i {
+  margin-right: 15px;
+}
+
+
+
+@media (max-width: 937px) {
+  .aside .nav {
+    display: none;
+    /* Hide the nav links by default on smaller screens */
   }
-  .normal{
-    margin-left: 55px;
-    font-size: 26px;
-    font-weight: bold;
+
+  .aside.open .nav {
+    display: block;
+    /* Show the nav links when the aside is open */
   }
-  #navbar{
-    margin-top: 30px;
-  }
-  .nav-item{
-    list-style: none;
-  }
-  .navbar-nav{
+
+  .aside .nav-toggler {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    font-size: 26px;
-    font-weight: 500;
+    left: 30px;
   }
-  a{
-    text-decoration: none;
+
+  .aside .nav-toggler.open {
+    left: 200px;
+    height: 25px;
   }
-  .nav-bottom-line{
-    height: 3px;
-    width: 95%;
-    background-color: red;
-  }
-  @media screen and (max-width:799px){
-    .navbar-nav{
-        display: block;
-    }
-  }
+}
+
+
+
+
+
+
+@media (max-width: 446px) {}
