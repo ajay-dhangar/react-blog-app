@@ -1,14 +1,17 @@
-import React from 'react';
-import { createContext, useState } from 'react';
+import React, { createContext, useState } from 'react';
 import mountainBig from './img/mountain.jpg';
 import mountainSmall from './img/mountainSmall.jpg';
 import sports1 from './img/sports1.jpg';
 import badminton from './img/badminton.jpg';
 import tableTennis from './img/tableTennis.jpg';
+import PropTypes from 'prop-types';
 
 export const ContextData = createContext();
 
 export const ProvideInfo = (props) => {
+  ProvideInfo.propTypes = {
+    children: PropTypes.node.isRequired,
+  };
   const [data, setData] = useState([
     {
       id: 1,
