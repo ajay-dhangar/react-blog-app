@@ -1,7 +1,7 @@
 {
   "name": "react-blog-app",
   "version": "0.1.0",
-  "homepage": "https://ajay-dhangar.github.io/react-blog-app/",
+  "homepage": "https://ajay-dhangar.github.io/react-blog-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -19,7 +19,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src",
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +42,11 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.0",
+    "gh-pages": "^5.0.0",
+    "prettier": "^3.0.0"
   }
 }

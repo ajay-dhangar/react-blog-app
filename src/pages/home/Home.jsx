@@ -1,29 +1,26 @@
-import React from "react";
-import "../../component/mystyles/ContextApi.css";
-import { Link } from "react-router-dom";
-import { ContextData } from "../../component/ContextApi";
+import React from 'react';
+import '../../component/mystyles/ContextApi.css';
+import { Link } from 'react-router-dom';
+import { ContextData } from '../../component/ContextApi';
 
-import { useContext } from "react";
-
+import { useContext } from 'react';
 
 const Fitstories = () => {
   const [data] = useContext(ContextData);
   return (
     <>
-      <h2
-       className="home-latest-fitness-stories-title"
-      >
+      <h2 className="home-latest-fitness-stories-title">
         Latest Fitness Stories
       </h2>
       <hr className="underline" />
       <div className="article-wrapper">
         {data
-          .filter((value) => value.category === "fitness")
+          .filter((value) => value.category === 'fitness')
           .map((val) => (
             <div key={val.id} className="sports">
               <Link
                 to={`/article/${val.id}`}
-                style={{ position: "relative", width: "5rem" }}
+                style={{ position: 'relative', width: '5rem' }}
               >
                 <img src={val.image} alt="" className="sports-img" />
               </Link>
@@ -32,21 +29,21 @@ const Fitstories = () => {
               <p className="texts">{val.name}</p>
               <span
                 style={{
-                  fontSize: "0.8rem",
-                  color: "black",
-                  top: "0.5rem",
-                  position: "relative",
+                  fontSize: '0.8rem',
+                  color: 'black',
+                  top: '0.5rem',
+                  position: 'relative',
                 }}
               >
                 Date:
               </span>
               <span
                 style={{
-                  color: "grey",
-                  fontSize: "0.6rem",
-                  marginLeft: "10px",
-                  top: "0.5rem",
-                  position: "relative",
+                  color: 'grey',
+                  fontSize: '0.6rem',
+                  marginLeft: '10px',
+                  top: '0.5rem',
+                  position: 'relative',
                 }}
               >
                 TODAY
@@ -62,20 +59,16 @@ const Foodstories = () => {
   const [data] = useContext(ContextData);
   return (
     <>
-      <h2
-       className="home-latest-food-stories-title"
-      >
-        Latest Food Stories
-      </h2>
+      <h2 className="home-latest-food-stories-title">Latest Food Stories</h2>
       <hr className="underline" />
       <div className="article-wrapper">
         {data
-          .filter((value) => value.category === "food")
+          .filter((value) => value.category === 'food')
           .map((val) => (
             <div key={val.id} className="sports">
               <Link
                 to={`/article/${val.id}`}
-                style={{ position: "relative", width: "5rem" }}
+                style={{ position: 'relative', width: '5rem' }}
               >
                 <img src={val.image} alt="" className="sports-img" />
               </Link>
@@ -84,23 +77,21 @@ const Foodstories = () => {
               <p className="texts">{val.name}</p>
               <span
                 style={{
-                  fontSize: "0.8rem",
-                  color: "black",
-                  top: "0.5rem",
-                  position: "relative",
-                  
+                  fontSize: '0.8rem',
+                  color: 'black',
+                  top: '0.5rem',
+                  position: 'relative',
                 }}
               >
                 Date:
               </span>
               <span
                 style={{
-                  color: "grey",
-                  fontSize: "0.6rem",
-                  marginLeft: "10px",
-                  top: "0.5rem",
-                  position: "relative",
-                
+                  color: 'grey',
+                  fontSize: '0.6rem',
+                  marginLeft: '10px',
+                  top: '0.5rem',
+                  position: 'relative',
                 }}
               >
                 TODAY
@@ -118,38 +109,27 @@ const Hollystories = () => {
   return (
     <>
       <>
-        <h2
-         className="home-latest-hollywood-stories-title"
-        >
+        <h2 className="home-latest-hollywood-stories-title">
           Latest Hollywood Stories
         </h2>
-        <hr
-          className="underline"
-          
-        />
+        <hr className="underline" />
         <div className="bolly-stories">
           <div className="movie-container">
             {data
-              .filter((value) => value.category === "hollywood")
+              .filter((value) => value.category === 'hollywood')
               .map((val) => (
                 <div key={val.id} className="bolly-wrapper">
                   <Link
                     to={`/article/${val.id}`}
-                   className="bolly-image-wrapper"
+                    className="bolly-image-wrapper"
                   >
                     <img src={val.image} alt="" className="bolly-image" />
                   </Link>
                   <div className="movie-details">
-                    <p className="movie-details-para">
-                      {val.name}
-                    </p>
-                    <p className="movie-details-para">
-                      IMdb: {val.imdb}
-                    </p>
+                    <p className="movie-details-para">{val.name}</p>
+                    <p className="movie-details-para">IMdb: {val.imdb}</p>
                     <br />
-                    <p className="movie-details-para">
-                      Release: {val.release}
-                    </p>
+                    <p className="movie-details-para">Release: {val.release}</p>
                   </div>
                 </div>
               ))}
@@ -167,38 +147,24 @@ const Bollystories = () => {
 
   return (
     <>
-      <h2
-     className="home-latest-bollywood-stories-title"
-      >
+      <h2 className="home-latest-bollywood-stories-title">
         Latest Bollywood Stories
       </h2>
-      <hr
-        className="underline"
-        
-      />
+      <hr className="underline" />
       <div className="bolly-stories">
         <div className="movie-container">
           {data
-            .filter((value) => value.category === "bollywood")
+            .filter((value) => value.category === 'bollywood')
             .map((val) => (
               <div key={val.id} className="bolly-wrapper">
-                <Link
-                  to={`/article/${val.id}`}
-                  className="bolly-image-wrapper"
-                >
+                <Link to={`/article/${val.id}`} className="bolly-image-wrapper">
                   <img src={val.image} alt="" className="bolly-image" />
                 </Link>
                 <div className="movie-details">
-                  <p className="movie-details-para">
-                    {val.name}
-                  </p>
-                  <p className="movie-details-para">
-                    IMdb: {val.imdb}
-                  </p>
+                  <p className="movie-details-para">{val.name}</p>
+                  <p className="movie-details-para">IMdb: {val.imdb}</p>
                   <br />
-                  <p className="movie-details-para">
-                    Release: {val.release}
-                  </p>
+                  <p className="movie-details-para">Release: {val.release}</p>
                 </div>
               </div>
             ))}
@@ -220,27 +186,25 @@ const Sportstories = () => {
     keys = data[i].category;
 
     switch (keys) {
-      case "sports":
+      case 'sports':
         sport.push(data[i]);
         break;
       default:
-        console.log("no data found");
+        console.log('no data found');
     }
   }
 
   console.log(sport);
   return (
     <>
-      <h2 className="home-latest-sport-stories-title">
-        Latest Sports Stories
-      </h2>
+      <h2 className="home-latest-sport-stories-title">Latest Sports Stories</h2>
       <hr className="underline" />
       <div className="article-wrapper">
         {sport.map((value) => (
           <div key={value.id} className="sports">
             <Link
               to={`/article/${value.id}`}
-              style={{ position: "relative", width: "5rem" }}
+              style={{ position: 'relative', width: '5rem' }}
             >
               <img src={value.image} alt="" className="sports-img" />
             </Link>
@@ -248,21 +212,21 @@ const Sportstories = () => {
             <p className="texts"></p>
             <span
               style={{
-                fontSize: "0.8rem",
-                color: "black",
-                marginTop: "2vh",
-                position: "relative",
+                fontSize: '0.8rem',
+                color: 'black',
+                marginTop: '2vh',
+                position: 'relative',
               }}
             >
               Date:
             </span>
             <span
               style={{
-                color: "grey",
-                fontSize: "0.6rem",
-                marginLeft: "10px",
-                marginTop: "2vh",
-                position: "relative",
+                color: 'grey',
+                fontSize: '0.6rem',
+                marginLeft: '10px',
+                marginTop: '2vh',
+                position: 'relative',
               }}
             >
               23/7/2021
@@ -278,20 +242,18 @@ const Techstories = () => {
   const [data] = useContext(ContextData);
   return (
     <>
-      <h2
-      className="home-latest-tech-stories-title"
-      >
+      <h2 className="home-latest-tech-stories-title">
         Latest Technology Stories
       </h2>
       <hr className="underline" />
       <div className="article-wrapper">
         {data
-          .filter((value) => value.category === "technology")
+          .filter((value) => value.category === 'technology')
           .map((val) => (
             <div key={val.id} className="sports">
               <Link
                 to={`/article/${val.id}`}
-                style={{ position: "relative", width: "5rem" }}
+                style={{ position: 'relative', width: '5rem' }}
               >
                 <img src={val.image} alt="" className="sports-img" />
               </Link>
@@ -300,22 +262,21 @@ const Techstories = () => {
               <p className="texts">{val.name}</p>
               <span
                 style={{
-                  fontSize: "0.8rem",
-                  color: "black",
-                  top: "1vh",
-                  position: "relative",
-          
+                  fontSize: '0.8rem',
+                  color: 'black',
+                  top: '1vh',
+                  position: 'relative',
                 }}
               >
                 Date:
               </span>
               <span
                 style={{
-                  color: "grey",
-                  fontSize: "0.6rem",
-                  marginLeft: "10px",
-                  top: "1vh",
-                  position: "relative",
+                  color: 'grey',
+                  fontSize: '0.6rem',
+                  marginLeft: '10px',
+                  top: '1vh',
+                  position: 'relative',
                 }}
               >
                 TODAY
@@ -328,7 +289,6 @@ const Techstories = () => {
 };
 
 const Home = () => {
-
   const [data] = useContext(ContextData);
 
   console.log(data);
@@ -348,12 +308,12 @@ const Home = () => {
         break;
 
       default:
-        console.log("no data found");
+        console.log('no data found');
     }
   }
 
-  console.log(item1);
-  console.log(item2);
+  // console.log(item1);
+  // console.log(item2);
 
   return (
     <>
