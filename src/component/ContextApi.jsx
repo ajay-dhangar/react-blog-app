@@ -20,6 +20,7 @@ export const ProvideInfo = (props) => {
       name: 'rigi',
       height: '1798m',
     },
+    
 
     {
       id: 2,

@@ -1,0 +1,13 @@
+.ImageSlider{
+   border-radius: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   
+}
+.ImageSlider img{
+    width: 55%;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid #262626;
+    box-shadow: 4px 4px 8px #262626;
+}

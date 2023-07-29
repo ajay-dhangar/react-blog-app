@@ -1,7 +1,7 @@
 import React from 'react';
 import './Food.css';
 import { Link } from 'react-router-dom';
-import { ContextData } from '../../component/ContextApi';
+import { ContextData } from '../../data/Data';
 
 import { useContext } from 'react';
 

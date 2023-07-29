@@ -1,9 +1,24 @@
 import React from 'react';
-import '../../component/mystyles/ContextApi.css';
+import './Home.css';
 import { Link } from 'react-router-dom';
-import { ContextData } from '../../component/ContextApi';
-
+import { ContextData } from '../../data/Data';
+import './slide.css';
+import ImageSlider from './ImageSlider';
 import { useContext } from 'react';
+import image1 from './img/home-1.jpg'
+import image2 from './img/home-2.jpg'
+import image3 from './img/home-3.jpg'
+import image4 from './img/home-4.jpg'
+import image5 from './img/home-5.jpg'
+
+
+const images = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5
+];
 
 const Fitstories = () => {
   const [data] = useContext(ContextData);
@@ -15,7 +30,7 @@ const Fitstories = () => {
       <hr className="underline" />
       <div className="article-wrapper">
         {data
-          .filter((value) => value.category === 'fitness')
+          .filter((value) => value.category === 'fitness').slice(0, 4)
           .map((val) => (
             <div key={val.id} className="sports">
               <Link
@@ -63,7 +78,7 @@ const Foodstories = () => {
       <hr className="underline" />
       <div className="article-wrapper">
         {data
-          .filter((value) => value.category === 'food')
+          .filter((value) => value.category === 'food').slice(0, 4)
           .map((val) => (
             <div key={val.id} className="sports">
               <Link
@@ -108,36 +123,34 @@ const Hollystories = () => {
 
   return (
     <>
-      <>
-        <h2 className="home-latest-hollywood-stories-title">
-          Latest Hollywood Stories
-        </h2>
-        <hr className="underline" />
-        <div className="bolly-stories">
-          <div className="movie-container">
-            {data
-              .filter((value) => value.category === 'hollywood')
-              .map((val) => (
-                <div key={val.id} className="bolly-wrapper">
-                  <Link
-                    to={`/article/${val.id}`}
-                    className="bolly-image-wrapper"
-                  >
-                    <img src={val.image} alt="" className="bolly-image" />
-                  </Link>
-                  <div className="movie-details">
-                    <p className="movie-details-para">{val.name}</p>
-                    <p className="movie-details-para">IMdb: {val.imdb}</p>
-                    <br />
-                    <p className="movie-details-para">Release: {val.release}</p>
-                  </div>
+      <h2 className="home-latest-hollywood-stories-title">
+        Latest Hollywood Stories
+      </h2>
+      <hr className="underline" />
+      <div className="bolly-stories">
+        <div className="movie-container">
+          {data
+            .filter((value) => value.category === 'hollywood').slice(0, 4)
+            .map((val) => (
+              <div key={val.id} className="bolly-wrapper">
+                <Link
+                  to={`/article/${val.id}`}
+                  className="bolly-image-wrapper"
+                >
+                  <img src={val.image} alt="" className="bolly-image" />
+                </Link>
+                <div className="movie-details">
+                  <p className="movie-details-para">{val.name}</p>
+                  <p className="movie-details-para">IMdb: {val.imdb}</p>
+                  <br />
+                  <p className="movie-details-para">Release: {val.release}</p>
                 </div>
-              ))}
-          </div>
-
-          <div className="advertisement">Advertisement</div>
+              </div>
+            ))}
         </div>
-      </>
+
+        <div className="advertisement">Advertisement</div>
+      </div>
     </>
   );
 };
@@ -154,8 +167,7 @@ const Bollystories = () => {
       <div className="bolly-stories">
         <div className="movie-container">
           {data
-            .filter((value) => value.category === 'bollywood')
-            .map((val) => (
+            .filter((value) => value.category === 'bollywood').slice(0, 4).map((val) => (
               <div key={val.id} className="bolly-wrapper">
                 <Link to={`/article/${val.id}`} className="bolly-image-wrapper">
                   <img src={val.image} alt="" className="bolly-image" />
@@ -170,7 +182,9 @@ const Bollystories = () => {
             ))}
         </div>
 
-        <div className="advertisement">Advertisement</div>
+        <div className="advertisement">
+          
+        </div>
       </div>
     </>
   );
@@ -242,47 +256,48 @@ const Techstories = () => {
   const [data] = useContext(ContextData);
   return (
     <>
-      <h2 className="home-latest-tech-stories-title">
-        Latest Technology Stories
-      </h2>
-      <hr className="underline" />
-      <div className="article-wrapper">
-        {data
-          .filter((value) => value.category === 'technology')
-          .map((val) => (
-            <div key={val.id} className="sports">
-              <Link
-                to={`/article/${val.id}`}
-                style={{ position: 'relative', width: '5rem' }}
-              >
-                <img src={val.image} alt="" className="sports-img" />
-              </Link>
+      <div className="techContainer">
+        <h2 className="home-latest-tech-stories-title">
+          Latest Technology Stories
+        </h2>
+        <hr className="underline" />
+        <div className="article-wrapper">
+          {data
+            .filter((value) => value.category === 'technology').slice(0, 4).map((val) => (
+              <div key={val.id} className="sports">
+                <Link
+                  to={`/article/${val.id}`}
+                  style={{ position: 'relative', width: '5rem' }}
+                >
+                  <img src={val.image} alt="" className="sports-img" />
+                </Link>
 
-              <h3>{val.details}</h3>
-              <p className="texts">{val.name}</p>
-              <span
-                style={{
-                  fontSize: '0.8rem',
-                  color: 'black',
-                  top: '1vh',
-                  position: 'relative',
-                }}
-              >
-                Date:
-              </span>
-              <span
-                style={{
-                  color: 'grey',
-                  fontSize: '0.6rem',
-                  marginLeft: '10px',
-                  top: '1vh',
-                  position: 'relative',
-                }}
-              >
-                TODAY
-              </span>
-            </div>
-          ))}
+                <h3>{val.details}</h3>
+                <p className="texts">{val.name}</p>
+                <span
+                  style={{
+                    fontSize: '0.8rem',
+                    color: 'black',
+                    top: '1vh',
+                    position: 'relative',
+                  }}
+                >
+                  Date:
+                </span>
+                <span
+                  style={{
+                    color: 'grey',
+                    fontSize: '0.6rem',
+                    marginLeft: '10px',
+                    top: '1vh',
+                    position: 'relative',
+                  }}
+                >
+                  TODAY
+                </span>
+              </div>
+            ))}
+        </div>
       </div>
     </>
   );
@@ -317,18 +332,20 @@ const Home = () => {
 
   return (
     <>
-      <div className="mountain-wrapper">
-        {item1.map((value) => {
-          return (
-            <img
-              key={value.id}
-              src={value.image}
-              alt=""
-              className="mountain-big"
-            />
-          );
-        })}
-        <div className="mountain-small-wrapper">
+      <div className="HomeContainer">
+        <ImageSlider images={images} />
+        <div className="mountain-wrapper">
+          {item1.map((value) => {
+            return (
+              <img
+                key={value.id}
+                src={value.image}
+                alt=""
+                className="mountain-big"
+              />
+            );
+          })}
+          {/* <div className="mountain-small-wrapper">
           {item2.map((value) => (
             <>
               <img
@@ -345,20 +362,21 @@ const Home = () => {
               />
             </>
           ))}
+        </div> */}
         </div>
-      </div>
+        <Sportstories />
+        <br />
+        <Techstories />
+        <br />
+        <Bollystories />
+        <br />
+        <Hollystories />
+        <br />
+        <Foodstories />
+        <br />
+        <Fitstories />
 
-      <Sportstories />
-      <br />
-      <Techstories />
-      <br />
-      <Bollystories />
-      <br />
-      <Hollystories />
-      <br />
-      <Foodstories />
-      <br />
-      <Fitstories />
+      </div>
     </>
   );
 };

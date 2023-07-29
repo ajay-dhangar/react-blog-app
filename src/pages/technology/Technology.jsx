@@ -1,7 +1,8 @@
 import React from 'react';
 import './Technology.css';
 import { Link } from 'react-router-dom';
-import { ContextData } from '../../component/ContextApi';
+import { ContextData } from '../../data/Data';
+
 
 import { useContext } from 'react';
 
@@ -22,7 +23,7 @@ const Technology = () => {
                 <>
                   <div className='myAllData'>
                     <div key={val.id} className="bolly-wrapper">
-                      <Link to={`/article/${val.id}`} className="left-data-link">
+                      <Link to={`/Article/${val.id}`} className="left-data-link">
                         <img src={val.image} alt="" className="left-data-image" />
                       </Link>
                       <div className="movie-details">

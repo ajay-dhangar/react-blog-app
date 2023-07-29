@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContextData } from '../../component/ContextApi';
+import { ContextData } from '../../data/Data';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Bollywood.css';

@@ -14,13 +14,13 @@ function Navbar() {
 
   return (
     <div>
-      <div className="header">
+      <div className={`header ${isAsideOpen ? 'active' : ''}`}>
         <Link to="/Home" className="nav-link">
           <span className="roted">The</span>
           <span className="normal">SIREN</span>
         </Link>
       </div>
-
+      <hr className="nav-bottom-line" />
       <div className={`aside ${isAsideOpen ? 'open' : ''}`}>
         <div
           className={`nav-toggler ${isAsideOpen ? 'active' : ''}`}

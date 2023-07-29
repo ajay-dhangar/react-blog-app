@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .responsive-menu-bar {
+/* .responsive-menu-bar {
     width: 20%;
     height: 30vh;
     background-color: #fafafa;
@@ -17,1248 +12,977 @@
     top: -100rem;
     text-align: center;
     display: none;
-  
-  
-  
-  
   }
-  
-  .home-latest-sport-stories-title {
-    text-align: center;
-    font-family: sans-serif;
-    margin-top: 1vh;
-  }
-  
-  .home-latest-tech-stories-title {
-    text-align: center;
-    font-family: sans-serif;
+   */
+
+.HomeContainer {
+  padding: 5px;
+}
+
+.home-latest-sport-stories-title {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 1vh;
+}
+
+.home-latest-tech-stories-title {
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  margin-top: 6vh;
+  margin-bottom: 1vh;
+}
+
+.home-latest-bollywood-stories-title {
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  margin-top: 5vh;
+}
+
+.home-latest-hollywood-stories-title {
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  margin-top: 2vh;
+}
+
+.home-latest-food-stories-title {
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.home-latest-fitness-stories-title {
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  margin-top: 4vh;
+  margin-bottom: 2vh,
+}
+
+
+/* .responsive-menu-bar-hr {
+  position: relative;
+  width: 100%;
+} */
+
+/* .header {
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
-    margin-top: 6vh;
-    margin-bottom: 1vh;
+    
+  } */
+
+.post-divider {
+  width: 45rem;
+  margin-left: 4.5rem;
+}
+
+hr {
+  width: 70%;
+  margin: auto;
+  background-color: lightgrey;
+}
+
+.text-rotate {
+  transform: rotate(-90deg);
+  position: relative;
+  top: 1.5rem;
+}
+
+.rotate-wrapper {
+  width: 15%;
+  height: 8vh;
+  background-color: black;
+  color: white;
+}
+
+.title-wrapper {
+  width: 15%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.left-data-link {
+  position: relative;
+  width: 40%;
+}
+
+.sports {
+  width: 22%;
+  height: 40vh;
+  position: relative;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(121, 112, 112);
+  word-wrap: break-word;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+
+/* .texts {
+  font-size: 11px;
+  color: red;
+  margin-top: 0.6rem;
+  word-wrap: break-word;
+  font-size: 1rem;
+} */
+
+
+.sports-img {
+  width: 100%;
+  height: 25vh;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #262626;
+}
+
+.story-wrapper {
+  width: 80%;
+  height: 70vh;
+  margin: auto;
+  position: relative;
+  top: 2rem;
+  /* background-color: red; */
+}
+
+/* .story-hr {
+  width: 100%;
+  position: relative;
+} */
+
+.story-content {
+  width: 100%;
+  height: 30vh;
+  background-color: red;
+  position: relative;
+  display: flex;
+}
+
+/* .kerala {
+  width: 60%;
+  height: 20vh;
+  position: relative;
+} */
+
+.story-content-text {
+  width: 40%;
+  height: 20vh;
+  /* background-color: green; */
+}
+
+.stories {
+  width: 60%;
+  height: 40vh;
+  /* background-color: pink; */
+
+}
+
+.underline {
+
+  width: 2rem;
+  height: 2px;
+  background-color: red;
+  cursor: pointer;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.bolly-stories {
+  width: 70%;
+  height: 140vh;
+  background-color: #FAFAFA;
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bolly-wrapper {
+  width: 80%;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.1rem;
+  color: green;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  margin-left: 5vw;
+  padding-top: 1rem;
+  padding: 5px;
+
+
+}
+
+.bolly-image-wrapper {
+  position: relative;
+  width: 20rem;
+}
+
+.bolly-image {
+  width: 100%;
+  height: 30vh;
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #fafafa;
+  box-shadow: 2px 2px 4px #262626;
+}
+
+.movie-details {
+  width: 60%;
+  height: 30vh;
+  position: relative;
+  text-align: center;
+}
+
+.movie-details-para {
+  position: relative;
+  top: 3rem;
+}
+
+.movie-details-desc-para {
+  font-size: 0.8rem;
+  position: relative;
+  top: 3rem;
+  left: 0.5rem;
+}
+
+.movie-details-release-para {
+  top: 4rem;
+  position: relative;
+  left: 1rem;
+}
+
+.movie-container {
+  position: relative;
+  width: 60%;
+  height: 130vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+}
+
+.advertisement {
+  width: 150px;
+  height: 300px;
+  background-color: white;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJDK-oK3RQoY3P6Pju_Z7Z_1TbMCNLypabQ&usqp=CAU');
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXuyOKAHshyjb3Nf2XRuxUYi6lF-_sPfFTMA&usqp=CAU'); */
+  background-repeat: no-repeat;
+  position: relative;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  cursor: pointer;
+}
+
+.underline:hover {
+  width: 10rem;
+  transition: width 1s;
+}
+
+.wrapper {
+  width: 90%;
+  height: 147vh;
+  background-color: #fafafa;
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-data {
+  width: 80%;
+  height: 135vh;
+  position: relative;
+}
+
+
+.left-data-image {
+  width: 100%;
+  height: 30vh;
+  position: relative;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.underline1 {
+  width: 3rem;
+  height: 3px;
+  background-color: red;
+  cursor: pointer;
+  position: relative;
+  left: 15rem;
+  top: 1rem;
+}
+
+.top-post-underline {
+  width: 3rem;
+  height: 3px;
+  background-color: red;
+  cursor: pointer;
+  position: relative;
+  left: 7rem;
+  top: 0.5rem;
+}
+
+.right-data {
+  width: 40%;
+  height: 110vh;
+  /* background-color: brown; */
+  position: relative;
+}
+
+.right-data-link {
+  width: 10rem;
+  position: relative;
+}
+
+.post-title {
+  font-family: sans-serif;
+  position: relative;
+  top: 1rem;
+  left: 15rem;
+  /* background-color: orange; */
+}
+
+.top-post-title {
+  left: 5rem;
+  position: relative;
+  font-family: sans-serif;
+  /* background-color: palevioletred; */
+
+}
+
+.top-post-heading-wrapper {
+  width: 100%;
+  position: relative;
+  height: 6vh;
+  margin-top: 3vh;
+  /* background-color: blue; */
+}
+
+.right-data-wrapper {
+  width: 100%;
+  height: 22vh;
+  /* background-color:blue; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  color: green;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.top-post-image {
+  width: 100%;
+  height: 18vh;
+  position: relative;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.top-post-details-wrapper {
+  width: 40%;
+  height: auto;
+  position: relative;
+  padding-top: 1rem;
+}
+
+.top-post-details {
+  position: relative;
+  top: 2rem;
+  font-size: 0.8rem;
+  left: 1rem;
+}
+
+.small-ad {
+  width: 50%;
+  height: 50vh;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.article-content-wrapper {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 1rem;
+  line-height: 2rem;
+  font-weight: bolder;
+}
+
+.article-img {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.avatar-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.avatar-wrapper {
+  width: 35%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  cursor: pointer;
+  align-items: center;
+  position: relative;
+  line-height: 1rem;
+}
+
+/* .techContainer {
+  padding: 5px;
+  padding-bottom: 20px;
+  background-color: #fafafa;
+} */
+.article-wrapper {
+  height: 50vh;
+  display: flex;
+  padding: 5px;
+  margin: auto;
+  width: 70%;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+
+
+
+@media only screen and (max-width:1000px) and (orientation:portrait) {
+
+  .underline {
+    top: 0;
+    margin-top: 2vh;
   }
-  
-  .home-latest-bollywood-stories-title {
+
+  .home-latest-food-stories-title {
+    margin-bottom: 0;
+    margin-top: 5vh;
+  }
+
+  .home-latest-hollywood-stories-title {
+    margin-top: 6vh;
+  }
+
+  .home-latest-fitness-stories-title {
+    margin-top: 6vh;
+  }
+
+  .title-wrapper {
+    width: 50%;
+  }
+
+  .article-wrapper {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 4vh;
+
+  }
+
+  .sports {
+    width: 90%;
+
+  }
+
+  .bolly-stories {
+    width: 100%;
+    height: 300vh;
+    flex-direction: column;
+    /* background-color:aqua; */
+  }
+
+  .movie-container {
+    /* background-color: yellow; */
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bolly-wrapper {
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+    /* background-color: green; */
+    margin-left: 0;
+
+  }
+
+  .movie-details {
+    /* background-color: red; */
+
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+
+  }
+
+  .movie-details-para {
+    top: 0;
+  }
+
+  .advertisement {
+    width: 80%;
+  }
+
+  .wrapper {
+    width: 100%;
+    height: 400vh;
+    padding: 5px;
+    /* background-color: blue; */
+    flex-direction: column;
+    position: relative;
+  }
+
+  .bolly-wrapper {
+    width: 100%;
+    height: 55vh;
+    /* background-color: orange; */
+    position: relative;
+  }
+
+  .left-data {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+
+  }
+
+  .movie-details-desc-para {
+    top: 0;
+    left: 0;
+  }
+
+  .movie-details-release-para {
+    top: 2vh;
+    left: 0;
+  }
+
+  .post-divider {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .left-data-image {
+    width: 85%;
+
+  }
+
+  .left-data-link {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: brown; */
+
+  }
+
+  .top-post-title {
+    right: 0;
+    display: inline-block;
     text-align: center;
-    font-family: sans-serif;
+    width: 100%;
+    left: 0;
+  }
+
+  .post-title {
+    left: 0;
+    text-align: center;
+  }
+
+  .underline1 {
+    left: 0;
+    margin: auto;
+  }
+
+  .right-data {
+    width: 100%;
+    height: auto;
+  }
+
+  .right-data-wrapper {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: yellow; */
+
+  }
+
+  .right-data-link {
+    width: 60%;
+    height: 30vh;
+  }
+
+  .top-post-image {
+    height: 30vh;
+    width: 100%;
+  }
+
+  .top-post-details {
+    top: 0;
+    left: 0;
+  }
+
+  .small-ad {
+    width: 80%;
+  }
+
+  .top-post-underline {
+    left: 0;
+    margin: auto;
+  }
+
+  .article-content-wrapper {
+    width: 100%;
+  }
+
+  .avatar-wrapper {
+    margin: auto;
+    margin-top: 2vh;
+  }
+
+  .top-post-divider {
+    position: relative;
+    width: 100%;
+    margin-top: 2vh;
+  }
+}
+
+
+@media only screen and (max-width:1024px) and (orientation:landscape) {
+
+  .home-latest-sport-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-tech-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-bollywood-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-hollywood-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-fitness-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-food-stories-title {
+    margin-top: 10px;
+  }
+
+  .underline {
+    margin-top: 3vh;
+    top: 0;
+    position: relative;
+  }
+
+  .title-wrapper {
+    width: 50%;
+    height: 20vh;
+  }
+
+  .mountain-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mountain-big {
+    width: 90%;
+    height: 90vh;
+    margin-top: 5vh;
+  }
+
+  .mountain-small-wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  .mountain-small {
+    width: 60%;
+    height: 60vh;
+  }
+
+  .article-wrapper {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .sports {
+    width: 90%;
+    height: auto;
+    margin-top: 6vh;
+  }
+
+  .sports-img {
+    height: 60vh;
+    width: 60%;
+    margin-bottom: 4vh;
+  }
+
+  .bolly-stories {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .movie-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bolly-wrapper {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 35vh;
+  }
+
+  .bolly-image-wrapper {
+    width: 60%;
+    height: auto;
+  }
+
+  .bolly-image {
+    height: 60vh;
+  }
+
+  .movie-details {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 4vh;
+  }
+
+  .movie-details-para {
+    top: 0;
+    height: auto;
+  }
+
+  .advertisement {
+    width: 50%;
+    height: 120vh;
+    margin-top: 20vh;
+  }
+
+  .wrapper {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .bolly-wrapper {
+    width: 100%;
+    height: auto;
     position: relative;
     margin-top: 5vh;
   }
-  
-  .home-latest-hollywood-stories-title {
-    text-align: center;
-    font-family: sans-serif;
-    position: relative;
-    margin-top: 2vh;
-  }
-  
-  .home-latest-food-stories-title {
-  
-  
-    text-align: center;
-    font-family: sans-serif;
-    position: relative;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-  }
-  
-  .home-latest-fitness-stories-title {
-    text-align: center;
-    font-family: sans-serif;
-    position: relative;
-    margin-top: 4vh;
-    margin-bottom: 2vh,
-  }
-  
-  .cancel {
-    position: absolute;
-    right: 2px;
-    /* background-color: yellow; */
-    font-size: 2rem;
-    top: 0;
-  }
-  
-  .responsive-menu-bar-hr {
-    position: relative;
-    width: 100%;
-  }
-  
-  .header {
-    width: 60%;
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: yellow; */
-    margin: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
-    /* background-color: yellow; */
-  
-  }
-  
-  .post-divider {
-    width: 45rem;
-    margin-left: 4.5rem;
-  
-  }
-  
-  .menu-icon {
-    width: 5%;
-    height: 5vh;
-    /* background-color: blue; */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    cursor: pointer;
-    display: none;
-  
-  
-  }
-  
-  .menu-icon-line {
-    width: 80%;
-    height: 4px;
-    background-color: black;
-    border-radius: 15px;
-    display: inline-block;
-    position: relative;
-  
-  }
-  
-  .navbar {
-    width: 100%;
-    height: 10vh;
-    /* background-color:pink; */
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .list {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .list:hover {
-    color: red;
-  }
-  
-  hr {
-    width: 70%;
-    margin: auto;
-    background-color: lightgrey;
-  }
-  
-  .text-rotate {
-    transform: rotate(-90deg);
-    position: relative;
-    top: 1.5rem;
-  }
-  
-  .rotate-wrapper {
-    width: 15%;
-    height: 8vh;
-    background-color: black;
-    color: white;
-  
-  
-  
-  }
-  
-  .title-wrapper {
-    width: 15%;
-    height: 10vh;
-    /* background-color: yellow; */
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
-  .mountain-big {
-  
-    width: 60%;
-    height: 53vh;
-    border-radius: 8px;
-  
-  }
-  
-  .mountain-wrapper {
-    width: 60%;
-    height: 60vh;
-  
-    margin: auto;
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    cursor: pointer;
-  }
-  
-  .mountain-small {
-    width: 90%;
-    height: 25vh;
-    border-radius: 8px;
-    margin-bottom: 0.5rem;
-    margin-top: 0.7rem;
-  
-    position: relative;
-  }
-  
-  .mountain-small-wrapper {
-  
-    width: 30%;
-    height: 60vh;
-    display: flex;
-  
-  
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .box {
-    width: 400px;
-    height: 400px;
-    background-color: yellow;
-  
-  
-  }
-  
-  .left-data-link {
-  
-    position: relative;
-    /* background-color: orange; */
-    width: 40%;
-  }
-  
-  .sports {
-    width: 22%;
-    height: 40vh;
-    position: relative;
-    /* background-color: yellow; */
-    text-align: center;
-    font-size: 0.9rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: grey;
-    word-wrap: break-word;
-    margin-left: 10px;
-    cursor: pointer;
-  
-  }
-  
-  .article-wrapper {
-    width: 70%;
-    height: 46vh;
-    background-color: #FAFAFA;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  
-  
-    margin: auto;
-    position: relative;
-    top: 1rem;
-    margin-bottom: 10px;
-  }
-  
-  .texts {
-    font-size: 11px;
-    color: red;
-    margin-top: 0.6rem;
-    word-wrap: break-word;
-    font-size: 1rem;
-  }
-  
-  
-  .sports-img {
-    width: 100%;
-    height: 25vh;
-    position: relative;
-    border-radius: 8px;
-  }
-  
-  .story-wrapper {
-    width: 80%;
-    height: 70vh;
-    /* background-color: orange; */
-    margin: auto;
-    position: relative;
-    top: 2rem;
-  }
-  
-  .story-hr {
-    width: 100%;
-    position: relative;
-  
-  }
-  
-  .story-content {
-    width: 100%;
-    height: 30vh;
-    /* background-color: yellow; */
-    position: relative;
-    display: flex;
-  }
-  
-  .kerala {
-    width: 60%;
-    height: 20vh;
-    position: relative;
-  }
-  
-  .story-content-text {
-    width: 40%;
-    height: 20vh;
-    /* background-color: green; */
-  }
-  
-  .stories {
-    width: 60%;
-    height: 40vh;
-    /* background-color: pink; */
-  
-  }
-  
-  .underline {
-  
-    width: 2rem;
-    height: 2px;
-    background-color: red;
-    cursor: pointer;
-    position: relative;
-    margin-top: 1rem;
-  }
-  
-  .bolly-stories {
-    width: 70%;
-    height: 140vh;
-    background-color: #FAFAFA;
-    position: relative;
-    margin: auto;
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-  
-  }
-  
-  .bolly-wrapper {
-    width: 80%;
-    height: auto;
-    /* background-color: purple; */
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 1.1rem;
-    color: green;
-    font-family: sans-serif;
-    margin-bottom: 10px;
-    margin-left: 5vw;
-    padding-top: 1rem;
-  
-  
-  }
-  
-  .bolly-image-wrapper {
-    position: relative;
-    width: 20rem;
-  }
-  
-  .bolly-image {
-    width: 100%;
-    height: 30vh;
-    position: relative;
-    border-radius: 8px;
-    cursor: pointer;
-  
-  
-  }
-  
-  .movie-details {
-    width: 60%;
-    height: 30vh;
-    position: relative;
-    /* background-color: red; */
-    text-align: center;
-  
-  }
-  
-  .movie-details-para {
-    position: relative;
-    top: 3rem;
-  }
-  
-  .movie-details-desc-para {
-    font-size: 0.8rem;
-    position: relative;
-    top: 3rem;
-    left: 0.5rem;
-  }
-  
-  .movie-details-release-para {
-    top: 4rem;
-    position: relative;
-    left: 1rem;
-  }
-  
-  .movie-container {
-    position: relative;
-    width: 60%;
-    height: 130vh;
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .box1 {
-    width: 100px;
-    height: 100px;
-    background-color: brown;
-  }
-  
-  .advertisement {
-    width: 20%;
-    height: 126vh;
-    background-color: white;
-    position: relative;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-size: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  h2 {
-    cursor: pointer;
-  }
-  
-  .underline:hover {
-    width: 10rem;
-    transition: width 1s;
-  }
-  
-  .wrapper {
-    width: 90%;
-    height: 147vh;
-    background-color: #fafafa;
-    position: relative;
-    margin: auto;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: row;
-  }
-  
+
   .left-data {
-    width: 80%;
-    height: 135vh;
-    position: relative;
-    /* background-color: aqua; */
-  
-  
+    width: 100%;
+    height: auto;
   }
-  
-  
+
+  .movie-details-desc-para {
+    top: 0;
+    left: 0;
+  }
+
+  .movie-details-release-para {
+    top: 2vh;
+    left: 0;
+  }
+
+  .post-divider {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 8vh;
+  }
+
   .left-data-image {
-  
+    width: 60%;
+    height: 80vh;
+  }
+
+  .left-data-link {
+    position: relative;
     width: 100%;
-    height: 30vh;
-    position: relative;
-    cursor: pointer;
-    border-radius: 8px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
-  
-  .underline1 {
-    width: 3rem;
-    height: 3px;
-    background-color: red;
-    cursor: pointer;
-    position: relative;
-    left: 15rem;
-    top: 1rem;
-  
-  }
-  
-  .top-post-underline {
-    width: 3rem;
-    height: 3px;
-    background-color: red;
-    cursor: pointer;
-    position: relative;
-    left: 7rem;
-    top: 0.5rem;
-  }
-  
-  .right-data {
-    width: 40%;
-    height: 110vh;
-    /* background-color: brown; */
-    position: relative;
-  }
-  
-  .right-data-link {
-    width: 10rem;
-    position: relative;
-  }
-  
-  .post-title {
-    font-family: sans-serif;
-    position: relative;
-    top: 1rem;
-    left: 15rem;
-    /* background-color: orange; */
-  }
-  
+
   .top-post-title {
-  
-    left: 5rem;
-    position: relative;
-    font-family: sans-serif;
-    /* background-color: palevioletred; */
-  
-  }
-  
-  .top-post-heading-wrapper {
+    right: 0;
+    display: inline-block;
+    text-align: center;
     width: 100%;
-    position: relative;
-    height: 6vh;
-    margin-top: 3vh;
-    /* background-color: blue; */
-  
+    left: 0;
   }
-  
+
+  .post-title {
+    left: 0;
+    text-align: center;
+  }
+
+  .underline1 {
+    left: 0;
+    margin: auto;
+
+
+  }
+
+  .right-data {
+    width: 100%;
+    height: auto;
+  }
+
   .right-data-wrapper {
-  
-    width: 100%;
-    height: 22vh;
-    /* background-color:blue; */
-    position: relative;
-    display: flex;
+    height: auto;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 1rem;
-    color: green;
-  
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-  }
-  
-  .top-post-image {
-  
-    width: 100%;
-    height: 18vh;
-    position: relative;
+    align-items: center;
+    text-align: center;
     /* background-color: yellow; */
-    cursor: pointer;
-    border-radius: 8px;
+    margin-top: 10vh;
+
+
   }
-  
-  .top-post-details-wrapper {
-  
-    width: 40%;
+
+  .right-data-link {
+    width: 60%;
     height: auto;
-    position: relative;
-    /* background-color: pink; */
-    padding-top: 1rem;
   }
-  
+
+  .top-post-image {
+    height: 70vh;
+    width: 65%;
+  }
+
   .top-post-details {
-  
-    position: relative;
-    top: 2rem;
-    font-size: 0.8rem;
-    left: 1rem;
-  
-  }
-  
-  .small-ad {
-  
-    width: 50%;
-    height: 50vh;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    margin-left: 2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    cursor: pointer;
-    margin-top: 2rem;
-  }
-  
-  .article-content-wrapper {
-  
-    width: 50%;
+    top: 0;
+    left: 0;
     height: auto;
-    /* background-color: orange; */
-    margin: auto;
-    position: relative;
-    text-align: center;
-    word-wrap: break-word;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-top: 1rem;
-    line-height: 2rem;
-    font-weight: bolder;
+    font-size: 1rem;
   }
-  
+
+  .small-ad {
+    width: 60%;
+    margin: auto;
+    height: 100vh;
+    margin-top: 10vh;
+  }
+
+  .top-post-underline {
+    left: 0;
+    margin: auto;
+  }
+
+  .article-content-wrapper {
+    width: 100%;
+  }
+
   .article-img {
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    margin: auto;
-    margin-top: 1rem;
+    height: 80vh;
+    width: 80%;
   }
-  
-  .avatar-icon {
-    width: 50px;
-    height: 50px;
-  }
-  
+
   .avatar-wrapper {
-    width: 35%;
-    height: 10vh;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 1rem;
-    cursor: pointer;
-    align-items: center;
+    margin: auto;
+    margin-top: 10vh;
+  }
+
+  .top-post-divider {
     position: relative;
-    line-height: 1rem;
-  }
-  
-  @media only screen and (max-width:1000px) and (orientation:portrait) {
-  
-    .header {
-      width: 100%;
-  
-    }
-  
-    .underline {
-      top: 0;
-      margin-top: 2vh;
-    }
-  
-    .home-latest-food-stories-title {
-      margin-bottom: 0;
-      margin-top: 5vh;
-    }
-  
-    .home-latest-hollywood-stories-title {
-      margin-top: 6vh;
-    }
-  
-    .home-latest-fitness-stories-title {
-      margin-top: 6vh;
-    }
-  
-    .navbar {
-      display: none;
-    }
-  
-    .menu-icon {
-      display: block;
-      width: 15%;
-      height: 8vh;
-      /* background-color: orange; */
-      position: absolute;
-      right: 0;
-    }
-  
-    .title-wrapper {
-      width: 50%;
-    }
-  
-    .responsive-menu-bar {
-      width: 99%;
-      height: 30vh;
-      display: block;
-      top: -60vh;
-  
-    }
-  
-    .navbar-hr {
-      width: 100%;
-      position: relative;
-      margin-top: -30vh;
-    }
-  
-    .responsive-menu-bar-active {
-      top: -20.2vh;
-      transition: all 0.8s;
-      z-index: 1;
-      position: relative;
-  
-  
-    }
-  
-    .responsive-menu-bar-disable {
-      bottom: 8.5rem;
-      position: relative;
-      transition: all 0.8s;
-    }
-  
-    .mountain-wrapper {
-      width: 100%;
-      height: 110vh;
-      display: flex;
-      flex-direction: column;
-      /* background-color: yellow; */
-    }
-  
-    .mountain-big {
-      width: 90%;
-      height: 40vh;
-    }
-  
-    .mountain-small-wrapper {
-      width: 100%;
-  
-    }
-  
-    .mountain-small {
-      width: 60%;
-    }
-  
-    .article-wrapper {
-      width: 100%;
-      height: auto;
-      flex-direction: column;
-      margin-top: 4vh;
-  
-    }
-  
-    .sports {
-      width: 90%;
-  
-    }
-  
-    .bolly-stories {
-      width: 100%;
-      height: 300vh;
-      flex-direction: column;
-      /* background-color:aqua; */
-    }
-  
-    .movie-container {
-      /* background-color: yellow; */
-      width: 90%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-  
-  
-    }
-  
-    .bolly-wrapper {
-      width: 100%;
-      height: 50vh;
-      flex-direction: column;
-      /* background-color: green; */
-      margin-left: 0;
-  
-    }
-  
-    .movie-details {
-      /* background-color: red; */
-  
-      width: 100%;
-      height: auto;
-      position: relative;
-      top: 0;
-  
-    }
-  
-    .movie-details-para {
-      top: 0;
-    }
-  
-    .advertisement {
-      width: 80%;
-    }
-  
-    .wrapper {
-      width: 100%;
-      height: 400vh;
-      /* background-color: blue; */
-      flex-direction: column;
-      position: relative;
-    }
-  
-    .bolly-wrapper {
-      width: 100%;
-      height: 55vh;
-      /* background-color: orange; */
-      position: relative;
-    }
-  
-    .left-data {
-      width: 100%;
-      height: auto;
-      /* background-color: aqua; */
-  
-    }
-  
-    .movie-details-desc-para {
-      top: 0;
-      left: 0;
-    }
-  
-    .movie-details-release-para {
-      top: 2vh;
-      left: 0;
-    }
-  
-    .post-divider {
-      width: 100%;
-      margin-left: 0;
-    }
-  
-    .left-data-image {
-      width: 85%;
-  
-    }
-  
-    .left-data-link {
-      position: relative;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      /* background-color: brown; */
-  
-    }
-  
-    .top-post-title {
-      right: 0;
-      display: inline-block;
-      text-align: center;
-      width: 100%;
-      left: 0;
-  
-  
-  
-    }
-  
-    .post-title {
-      left: 0;
-      text-align: center;
-    }
-  
-    .underline1 {
-      left: 0;
-      margin: auto;
-    }
-  
-    .right-data {
-      width: 100%;
-      height: auto;
-    }
-  
-    .right-data-wrapper {
-      height: auto;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      /* background-color: yellow; */
-  
-    }
-  
-    .right-data-link {
-      width: 60%;
-      height: 30vh;
-    }
-  
-    .top-post-image {
-      height: 30vh;
-      width: 100%;
-    }
-  
-    .top-post-details {
-      top: 0;
-      left: 0;
-    }
-  
-    .small-ad {
-      width: 80%;
-    }
-  
-    .top-post-underline {
-      left: 0;
-      margin: auto;
-    }
-  
-    .article-content-wrapper {
-      width: 100%;
-    }
-  
-    .avatar-wrapper {
-      margin: auto;
-      margin-top: 2vh;
-    }
-  
-    .top-post-divider {
-      position: relative;
-      width: 100%;
-      margin-top: 2vh;
-    }
-  }
-  
-  
-  @media only screen and (max-width:1024px) and (orientation:landscape) {
-  
-    .header {
-      width: 100%;
-      height: 18vh;
-    }
-  
-    .home-latest-sport-stories-title {
-      margin-top: 5vh;
-    }
-  
-    .home-latest-tech-stories-title {
-      margin-top: 12vh;
-    }
-  
-    .home-latest-bollywood-stories-title {
-      margin-top: 14vh;
-    }
-  
-    .home-latest-hollywood-stories-title {
-      margin-top: 8vh;
-    }
-  
-    .home-latest-fitness-stories-title {
-      margin-top: 14vh;
-    }
-  
-    .home-latest-food-stories-title {
-      margin-top: 10vh;
-    }
-  
-    .underline {
-      margin-top: 3vh;
-      top: 0;
-      position: relative;
-    }
-  
-    .navbar {
-      display: none;
-    }
-  
-    .navbar-hr {
-      top: -10vh;
-      position: relative;
-    }
-  
-    .menu-icon {
-      display: block;
-      width: 7%;
-      height: 8vh;
-      position: absolute;
-      right: 0;
-      margin-bottom: 0;
-    }
-  
-    .title-wrapper {
-      width: 50%;
-      height: 20vh;
-    }
-  
-    .responsive-menu-bar {
-      width: 99%;
-      height: 53vh;
-      display: block;
-      top: -120vh;
-    }
-  
-    .list {
-      font-size: 1.2rem;
-      top: 1.8vh;
-      position: relative;
-    }
-  
-    .cancel {
-      font-size: 3rem;
-      margin-top: 2vh;
-    }
-  
-    .responsive-menu-bar-hr {
-      margin-top: 3vh;
-    }
-  
-    .navbar-hr {
-      width: 100%;
-      position: relative;
-      margin-top: -30vh;
-    }
-  
-    .responsive-menu-bar-active {
-      top: -38.5vh;
-      transition: all 0.8s;
-      z-index: 1;
-      position: relative;
-    }
-    .responsive-menu-bar-disable {
-      bottom: 8.5rem;
-      position: relative;
-      transition: all 0.8s;
-    }
-  
-    .mountain-wrapper {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .mountain-big {
-      width: 90%;
-      height: 90vh;
-      margin-top: 5vh;
-    }
-  
-    .mountain-small-wrapper {
-      width: 100%;
-      height: auto;
-    }
-  
-    .mountain-small {
-      width: 60%;
-      height: 60vh;
-    }
-  
-    .article-wrapper {
-      width: 100%;
-      height: auto;
-      flex-direction: column;
-    }
-  
-    .sports {
-      width: 90%;
-      height: auto;
-      margin-top: 6vh;
-    }
-  
-    .sports-img {
-      height: 60vh;
-      width: 60%;
-      margin-bottom: 4vh;
-    }
-  
-    .bolly-stories {
-      width: 100%;
-      height: auto;
-      flex-direction: column;
-    }
-  
-    .movie-container {
-      width: 90%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .bolly-wrapper {
-      width: 100%;
-      height: auto;
-      flex-direction: column;
-      margin-left: 0;
-      margin-top: 35vh;
-    }
-  
-    .bolly-image-wrapper {
-      width: 60%;
-      height: auto;
-    }
-  
-    .bolly-image {
-      height: 60vh;
-    }
-  
-    .movie-details {
-      width: 100%;
-      height: auto;
-      position: relative;
-      margin-top: 4vh;
-    }
-  
-    .movie-details-para {
-      top: 0;
-      height: auto;
-    }
-  
-    .advertisement {
-      width: 50%;
-      height: 120vh;
-      margin-top: 20vh;
-    }
-  
-    .wrapper {
-      width: 100%;
-      height: auto;
-      flex-direction: column;
-      position: relative;
-    }
-  
-    .bolly-wrapper {
-      width: 100%;
-      height: auto;
-      position: relative;
-      margin-top: 5vh;
-    }
-  
-    .left-data {
-      width: 100%;
-      height: auto;
-    }
-  
-    .movie-details-desc-para {
-      top: 0;
-      left: 0;
-    }
-  
-    .movie-details-release-para {
-      top: 2vh;
-      left: 0;
-    }
-  
-    .post-divider {
-      width: 100%;
-      margin-left: 0;
-      margin-top: 8vh;
-    }
-  
-    .left-data-image {
-      width: 60%;
-      height: 80vh;
-    }
-  
-    .left-data-link {
-      position: relative;
-      width: 100%;
-      height: auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  
-    }
-  
-    .top-post-title {
-      right: 0;
-      display: inline-block;
-      text-align: center;
-      width: 100%;
-      left: 0;
-    }
-  
-    .post-title {
-      left: 0;
-      text-align: center;
-    }
-  
-    .underline1 {
-      left: 0;
-      margin: auto;
-  
-  
-    }
-  
-    .right-data {
-      width: 100%;
-      height: auto;
-    }
-  
-    .right-data-wrapper {
-      height: auto;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      /* background-color: yellow; */
-      margin-top: 10vh;
-  
-  
-    }
-  
-    .right-data-link {
-      width: 60%;
-      height: auto;
-    }
-  
-    .top-post-image {
-      height: 70vh;
-      width: 65%;
-    }
-  
-    .top-post-details {
-      top: 0;
-      left: 0;
-      height: auto;
-      font-size: 1rem;
-    }
-  
-    .small-ad {
-      width: 60%;
-      margin: auto;
-      height: 100vh;
-      margin-top: 10vh;
-    }
-  
-    .top-post-underline {
-      left: 0;
-      margin: auto;
-    }
-  
-    .article-content-wrapper {
-      width: 100%;
-    }
-  
-    .article-img {
-      height: 80vh;
-      width: 80%;
-    }
-  
-    .avatar-wrapper {
-      margin: auto;
-      margin-top: 10vh;
-    }
-  
-    .top-post-divider {
-      position: relative;
-      width: 100%;
-      margin-top: 2vh;
-    }
-  
-    .rotate-wrapper {
-      height: 20vh;
-    }
-  
-    .text-rotate {
-      margin-top: -2.5vh;
-    }
-  }
-  
-  .footer{
     width: 100%;
-    height: 20px;
-    background-color: rgba(0, 0, 0, 0.889);
-    color: #fafafa;
-    justify-content: center;
-    text-align: center;
-    padding: 15px 10px;
-    position: relative;
-    margin-top:10px;
-    bottom: 0px;
-    font-size: larger;
-    
+    margin-top: 2vh;
   }
+
+  .rotate-wrapper {
+    height: 20vh;
+  }
+
+  .text-rotate {
+    margin-top: -2.5vh;
+  }
+}
