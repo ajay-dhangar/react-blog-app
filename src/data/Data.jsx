@@ -3,11 +3,16 @@ import { createContext, useState } from 'react';
 import PropTypes from 'prop-types';
 // import Bolly7 from "./images/bollywood/bolly-1.jpg";
 
-// Bollywood Images
-
 import Bolly3 from "./images/bollywood/bolly-1.jpg";
 import Bolly4 from "./images/bollywood/bolly-1.jpg";
 import Bolly5 from "./images/bollywood/bolly-1.jpg";
+
+// Bollywood Images
+
+import img12 from "./images/bollywood/bolly-8.jpg";
+import img13 from "./images/bollywood/bolly-9.jpg";
+import img14 from "./images/bollywood/bolly-6.jpg";
+import img15 from "./images/bollywood/bolly-7.jpg";
 
 //  Tech Images 
 
@@ -23,6 +28,22 @@ import img36 from "./images/hollywood/holly-5.jpg";
 import img37 from "./images/hollywood/holly-6.jpg";
 import img38 from "./images/hollywood/holly-7.jpg";
 import img39 from "./images/hollywood/holly-8.jpg";
+
+// Fitness Images
+
+import img48 from "./images/fitness/fitness-1.jpg";
+import img49 from "./images/fitness/fitness-2.jpg";
+import img50 from "./images/fitness/fitness-3.jpg";
+import img51 from "./images/fitness/fitness.jpg";
+
+// Food Images
+
+import img61 from "./images/food/food-1.jpg";
+import img62 from "./images/food/food-2.jpg";
+import img63 from "./images/food/food-3.jpg";
+import img64 from "./images/food/food-4.jpg";
+import img65 from "./images/food/food-5.jpg";
+
 
 
 export const ContextData = createContext();
@@ -105,8 +126,7 @@ export const ProvideInfo = (props) => {
       category: 'bollywood',
       name: 'Shershaah',
       desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      image: img12,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
@@ -119,8 +139,7 @@ export const ProvideInfo = (props) => {
       category: 'bollywood',
       name: 'Shershaah',
       desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      image:img13,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
@@ -133,8 +152,7 @@ export const ProvideInfo = (props) => {
       category: 'bollywood',
       name: 'Shershaah',
       desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      image:img14,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
@@ -147,8 +165,7 @@ export const ProvideInfo = (props) => {
       category: 'bollywood',
       name: 'Shershaah',
       desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      image: img15,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
@@ -602,8 +619,7 @@ export const ProvideInfo = (props) => {
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
+      image: img48,
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
@@ -614,8 +630,7 @@ export const ProvideInfo = (props) => {
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
+      image: img49,
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
@@ -626,8 +641,7 @@ export const ProvideInfo = (props) => {
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
+      image: img50,
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
@@ -638,8 +652,7 @@ export const ProvideInfo = (props) => {
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
+      image: img51,
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
@@ -742,25 +755,23 @@ export const ProvideInfo = (props) => {
     
     // Food (id: 60 - 70)
     {
-      id: 60,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
-      details: 'Have a quick bite today & refresh your mood',
-      category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
-      name: 'Pizza Hut',
-      content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
-    },
-    {
       id: 61,
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
+      image: img61,
+      name: 'Pizza Hut',
+      content:
+        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+    },
+    {
+      id: 62,
+      avatar:
+        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      details: 'Have a quick bite today & refresh your mood',
+      category: 'food',
+      image:img62,
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
@@ -771,8 +782,7 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
+      image: img63,
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
@@ -783,8 +793,7 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
+      image:img64,
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
@@ -795,8 +804,7 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
+      image:img65,
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',

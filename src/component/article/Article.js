@@ -1,6 +1,6 @@
 import React from 'react';
 import { useContext } from 'react';
-import { ContextData } from '../ContextApi';
+import { ContextData } from '../../data/Data';
 import { useParams, Link } from 'react-router-dom';
 import './Article.css';
 
@@ -26,9 +26,9 @@ const Article = () => {
           return (
             <>
               <div className="article-content-wrapper">
-                <h2>{val.name}</h2>
+                <h2 className='article-title'>{val.name}</h2>
                 <img src={val.image} alt="" className="article-img" />
-                <p style={{ position: 'relative', top: '1rem', height: 'auto' }}>
+                <p className='article-content'>
                   {val.content}
                 </p>
                 <hr
@@ -40,7 +40,7 @@ const Article = () => {
               <div>
                 <p style={{ fontSize: "0.7rem", color: "grey" }}>WRITTEN BY:</p>
                 <p style={{ fontSize: "0.7rem", color: "black" }}>
-                  Shubham Kumar
+                  Shivay
                 </p>
                 <p style={{ fontSize: "0.7rem", color: "grey" }}>
                   28th February,2022
@@ -56,7 +56,6 @@ const Article = () => {
         style={{
           fontFamily: 'sans-serif',
           textAlign: 'center',
-
           margin: 'auto',
           marginTop: '2rem',
         }}
@@ -70,7 +69,7 @@ const Article = () => {
 
       <div className="article-wrapper">
         {data
-          .filter((value) => value.id !== path && value.category === categor)
+          .filter((value) => value.id !== path && value.category === categor).slice(0, 4)
           .map((val) => (
             <div key={val.id} className="sports">
               <Link

@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import { ContextData } from '../../data/Data';
+import Footer from '../../component/footer/Footer'
 import './slide.css';
 import ImageSlider from './ImageSlider';
 import { useContext } from 'react';
@@ -10,7 +11,6 @@ import image2 from './img/home-2.jpg'
 import image3 from './img/home-3.jpg'
 import image4 from './img/home-4.jpg'
 import image5 from './img/home-5.jpg'
-
 
 const images = [
   image1,
@@ -24,47 +24,49 @@ const Fitstories = () => {
   const [data] = useContext(ContextData);
   return (
     <>
-      <h2 className="home-latest-fitness-stories-title">
-        Latest Fitness Stories
-      </h2>
-      <hr className="underline" />
-      <div className="article-wrapper">
-        {data
-          .filter((value) => value.category === 'fitness').slice(0, 4)
-          .map((val) => (
-            <div key={val.id} className="sports">
-              <Link
-                to={`/article/${val.id}`}
-                style={{ position: 'relative', width: '5rem' }}
-              >
-                <img src={val.image} alt="" className="sports-img" />
-              </Link>
+      <div className="fitContainer">
+        <h2 className="home-latest-fitness-stories-title">
+          Latest Fitness Stories
+        </h2>
+        <hr className="underline" />
+        <div className="article-wrapper">
+          {data
+            .filter((value) => value.category === 'fitness').slice(0, 4)
+            .map((val) => (
+              <div key={val.id} className="sports">
+                <Link
+                  to={`/article/${val.id}`}
+                  style={{ position: 'relative', width: '5rem' }}
+                >
+                  <img src={val.image} alt="" className="sports-img" />
+                </Link>
 
-              <h3>{val.details}</h3>
-              <p className="texts">{val.name}</p>
-              <span
-                style={{
-                  fontSize: '0.8rem',
-                  color: 'black',
-                  top: '0.5rem',
-                  position: 'relative',
-                }}
-              >
-                Date:
-              </span>
-              <span
-                style={{
-                  color: 'grey',
-                  fontSize: '0.6rem',
-                  marginLeft: '10px',
-                  top: '0.5rem',
-                  position: 'relative',
-                }}
-              >
-                TODAY
-              </span>
-            </div>
-          ))}
+                <h3>{val.details}</h3>
+                <p className="texts">{val.name}</p>
+                <span
+                  style={{
+                    fontSize: '0.8rem',
+                    color: 'black',
+                    top: '0.5rem',
+                    position: 'relative',
+                  }}
+                >
+                  Date:
+                </span>
+                <span
+                  style={{
+                    color: 'grey',
+                    fontSize: '0.6rem',
+                    marginLeft: '10px',
+                    top: '0.5rem',
+                    position: 'relative',
+                  }}
+                >
+                  TODAY
+                </span>
+              </div>
+            ))}
+        </div>
       </div>
     </>
   );
@@ -123,33 +125,43 @@ const Hollystories = () => {
 
   return (
     <>
-      <h2 className="home-latest-hollywood-stories-title">
-        Latest Hollywood Stories
-      </h2>
-      <hr className="underline" />
-      <div className="bolly-stories">
-        <div className="movie-container">
-          {data
-            .filter((value) => value.category === 'hollywood').slice(0, 4)
-            .map((val) => (
-              <div key={val.id} className="bolly-wrapper">
-                <Link
-                  to={`/article/${val.id}`}
-                  className="bolly-image-wrapper"
-                >
-                  <img src={val.image} alt="" className="bolly-image" />
-                </Link>
-                <div className="movie-details">
-                  <p className="movie-details-para">{val.name}</p>
-                  <p className="movie-details-para">IMdb: {val.imdb}</p>
-                  <br />
-                  <p className="movie-details-para">Release: {val.release}</p>
-                </div>
-              </div>
-            ))}
-        </div>
+      <div className="HollyConatainer">
+        <h2 className="home-latest-hollywood-stories-title">
+          Latest Hollywood Stories
+        </h2>
+        <hr className="underline" />
+        <div className="bolly-stories">
+          <div className="movie-container">
+            {data
+              .filter((value) => value.category === 'hollywood').slice(0, 4)
+              .map((val) => (
+                <>
+                  <div key={val.id} className="bolly-wrapper">
+                    <Link
+                      to={`/article/${val.id}`}
+                      className="bolly-image-wrapper"
+                    >
+                      <img src={val.image} alt="" className="bolly-image" />
+                    </Link>
+                    <div className="movie-details">
+                      <div className="movie-data-1">
+                        <p className="movie-title">{val.name}</p>
+                        <p className="movie-info">IMdb: {val.imdb}</p>
+                      </div>
+                      <hr style={{ height: '2px', backgroundColor: 'red' }} />
+                      <div className="movie-data-2">
+                        <p className="movie-rele">Release: {val.release}</p>
+                      </div>
+                    </div>                    
+                  </div>
+                  {/* <hr style={{ height: '12px', backgroundColor: 'red' }} /> */}
+                </>
 
-        <div className="advertisement">Advertisement</div>
+              ))}
+          </div>
+
+          {/* <div className="advertisement">Advertisement</div> */}
+        </div>
       </div>
     </>
   );
@@ -173,18 +185,22 @@ const Bollystories = () => {
                   <img src={val.image} alt="" className="bolly-image" />
                 </Link>
                 <div className="movie-details">
-                  <p className="movie-details-para">{val.name}</p>
-                  <p className="movie-details-para">IMdb: {val.imdb}</p>
-                  <br />
-                  <p className="movie-details-para">Release: {val.release}</p>
-                </div>
+                      <div className="movie-data-1">
+                        <p className="movie-title">{val.name}</p>
+                        <p className="movie-info">IMdb: {val.imdb}</p>
+                      </div>
+                      <hr style={{ height: '2px', backgroundColor: 'red' }} />
+                      <div className="movie-data-2">
+                        <p className="movie-rele">Release: {val.release}</p>
+                      </div>
+                    </div> 
               </div>
             ))}
         </div>
 
-        <div className="advertisement">
-          
-        </div>
+        {/* <div className="advertisement">
+
+        </div> */}
       </div>
     </>
   );
@@ -209,6 +225,23 @@ const Sportstories = () => {
   }
 
   console.log(sport);
+
+  const [currentDate, setCurrentDate] = useState(new Date());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentDate(new Date());
+    }, 1000); // Update the date every second (you can adjust this interval as needed)
+
+    // Clean up the interval when the component unmounts
+    return () => clearInterval(interval);
+  }, []);
+
+  const formatDate = (date) => {
+    const options = { year: 'numeric', month: 'numeric', day: 'numeric' };
+    return date.toLocaleDateString(undefined, options);
+  };
+
   return (
     <>
       <h2 className="home-latest-sport-stories-title">Latest Sports Stories</h2>
@@ -236,14 +269,14 @@ const Sportstories = () => {
             </span>
             <span
               style={{
-                color: 'grey',
+                color: '#262626',
                 fontSize: '0.6rem',
                 marginLeft: '10px',
                 marginTop: '2vh',
                 position: 'relative',
               }}
             >
-              23/7/2021
+              {formatDate(currentDate)}
             </span>
           </div>
         ))}
@@ -311,7 +344,7 @@ const Home = () => {
   const item1 = [];
   const item2 = [];
 
-  for (var i = 0; i < data.length; i++) {
+  for (let i = 0; i < data.length; i++) {
     var keys = data[i].id;
     console.log(keys);
     switch (keys) {
@@ -335,7 +368,7 @@ const Home = () => {
       <div className="HomeContainer">
         <ImageSlider images={images} />
         <div className="mountain-wrapper">
-          {item1.map((value) => {
+          {/* {item1.map((value) => {
             return (
               <img
                 key={value.id}
@@ -344,7 +377,7 @@ const Home = () => {
                 className="mountain-big"
               />
             );
-          })}
+          })} */}
           {/* <div className="mountain-small-wrapper">
           {item2.map((value) => (
             <>
@@ -375,7 +408,9 @@ const Home = () => {
         <Foodstories />
         <br />
         <Fitstories />
-
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

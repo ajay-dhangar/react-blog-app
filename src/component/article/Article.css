@@ -1,0 +1,20 @@
+.article-title{
+    text-transform: uppercase;
+    font-size: 32px;
+    backdrop-filter: blur;
+    background-color: rgba(255, 0, 204, 0.195);
+    border-radius: 10px;
+    color: rgb(4, 0, 255);
+    text-shadow: 2px 2px 4px #262626;
+}
+.article-content{
+    position: relative; 
+    top: 1rem;
+    height: auto; 
+    font-weight: 400;
+    line-height: 40px;
+    color: #262626; 
+}
+.article-img{
+    border-radius: 30px;
+}

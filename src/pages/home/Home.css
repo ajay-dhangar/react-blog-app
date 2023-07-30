@@ -22,7 +22,7 @@
 .home-latest-sport-stories-title {
   text-align: center;
   font-family: sans-serif;
-  margin-top: 1vh;
+  margin-top: 1vh;  
 }
 
 .home-latest-tech-stories-title {
@@ -63,35 +63,32 @@
   margin-bottom: 2vh,
 }
 
-
-/* .responsive-menu-bar-hr {
-  position: relative;
-  width: 100%;
-} */
-
-/* .header {
-    width: 60%;
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
-    
-  } */
-
 .post-divider {
   width: 45rem;
   margin-left: 4.5rem;
 }
-
+/* .movie-details{  
+  background-color: red;
+} */
+/* .movie-data-1{
+  background-color: red;
+}
+.movie-data-2{
+  background-color: red;
+} */
+.movie-details p{
+  color: #343b5f;
+}
 hr {
   width: 70%;
   margin: auto;
   background-color: lightgrey;
 }
-
+.bolly-stories{
+  border-radius: 10px;
+  /* box-shadow: 2px 2px 4px #262626; */
+  padding: 10px;
+}
 .text-rotate {
   transform: rotate(-90deg);
   position: relative;
@@ -122,37 +119,33 @@ hr {
 }
 
 .sports {
-  width: 22%;
-  height: 40vh;
+  width: 25%;
+  height: auto;
   position: relative;
   text-align: center;
   font-size: 0.9rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(121, 112, 112);
   word-wrap: break-word;
-  margin-left: 10px;
+  margin: 10px;
   cursor: pointer;
+  padding: 10px;
 }
 
-
-
-/* .texts {
+.texts {
   font-size: 11px;
-  color: red;
+  color: rgb(66, 66, 246);
   margin-top: 0.6rem;
   word-wrap: break-word;
   font-size: 1rem;
-} */
-
-
+}
 .sports-img {
   width: 100%;
-  height: 25vh;
+  height: 150px;
   position: relative;
   border-radius: 8px;
   box-shadow: 2px 2px 4px #262626;
 }
-
 .story-wrapper {
   width: 80%;
   height: 70vh;
@@ -162,11 +155,6 @@ hr {
   /* background-color: red; */
 }
 
-/* .story-hr {
-  width: 100%;
-  position: relative;
-} */
-
 .story-content {
   width: 100%;
   height: 30vh;
@@ -175,23 +163,14 @@ hr {
   display: flex;
 }
 
-/* .kerala {
-  width: 60%;
-  height: 20vh;
-  position: relative;
-} */
-
 .story-content-text {
   width: 40%;
   height: 20vh;
-  /* background-color: green; */
 }
 
 .stories {
   width: 60%;
   height: 40vh;
-  /* background-color: pink; */
-
 }
 
 .underline {
@@ -227,7 +206,7 @@ hr {
   color: green;
   font-family: sans-serif;
   margin-bottom: 10px;
-  margin-left: 5vw;
+  margin: 5px;
   padding-top: 1rem;
   padding: 5px;
 
@@ -278,17 +257,10 @@ hr {
   position: relative;
   width: 60%;
   height: 130vh;
-  /* background-color: aqua; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.box1 {
-  width: 100px;
-  height: 100px;
-  background-color: brown;
 }
 
 .advertisement {
@@ -366,7 +338,6 @@ h2 {
 .right-data {
   width: 40%;
   height: 110vh;
-  /* background-color: brown; */
   position: relative;
 }
 
@@ -379,16 +350,13 @@ h2 {
   font-family: sans-serif;
   position: relative;
   top: 1rem;
-  left: 15rem;
-  /* background-color: orange; */
+  /* left: 15rem; */
 }
 
 .top-post-title {
   left: 5rem;
   position: relative;
   font-family: sans-serif;
-  /* background-color: palevioletred; */
-
 }
 
 .top-post-heading-wrapper {
@@ -396,13 +364,11 @@ h2 {
   position: relative;
   height: 6vh;
   margin-top: 3vh;
-  /* background-color: blue; */
 }
 
 .right-data-wrapper {
   width: 100%;
   height: 22vh;
-  /* background-color:blue; */
   position: relative;
   display: flex;
   justify-content: center;
@@ -443,7 +409,7 @@ h2 {
   justify-content: center;
   align-items: center;
   background-color: white;
-  margin-left: 2rem;
+  margin-left: 2px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   cursor: pointer;
   margin-top: 2rem;
@@ -487,13 +453,8 @@ h2 {
   line-height: 1rem;
 }
 
-/* .techContainer {
-  padding: 5px;
-  padding-bottom: 20px;
-  background-color: #fafafa;
-} */
 .article-wrapper {
-  height: 50vh;
+  height: auto;
   display: flex;
   padding: 5px;
   margin: auto;
@@ -507,10 +468,22 @@ h2 {
   border-radius: 10px;
 }
 
+.fitSubContainer{
+  height: auto;
+  display: flex;
+  padding: 5px;
+  margin: auto;
+  width: 70%;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
 
-
-
-@media only screen and (max-width:1000px) and (orientation:portrait) {
+@media screen and (max-width:1000px){
 
   .underline {
     top: 0;
@@ -523,7 +496,7 @@ h2 {
   }
 
   .home-latest-hollywood-stories-title {
-    margin-top: 6vh;
+    margin-top: 6vh;    
   }
 
   .home-latest-fitness-stories-title {
@@ -536,26 +509,28 @@ h2 {
 
   .article-wrapper {
     width: 100%;
-    height: auto;
+    height: 80px;
     flex-direction: column;
-    margin-top: 4vh;
-
+    margin-top: auto;
+    background-color: red;
   }
+  /* .HollyConatainer{
+    background-color: red;
+  } */
 
   .sports {
     width: 90%;
-
   }
-
+.HomeContainer{
+  margin: 10px;
+}
   .bolly-stories {
     width: 100%;
-    height: 300vh;
+    height: auto;
     flex-direction: column;
-    /* background-color:aqua; */
   }
 
   .movie-container {
-    /* background-color: yellow; */
     width: 90%;
     height: auto;
     display: flex;
@@ -566,14 +541,11 @@ h2 {
     width: 100%;
     height: 50vh;
     flex-direction: column;
-    /* background-color: green; */
-    margin-left: 0;
+    margin-left: auto;
 
   }
 
   .movie-details {
-    /* background-color: red; */
-
     width: 100%;
     height: auto;
     position: relative;
@@ -593,7 +565,6 @@ h2 {
     width: 100%;
     height: 400vh;
     padding: 5px;
-    /* background-color: blue; */
     flex-direction: column;
     position: relative;
   }
@@ -601,15 +572,12 @@ h2 {
   .bolly-wrapper {
     width: 100%;
     height: 55vh;
-    /* background-color: orange; */
     position: relative;
   }
 
   .left-data {
     width: 100%;
     height: auto;
-    /* background-color: aqua; */
-
   }
 
   .movie-details-desc-para {
@@ -624,7 +592,7 @@ h2 {
 
   .post-divider {
     width: 100%;
-    margin-left: 0;
+    margin-left:auto;
   }
 
   .left-data-image {
@@ -638,8 +606,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: brown; */
-
   }
 
   .top-post-title {
@@ -671,8 +637,6 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* background-color: yellow; */
-
   }
 
   .right-data-link {
@@ -716,7 +680,7 @@ h2 {
 }
 
 
-@media only screen and (max-width:1024px) and (orientation:landscape) {
+@media screen and (max-width:1024px){
 
   .home-latest-sport-stories-title {
     margin-top: 10px;

@@ -12,7 +12,7 @@ import {
 } from './pages';
 import { ProvideInfo } from './data/Data';
 import Article from './component/article/Article';
-import Footer from './component/footer/Footer';
+// import Footer from './component/footer/Footer';
 
 function App() {
   return (
@@ -32,10 +32,7 @@ function App() {
             <Route path="/article/:path" element={<Article />} />
           </Routes>
         </ProvideInfo>
-      </div>
-      <div>
-        <Footer />
-      </div>
+      </div>      
     </>
   );
 }

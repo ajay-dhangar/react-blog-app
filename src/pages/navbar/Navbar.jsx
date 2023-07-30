@@ -13,7 +13,7 @@ function Navbar() {
   };
 
   return (
-    <div>
+    <div className='navContainer'>
       <div className={`header ${isAsideOpen ? 'active' : ''}`}>
         <Link to="/Home" className="nav-link">
           <span className="roted">The</span>

@@ -5,9 +5,14 @@
    
 }
 .ImageSlider img{
-    width: 55%;
+    width: 70%;
     height: 350px;
     border-radius: 10px;
     border: 2px solid #262626;
     box-shadow: 4px 4px 8px #262626;
 }
+@media only screen and (max-width:1000px) and (orientation:portrait) {
+    .ImageSlider img{
+        width: 90%;
+    }
+  }

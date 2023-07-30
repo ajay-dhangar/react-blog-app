@@ -120,3 +120,8 @@ footer .wave#wave4 {
         background-position-x: 1000px;
     }
 }
+@media screen and (max-width:1000px){
+    footer{
+        margin: 15px;
+    }
+}

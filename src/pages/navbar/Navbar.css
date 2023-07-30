@@ -4,7 +4,9 @@
   margin-top: 15px;
   display: none;
 }
-
+.navContainer{
+  background-color: #000;
+}
 .roted {
   transform: rotate(-90deg);
   background-color: #262626;
@@ -63,6 +65,7 @@ a {
   background-color: #e00bc445;
   border: 2px solid red;
   border-radius: 10px;
+  margin: 10px;
 }
 
 .aside .nav-toggler {
@@ -94,8 +97,11 @@ a {
 
 .aside .nav li a {
   padding: 5px 5px;
+  color: #f1f1f1;
 }
-
+.aside .nav li a:hover{
+  color: orangered;
+}
 .aside .nav li a.active {
   color: orange;
 }
@@ -207,9 +213,9 @@ a {
   }
 }
 
-
-/* nav {
-	
-	background-color: #f40dec52;
-	border-radius: 10px;
-} */
+@media screen and (max-width:1000px){
+  .aside{
+    margin: 15px;
+    width: auto;
+  }
+}
