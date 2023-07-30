@@ -26,7 +26,7 @@ function Footer() {
                     <li><Link to="#">Team</Link></li>
                     <li><Link to="#">Contact</Link></li>
                 </ul> */}
-                <p>&copy2023 Ajay Dhangar | All Rights Reserved</p>
+                <p>&copy; 2023 Ajay Dhangar | All Rights Reserved</p>
             </footer>            
         </div>
     )
