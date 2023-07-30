@@ -59,14 +59,14 @@ export const ProvideInfo = (props) => {
       id: 1,
       category: 'home',
       image: './images/bollywood/bolly-1.jpg',
-      name: 'rigi',
+      name: 'title',
       height: '1798m',
     },
 
     {
       id: 2,
       category: 'home',
-      name: 'stanserhorn',
+      name: 'Title',
       image: Bolly3,
       height: '1898m',
     },
@@ -124,7 +124,7 @@ export const ProvideInfo = (props) => {
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
-      name: 'Shershaah',
+      name: 'Raanjhanaa',
       desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
       image: img12,
       release: '12th August,2021',
@@ -137,7 +137,7 @@ export const ProvideInfo = (props) => {
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
-      name: 'Shershaah',
+      name: 'RRR',
       desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
       image:img13,
       release: '12th August,2021',
@@ -150,7 +150,7 @@ export const ProvideInfo = (props) => {
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
-      name: 'Shershaah',
+      name: 'Title',
       desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
       image:img14,
       release: '12th August,2021',
@@ -163,7 +163,7 @@ export const ProvideInfo = (props) => {
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
-      name: 'Shershaah',
+      name: 'Thugs Hindostan',
       desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
       image: img15,
       release: '12th August,2021',
@@ -438,12 +438,11 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       imdb: '7.6/10',
       release: '12th April,2002',
-
       category: 'hollywood',
       image: img36,
-      name: 'Harry Potter',
+      name: 'Title',
       content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+        "This is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 37,
@@ -451,10 +450,9 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       imdb: '7.6/10',
       release: '12th April,2002',
-
       category: 'hollywood',
       image: img37,
-      name: 'Harry Potter',
+      name: 'Title',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
@@ -464,10 +462,9 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       imdb: '7.6/10',
       release: '12th April,2002',
-
       category: 'hollywood',
       image: img38,
-      name: 'Harry Potter',
+      name: 'Title',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
@@ -477,10 +474,9 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       imdb: '7.6/10',
       release: '12th April,2002',
-
       category: 'hollywood',
       image: img39,
-      name: 'Harry Potter',
+      name: 'Title',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },

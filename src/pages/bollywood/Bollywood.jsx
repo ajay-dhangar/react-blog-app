@@ -11,7 +11,6 @@ const Bollywood = () => {
       <div className='bollywoodComponent'>
         <h2 className="post-title">Movies</h2>
         <div className="underline1"></div>
-
         <div className="wrapper">
           <div className="left-data">
             {data

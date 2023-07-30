@@ -62,8 +62,8 @@ h2 {
 
 .wrapper {
   width: 90%;
-  height: 147vh;
-  background-color: #fafafa;
+  /* height: 147vh; */
+  /* background-color: #fafafa; */
   position: relative;
   margin: auto;
   margin-top: 2rem;
@@ -73,22 +73,21 @@ h2 {
 
 .left-data {
   width: 80%;
-  height: 135vh;
+  /* height: 135vh; */
   position: relative;
   /* background-color: aqua; */
 }
 
 
 .left-data-image {
-
   width: 100%;
-  height: 30vh;
+  /* height: 30vh; */
   position: relative;
   cursor: pointer;
   border-radius: 8px;
 }
 
-.underline1 {
+/* .underline1 {
   width: 5rem;
   height: 3px;
   background-color: red;
@@ -97,13 +96,12 @@ h2 {
   left: 15rem;
   top: 1rem;
 
-}
-
-
+} */
 .right-data {
   width: 40%;
-  height: 110vh;
+  /* height: 110vh; */
   /* background-color: brown; */
+  /* color: #000; */
   position: relative;
 }
 
@@ -116,56 +114,48 @@ h2 {
   font-family: sans-serif;
   position: relative;
   top: 1rem;
-  left: 15rem;
-  /* background-color: orange; */
+  /* left: 15rem; */
 }
 
 .top-post-title {
-
-  left: 5rem;
+  /* left: 5rem; */
   position: relative;
   font-family: sans-serif;
   /* background-color: palevioletred; */
-
 }
 
 .top-post-heading-wrapper {
   width: 100%;
   position: relative;
-  height: 6vh;
+  /* height: 6vh; */
   margin-top: 3vh;
   /* background-color: blue; */
 
 }
 
 .right-data-wrapper {
-
   width: 100%;
-  height: 22vh;
+  /* height: 22vh; */
   /* background-color:blue; */
   position: relative;
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  color: green;
-
+  color: #000;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
 
 }
 
 .top-post-image {
-
   width: 100%;
-  height: 18vh;
   position: relative;
-  /* background-color: yellow; */
   cursor: pointer;
   border-radius: 8px;
 }
 
 .top-post-details-wrapper {
-
-  width: 40%;
+  width: 50%;
   height: auto;
   position: relative;
   /* background-color: pink; */
@@ -173,12 +163,10 @@ h2 {
 }
 
 .top-post-details {
-
   position: relative;
   top: 2rem;
   font-size: 0.8rem;
   left: 1rem;
-
 }
 
 .small-ad {
@@ -212,7 +200,7 @@ h2 {
 .article-img {
   position: relative;
   width: 100%;
-  height: 50vh;
+  /* height: 50vh; */
   margin: auto;
   margin-top: 1rem;
 }
