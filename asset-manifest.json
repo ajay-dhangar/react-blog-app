@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-blog-app/static/css/main.abd6ea66.css",
-    "main.js": "/react-blog-app/static/js/main.630ad37e.js",
-    "static/media/food-1.jpg": "/react-blog-app/static/media/food-1.ea4ba24cc552fec42ab2.jpg",
-    "static/media/home-1.jpg": "/react-blog-app/static/media/home-1.5e559471fe178c487326.jpg",
-    "static/media/home-5.jpg": "/react-blog-app/static/media/home-5.dc0c8c194d8d1266647e.jpg",
-    "static/media/food-2.jpg": "/react-blog-app/static/media/food-2.6c3fb4e99ef7a6db31cb.jpg",
-    "static/media/home-2.jpg": "/react-blog-app/static/media/home-2.a76647f904a5b2572306.jpg",
-    "static/media/tech-5.jpg": "/react-blog-app/static/media/tech-5.1aff7b37cc39bc997386.jpg",
-    "static/media/food-5.jpg": "/react-blog-app/static/media/food-5.89887649cee0d3bf0175.jpg",
-    "static/media/bolly-11.jpg": "/react-blog-app/static/media/bolly-11.8d95c9a1bd857ace5113.jpg",
-    "static/media/home-4.jpg": "/react-blog-app/static/media/home-4.80ca4dbb259b5b3ecf5d.jpg",
-    "static/media/tech-3.jpg": "/react-blog-app/static/media/tech-3.9aa51c67db88eb93a48b.jpg",
-    "static/media/home-3.jpg": "/react-blog-app/static/media/home-3.567594a1fb30764b45c4.jpg",
-    "static/media/tech-2.jpg": "/react-blog-app/static/media/tech-2.515f72043f0f1b6b89d1.jpg",
-    "static/media/food-3.jpg": "/react-blog-app/static/media/food-3.14eee40654a4dca42c18.jpg",
-    "static/media/fitness.jpg": "/react-blog-app/static/media/fitness.e34abeba1d3487a721ce.jpg",
-    "static/media/tech-1.jpg": "/react-blog-app/static/media/tech-1.2180d57cd2686ae51fd0.jpg",
-    "static/media/fitness-3.jpg": "/react-blog-app/static/media/fitness-3.3cae7ed481eb0f6440b2.jpg",
-    "index.html": "/react-blog-app/index.html",
-    "main.abd6ea66.css.map": "/react-blog-app/static/css/main.abd6ea66.css.map",
-    "main.630ad37e.js.map": "/react-blog-app/static/js/main.630ad37e.js.map"
+    "main.css": "./url.json/static/css/main.abd6ea66.css",
+    "main.js": "./url.json/static/js/main.4375403c.js",
+    "static/media/food-1.jpg": "./url.json/static/media/food-1.ea4ba24cc552fec42ab2.jpg",
+    "static/media/home-1.jpg": "./url.json/static/media/home-1.5e559471fe178c487326.jpg",
+    "static/media/home-5.jpg": "./url.json/static/media/home-5.dc0c8c194d8d1266647e.jpg",
+    "static/media/food-2.jpg": "./url.json/static/media/food-2.6c3fb4e99ef7a6db31cb.jpg",
+    "static/media/home-2.jpg": "./url.json/static/media/home-2.a76647f904a5b2572306.jpg",
+    "static/media/tech-5.jpg": "./url.json/static/media/tech-5.1aff7b37cc39bc997386.jpg",
+    "static/media/food-5.jpg": "./url.json/static/media/food-5.89887649cee0d3bf0175.jpg",
+    "static/media/bolly-11.jpg": "./url.json/static/media/bolly-11.8d95c9a1bd857ace5113.jpg",
+    "static/media/home-4.jpg": "./url.json/static/media/home-4.80ca4dbb259b5b3ecf5d.jpg",
+    "static/media/tech-3.jpg": "./url.json/static/media/tech-3.9aa51c67db88eb93a48b.jpg",
+    "static/media/home-3.jpg": "./url.json/static/media/home-3.567594a1fb30764b45c4.jpg",
+    "static/media/tech-2.jpg": "./url.json/static/media/tech-2.515f72043f0f1b6b89d1.jpg",
+    "static/media/food-3.jpg": "./url.json/static/media/food-3.14eee40654a4dca42c18.jpg",
+    "static/media/fitness.jpg": "./url.json/static/media/fitness.e34abeba1d3487a721ce.jpg",
+    "static/media/tech-1.jpg": "./url.json/static/media/tech-1.2180d57cd2686ae51fd0.jpg",
+    "static/media/fitness-3.jpg": "./url.json/static/media/fitness-3.3cae7ed481eb0f6440b2.jpg",
+    "index.html": "./url.json/index.html",
+    "main.abd6ea66.css.map": "./url.json/static/css/main.abd6ea66.css.map",
+    "main.4375403c.js.map": "./url.json/static/js/main.4375403c.js.map"
   },
   "entrypoints": [
     "static/css/main.abd6ea66.css",
-    "static/js/main.630ad37e.js"
+    "static/js/main.4375403c.js"
   ]
 }
