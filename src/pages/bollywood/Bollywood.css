@@ -1,438 +1,81 @@
-.bollywoodComponent{
-  width: 80%;
-  /* background-color: red; */
-  margin: 25px;
-}
-
-.post-divider {
-  width: 45rem;
-  margin-left: 4.5rem;
-}
-
-.left-data-link {
-  position: relative;
-  /* background-color: orange; */
-  width: 40%;
-}
-
-.movie-details {
-  width: 60%;
-  height: 30vh;
-  position: relative;
-  /* background-color: red; */
-  text-align: center;
-
-}
-
-.movie-details-para {
-  position: relative;
-  top: 3rem;
-}
-
-.movie-details-desc-para {
-  font-size: 0.8rem;
-  position: relative;
-  top: 3rem;
-  left: 0.5rem;
-}
-
-.movie-details-release-para {
-  top: 4rem;
-  position: relative;
-  left: 1rem;
-}
-
-.advertisement {
-  width: 20%;
-  height: 126vh;
-  background-color: white;
-  position: relative;
-  border: 2px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  font-size: 1rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h2 {
-  cursor: pointer;
-}
-
-.wrapper {
-  width: 90%;
-  /* height: 147vh; */
-  /* background-color: #fafafa; */
-  position: relative;
-  margin: auto;
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: row;
-}
-
-.left-data {
-  width: 80%;
-  /* height: 135vh; */
-  position: relative;
-  /* background-color: aqua; */
-}
-
-
-.left-data-image {
-  width: 100%;
-  /* height: 30vh; */
-  position: relative;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-/* .underline1 {
-  width: 5rem;
-  height: 3px;
-  background-color: red;
-  cursor: pointer;
-  position: relative;
-  left: 15rem;
-  top: 1rem;
-
-} */
-.right-data {
-  width: 40%;
-  /* height: 110vh; */
-  /* background-color: brown; */
-  /* color: #000; */
-  position: relative;
-}
-
-.right-data-link {
-  width: 10rem;
-  position: relative;
+.bollywoodComponent {
+    padding: 5%;
 }
 
 .post-title {
-  font-family: sans-serif;
-  position: relative;
-  top: 1rem;
-  /* left: 15rem; */
+    /* background-color: blue; */
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 3px 3px 12px #050117;
+}
+.left-bolly-image{
+    width: 80%;
+    height: 15%;
+    box-shadow: 4px 4px 8px #262626;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
 }
 
-.top-post-title {
-  /* left: 5rem; */
-  position: relative;
-  font-family: sans-serif;
-  /* background-color: palevioletred; */
+.line {
+    height: 2px;
+    background-color: red;
+    width: 120px;
+    margin-bottom: 5px;
 }
 
-.top-post-heading-wrapper {
-  width: 100%;
-  position: relative;
-  /* height: 6vh; */
-  margin-top: 3vh;
-  /* background-color: blue; */
-
+.line2 {
+    height: 2px;
+    background-color: red;
+    width: 80px;
 }
 
-.right-data-wrapper {
-  width: 100%;
-  /* height: 22vh; */
-  /* background-color:blue; */
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  color: #000;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 5px;
-
+.BollywoodData {
+    width: 90%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+    color: green;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    margin: 5px;
+    padding-top: 1rem;
+    padding: 5px;
 }
 
-.top-post-image {
-  width: 100%;
-  position: relative;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-.top-post-details-wrapper {
-  width: 50%;
-  height: auto;
-  position: relative;
-  /* background-color: pink; */
-  padding-top: 1rem;
+.bitween {
+    background-color: red;
+    height: 2px;
+    margin-top: 10px;
 }
 
 .top-post-details {
-  position: relative;
-  top: 2rem;
-  font-size: 0.8rem;
-  left: 1rem;
+    color: #050117;
 }
 
-.small-ad {
-  width: 50%;
-  height: 50vh;
-  border: 2px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  margin-left: 2rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  cursor: pointer;
-  margin-top: 2rem;
+.top-post-details-wrapper .title {
+    font-weight: 700;
+    font-size: 18px;
 }
 
-.article-content-wrapper {
-  width: 50%;
-  height: auto;
-  /* background-color: orange; */
-  margin: auto;
-  position: relative;
-  text-align: center;
-  word-wrap: break-word;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding-top: 1rem;
-  line-height: 2rem;
-  font-weight: bolder;
+.bolly-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
 }
 
-.article-img {
-  position: relative;
-  width: 100%;
-  /* height: 50vh; */
-  margin: auto;
-  margin-top: 1rem;
+.IMdb {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 0;
 }
-
-.avatar-icon {
-  width: 50px;
-  height: 50px;
+.desc{
+    margin-top: 0;   
 }
-
-@media only screen and (max-width:1000px) and (orientation:portrait) {
-
-
-  .advertisement {
-    width: 80%;
-  }
-
-  .wrapper {
-    width: 100%;
-    height: 400vh;
-    /* background-color: blue; */
-    flex-direction: column;
-    position: relative;
-  }
-
-  .left-data {
-    width: 100%;
-    height: auto;
-    /* background-color: aqua; */
-
-  }
-
-  .post-divider {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .left-data-image {
-    width: 85%;
-
-  }
-
-  .left-data-link {
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: brown; */
-
-  }
-
-  .top-post-title {
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    left: 0;
-
-  }
-
-  .post-title {
-    left: 0;
-    text-align: center;
-  }
-
-  .underline1 {
-    left: 0;
-    margin: auto;
-  }
-
-  .right-data {
-    width: 100%;
-    height: auto;
-  }
-
-  .right-data-wrapper {
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* background-color: yellow; */
-
-  }
-
-  .right-data-link {
-    width: 60%;
-    height: 30vh;
-  }
-
-  .top-post-image {
-    height: 30vh;
-    width: 100%;
-  }
-
-  .top-post-details {
-    top: 0;
-    left: 0;
-  }
-
-  .small-ad {
-    width: 80%;
-  }
-
-  .top-post-divider {
-    position: relative;
-    width: 100%;
-    margin-top: 2vh;
-  }
-}
-
-@media only screen and (max-width:1024px) and (orientation:landscape) {
-  .movie-details {
-    width: 100%;
-    height: auto;
-    position: relative;
-    margin-top: 4vh;
-  }
-
-  .movie-details-para {
-    top: 0;
-    height: auto;
-  }
-
-  .advertisement {
-    width: 50%;
-    height: 120vh;
-    margin-top: 20vh;
-  }
-
-  .wrapper {
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    position: relative;
-  }
-
-  .left-data {
-    width: 100%;
-    height: auto;
-  }
-
-  .movie-details-desc-para {
-    top: 0;
-    left: 0;
-  }
-
-  .movie-details-release-para {
-    top: 2vh;
-    left: 0;
-  }
-
-  .post-divider {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 8vh;
-  }
-
-  .left-data-image {
-    width: 60%;
-    height: 80vh;
-  }
-
-  .left-data-link {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
-
-  .top-post-title {
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    left: 0;
-  }
-
-  .post-title {
-    left: 0;
-    text-align: center;
-  }
-
-  .underline1 {
-    left: 0;
-    margin: auto;
-
-
-  }
-
-  .right-data {
-    width: 100%;
-    height: auto;
-  }
-
-  .right-data-wrapper {
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* background-color: yellow; */
-    margin-top: 10vh;
-
-
-  }
-
-  .right-data-link {
-    width: 60%;
-    height: auto;
-  }
-
-  .top-post-image {
-    height: 70vh;
-    width: 65%;
-  }
-
-  .top-post-details {
-    top: 0;
-    left: 0;
-    height: auto;
-    font-size: 1rem;
-  }
-
-  .small-ad {
-    width: 60%;
-    margin: auto;
-    height: 100vh;
-    margin-top: 10vh;
-  }
-
+.release-left{
+    margin-top: 0;
+    font-size: 18px;
 }

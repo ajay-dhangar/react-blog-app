@@ -10,8 +10,10 @@ const Bollywood = () => {
     <>
       <div className='bollywoodComponent'>
         <h2 className="post-title">Movies</h2>
-        <div className="underline1"></div>
-        <div className="wrapper">
+        <hr className="line" />
+        <hr className="line2" />
+        <div className="BollywoodContainer">
+        <div className="BollywoodData">
           <div className="left-data">
             {data
               .filter((value) => value.category === 'bollywood')
@@ -20,20 +22,18 @@ const Bollywood = () => {
                   <>
                     <div key={val.id} className="bolly-wrapper">
                       <Link to={`/article/${val.id}`} className="left-data-link">
-                        <img src={val.image} alt="" className="left-data-image" />
+                        <img src={val.image} alt="" className="left-bolly-image" />
                       </Link>
                       <div className="movie-details">
-                        <p className="movie-details-para">{val.name}</p>
-                        <p className="movie-details-para">IMdb: {val.imdb}</p>
-
-                        <br />
-                        <p className="movie-details-desc-para">{val.desc}</p>
-                        <p className="movie-details-release-para">
+                        <p className="movie-details-para bolly-title">{val.name}</p>
+                        <p className="movie-details-para IMdb">IMdb: {val.imdb}</p>
+                        <p className="movie-details-desc-para desc">{val.desc}</p>
+                        <p className="movie-details-release-para release-left">
                           Release: {val.release}
                         </p>
                       </div>
                     </div>
-                    <hr className="post-divider" />
+                    <hr className="bitween" />
                   </>
                 )
               })}
@@ -45,7 +45,7 @@ const Bollywood = () => {
               <div className="top-post-underline"></div>
             </div>
             {data
-              .filter((value) => value.category === 'bollywood')
+              .filter((value) => value.category === 'bollywood').slice(4, 8)
               .map((val) => {
                 return (
                   <>
@@ -55,19 +55,19 @@ const Bollywood = () => {
                       </Link>
 
                       <div className="top-post-details-wrapper">
-                        <p className="top-post-details">{val.name}</p>
-                        <p className="top-post-details">IMdb: {val.imdb}</p>
+                        <p className="top-post-details title">{val.name}</p>
+                        <p className="top-post-details IMdb"><span style={{fontWeight:'600'}}>IMdb:</span> {val.imdb}</p>
 
-                        <br />
-                        <p className="top-post-details">{val.release}</p>
+                        <p className="top-post-details release"><span style={{fontWeight:'600'}}>Release:</span>{val.release}</p>
                       </div>
                     </div>
-                    <hr className="top-post-divider" />
+                    {/* <hr className="top-post-divider" /> */}
                   </>
                 )
               })}
-            <div className="small-ad">Advertisement</div>
+            {/* <div className="small-ad">Advertisement</div> */}
           </div>
+        </div>
         </div>
       </div>
     </>

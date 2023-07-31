@@ -367,8 +367,8 @@ const Home = () => {
     <>
       <div className="HomeContainer">
         <ImageSlider images={images} />
-        <div className="mountain-wrapper">
-          {/* {item1.map((value) => {
+        {/* <div className="mountain-wrapper">
+          {item1.map((value) => {
             return (
               <img
                 key={value.id}
@@ -377,8 +377,8 @@ const Home = () => {
                 className="mountain-big"
               />
             );
-          })} */}
-          {/* <div className="mountain-small-wrapper">
+          })}
+          <div className="mountain-small-wrapper">
           {item2.map((value) => (
             <>
               <img
@@ -395,8 +395,8 @@ const Home = () => {
               />
             </>
           ))}
-        </div> */}
         </div>
+        </div> */}
         <Sportstories />
         <br />
         <Techstories />

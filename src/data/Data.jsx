@@ -13,6 +13,14 @@ import img12 from "./images/bollywood/bolly-8.jpg";
 import img13 from "./images/bollywood/bolly-9.jpg";
 import img14 from "./images/bollywood/bolly-6.jpg";
 import img15 from "./images/bollywood/bolly-7.jpg";
+import img16 from "./images/bollywood/bolly-1.jpg";
+import img17 from "./images/bollywood/bolly-3.jpg";
+import img18 from "./images/bollywood/bolly-4.jpg";
+import img19 from "./images/bollywood/bolly-2.jpg";
+import img20 from "./images/bollywood/bolly-10.jpg";
+import img21 from "./images/bollywood/bolly-11.jpg";
+import img22 from "./images/bollywood/bolly-12.jpg";
+import img23 from "./images/bollywood/bolly-13.jpg";
 
 //  Tech Images 
 
@@ -163,12 +171,12 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
       name: 'Title',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       image:img14,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
     },
     {
       id: 15,
@@ -176,12 +184,12 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
       name: 'Thugs Hindostan',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       image: img15,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
     },
     {
       id: 16,
@@ -189,13 +197,12 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
       name: 'Shershaah',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      image: img16,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
     },
     {
       id: 17,
@@ -203,112 +210,91 @@ export const ProvideInfo = (props) => {
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
       name: 'Shershaah',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      image: img17,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
     },
     {
       id: 18,
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
-      name: 'Shershaah',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      name: 'Title',
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      image: img18,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
     },
     {
       id: 19,
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
-      name: 'Shershaah',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      name: 'Title',
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      image: img19,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
     },
     {
       id: 20,
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
-      name: 'Shershaah',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      name: 'Title',
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      image: img20,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
     },
     {
       id: 21,
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
-      name: 'Shershaah',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      name: 'Title',
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      image: img21,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
     },
     {
       id: 22,
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
-      name: 'Shershaah',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      name: 'Title',
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      image: img22,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
     },
     {
       id: 23,
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'bollywood',
-      name: 'Shershaah',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
+      name: 'Title',
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      image:img23,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
-    },
-    {
-      id: 24,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
-      category: 'bollywood',
-      name: 'Shershaah',
-      desc: "Vikram Batra, a young man, dreams of becoming a soldier and falls in love with Dimple. Soon after his training, he climbs the military ranks and contributes to India's victory in the Kargil war.",
-      image:
-        'https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg',
-      release: '12th August,2021',
-      imdb: '8.9/10',
-      content:
-        "In his youth Captain Vikram Batra saw the show Param Veer Chakra running on Doordarshan in his neighbour's house and decided to become a soldier. Years later an adult Vikram is part of the Indian Army and in love with Dimple a Sikh preponderance at which her father rejects their relationship and Vikram decides to join the Merchant Navy for her although has changes in his plans. Vikram gets posted to Kashmir which is a sensitive area where every civilian is a suspect though he became friendly with many. During an operation Vikram inspires many of his senior officers and becomes one of the best officers in the team. Vikram further is posted to a war stricken Kargil area where he leads many successful operations.",
-    },
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+    },    
 
     // Technology (id: 24 - 36)
     {
@@ -433,7 +419,7 @@ export const ProvideInfo = (props) => {
         'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
     },
     {
-      id: 8,
+      id: 35,
       avatar:
         'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
       category: 'technology',
