@@ -4,9 +4,9 @@
   margin-top: 15px;
   display: none;
 }
-.navContainer{
+/* .navContainer{
   background-color: #000;
-}
+} */
 .roted {
   transform: rotate(-90deg);
   background-color: #262626;
@@ -62,10 +62,11 @@ a {
   gap: 20px;
   font-size: 26px;
   font-weight: 500;
-  background-color: #e00bc445;
-  border: 2px solid red;
+  background-color: #f7f7f7;
+  /* border: 2px solid red; */
+  box-shadow: 4px 4px 8px #262626;
   border-radius: 10px;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .aside .nav-toggler {
@@ -97,7 +98,7 @@ a {
 
 .aside .nav li a {
   padding: 5px 5px;
-  color: #f1f1f1;
+  color: #191c29
 }
 .aside .nav li a:hover{
   color: orangered;

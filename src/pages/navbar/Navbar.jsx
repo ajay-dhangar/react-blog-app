@@ -20,7 +20,7 @@ function Navbar() {
           <span className="normal">SIREN</span>
         </Link>
       </div>
-      <hr className="nav-bottom-line" />
+      {/* <hr className="nav-bottom-line" /> */}
       <div className={`aside ${isAsideOpen ? 'open' : ''}`}>
         <div
           className={`nav-toggler ${isAsideOpen ? 'active' : ''}`}
@@ -68,7 +68,7 @@ function Navbar() {
           </div>
         </nav>
       </div>
-      <hr className="nav-bottom-line" />
+      {/* <hr className="nav-bottom-line" /> */}
     </div>
   );
 }

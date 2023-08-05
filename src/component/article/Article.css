@@ -1,20 +1,140 @@
-.article-title{
+.article-title {
     text-transform: uppercase;
     font-size: 32px;
     backdrop-filter: blur;
     /* background-color: rgba(255, 0, 204, 0.195); */
     border-radius: 10px;
     color: rgb(247, 241, 246);
-    text-shadow: 4px 4px 8px #fe17e3;    
+    text-shadow: 4px 4px 8px #fe17e3;
 }
-.article-content{
-    position: relative; 
+
+.article-content {
+    position: relative;
     top: 1rem;
-    height: auto; 
+    height: auto;
     font-weight: 400;
     line-height: 40px;
-    color: #262626; 
+    color: #262626;
 }
-.article-img{
+
+.article-img {
     border-radius: 30px;
+}
+
+.article-container {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    /* text-align: center;s */
+    padding-top: 1rem;
+    line-height: 2rem;
+}
+
+.article-img {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.name-info{
+    color: blueviolet;
+}
+
+.render-text-info{
+    margin-top: 10px;
+    display: block;
+    /* background-color: red; */
+}
+.writer-name{
+    color: black;
+}
+.written-date{
+    color: black;
+}
+.article-bottom-info {
+    height: auto;
+    display: flex;
+    padding: 5px;
+    margin: auto;
+    width: 70%;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+.extra-main-info{
+    color: rgb(18, 10, 33);
+    font-size: 0.8rem;
+    top: 0.5rem;
+    position: relative;
+}
+.extra-info{
+    color: rgb(68, 46, 87);
+    font-size: 0.6rem;
+    margin-left: 10px;
+    top: 0.5rem;
+    position: relative;
+}
+.writter-info-container{
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.writerInfo-img{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px #262626;
+    border: 1px solid rgb(238, 235, 237);
+}
+
+@media screen and (max-width:1024px) {
+    .writter-info-container {
+        width: 70%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .writter-contentainer {
+        width: 90%;
+    }
+
+    .article-img {
+        height: 40vh;
+        width: 80%;
+    }    
+
+}
+
+@media screen and (max-width:1000px) {
+    .writter-container {
+        width: 90%;
+    }
+
+    .article-bottom-info {
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        position: relative;
+        padding: 5px;
+        margin-top: auto;
+        /* background-color: red; */
+    } 
+}
+.ArticleContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.extra-Content{
+    background-color: orange;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 35px;
 }

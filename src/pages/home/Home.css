@@ -5,35 +5,30 @@
 .home-latest-sport-stories-title {
   text-align: center;
   font-family: sans-serif;
-  margin-top: 1vh;  
 }
 
 .home-latest-tech-stories-title {
   text-align: center;
   font-family: sans-serif;
-  position: relative;
   margin-top: 6vh;
   margin-bottom: 1vh;
 }
 
 .home-latest-bollywood-stories-title {
   text-align: center;
-  font-family: sans-serif;
-  position: relative;
+  font-family: sans-serif;  
   margin-top: 5vh;
 }
 
 .home-latest-hollywood-stories-title {
   text-align: center;
   font-family: sans-serif;
-  position: relative;
   margin-top: 2vh;
 }
 
 .home-latest-food-stories-title {
   text-align: center;
   font-family: sans-serif;
-  position: relative;
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
@@ -41,7 +36,6 @@
 .home-latest-fitness-stories-title {
   text-align: center;
   font-family: sans-serif;
-  position: relative;
   margin-top: 4vh;
   margin-bottom: 2vh,
 }
@@ -50,15 +44,10 @@
   width: 45rem;
   margin-left: 4.5rem;
 }
-/* .movie-details{  
-  background-color: red;
-} */
-/* .movie-data-1{
-  background-color: red;
+
+.movie-info{
+  font-size: 18px;
 }
-.movie-data-2{
-  background-color: red;
-} */
 .movie-details p{
   color: #343b5f;
 }
@@ -95,12 +84,9 @@ hr {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-.left-data-link {
-  position: relative;
-  width: 40%;
+.home-latest-fitness-underline{
+  margin-bottom: 50px;
 }
-
 .sports {
   width: 25%;
   height: auto;
@@ -109,12 +95,8 @@ hr {
   font-size: 0.9rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(121, 112, 112);
-  word-wrap: break-word;
-  margin: 10px;
   cursor: pointer;
-  padding: 10px;
 }
-
 .texts {
   font-size: 11px;
   color: rgb(66, 66, 246);
@@ -123,7 +105,7 @@ hr {
   font-size: 1rem;
 }
 .sports-img {
-  width: 100%;
+  width: 70%;
   height: 150px;
   position: relative;
   border-radius: 8px;
@@ -157,20 +139,15 @@ hr {
 }
 
 .underline {
-
   width: 2rem;
   height: 2px;
   background-color: red;
-  cursor: pointer;
-  position: relative;
   margin-top: 1rem;
 }
 
 .bolly-stories {
-  width: 70%;
-  height: 140vh;
-  background-color: #FAFAFA;
-  position: relative;
+  width: 80%;
+  background-color: #fafafa;
   margin: auto;
   margin-top: 2rem;
   display: flex;
@@ -179,7 +156,7 @@ hr {
 }
 
 .bolly-wrapper {
-  width: 80%;
+  width: 90%;
   height: auto;
   position: relative;
   display: flex;
@@ -193,72 +170,41 @@ hr {
   padding-top: 1rem;
   padding: 5px;
 }
-
-.bolly-image-wrapper {
-  position: relative;
-  width: 20rem;
+.display-hollywood-data{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.bolly-image {
-  width: 100%;
-  height: 30vh;
-  position: relative;
+
+.bolly-image {  
   border-radius: 8px;
-  cursor: pointer;
   border: 1px solid #fafafa;
-  box-shadow: 2px 2px 4px #262626;
+  box-shadow: 4px 4px 8px #262626;
+}
+.ads-container{
+  /* background-color: red; */
+  width: 50%;
+  height: 70%;
+  
+}
+.ads-box{
+  width: 40%;
+  height: 30%;
+  margin: 30px;
+  border: 1px solid rgb(255, 19, 19);
+  border-radius: 30px;
+  justify-content: center;
+  padding: 10px;
 }
 
-.movie-details {
-  width: 60%;
-  height: 30vh;
-  position: relative;
-  text-align: center;
+.movie-title{
+  font-weight: 700;
 }
-
-.movie-details-para {
-  position: relative;
-  top: 3rem;
-}
-
 .movie-details-desc-para {
-  font-size: 0.8rem;
-  position: relative;
+  font-size: 1.0rem;
+  color: #262626;
   top: 3rem;
-  left: 0.5rem;
-}
-
-.movie-details-release-para {
-  top: 4rem;
-  position: relative;
-  left: 1rem;
-}
-
-.movie-container {
-  position: relative;
-  width: 60%;
-  height: 130vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.advertisement {
-  width: 150px;
-  height: 300px;
-  background-color: white;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJDK-oK3RQoY3P6Pju_Z7Z_1TbMCNLypabQ&usqp=CAU');
-  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXuyOKAHshyjb3Nf2XRuxUYi6lF-_sPfFTMA&usqp=CAU'); */
-  background-repeat: no-repeat;
-  position: relative;
-  border: 2px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  font-size: 1rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 2%;
 }
 
 h2 {
@@ -268,32 +214,6 @@ h2 {
 .underline:hover {
   width: 10rem;
   transition: width 1s;
-}
-
-.wrapper {
-  width: 90%;
-  height: 147vh;
-  background-color: #fafafa;
-  position: relative;
-  margin: auto;
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: row;
-}
-
-.left-data {
-  width: 80%;
-  height: 135vh;
-  position: relative;
-}
-
-
-.left-data-image {
-  width: 100%;
-  height: 30vh;
-  position: relative;
-  cursor: pointer;
-  border-radius: 8px;
 }
 
 .underline1 {
@@ -311,20 +231,6 @@ h2 {
   height: 3px;
   background-color: red;
   cursor: pointer;
-  position: relative;
-  left: 7rem;
-  top: 0.5rem;
-}
-
-.right-data {
-  width: 40%;
-  height: 110vh;
-  position: relative;
-}
-
-.right-data-link {
-  width: 10rem;
-  position: relative;
 }
 
 .post-title {
@@ -338,41 +244,6 @@ h2 {
   left: 5rem;
   position: relative;
   font-family: sans-serif;
-}
-
-.top-post-heading-wrapper {
-  width: 100%;
-  position: relative;
-  height: 6vh;
-  margin-top: 3vh;
-}
-
-.right-data-wrapper {
-  width: 100%;
-  height: 22vh;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  color: green;
-
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.top-post-image {
-  width: 100%;
-  height: 18vh;
-  position: relative;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-.top-post-details-wrapper {
-  width: 40%;
-  height: auto;
-  position: relative;
-  /* padding-top: 1rem; */
 }
 
 .top-post-details {
@@ -396,59 +267,6 @@ h2 {
   margin-top: 2rem;
 }
 
-.article-content-wrapper {
-  width: 50%;
-  height: auto;
-  margin: auto;
-  position: relative;
-  text-align: center;
-  word-wrap: break-word;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding-top: 1rem;
-  line-height: 2rem;
-  font-weight: bolder;
-}
-
-.article-img {
-  position: relative;
-  width: 100%;
-  height: 50vh;
-  margin: auto;
-  margin-top: 1rem;
-}
-
-.avatar-icon {
-  width: 50px;
-  height: 50px;
-}
-
-.avatar-wrapper {
-  width: 35%;
-  height: 10vh;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 1rem;
-  cursor: pointer;
-  align-items: center;
-  position: relative;
-  line-height: 1rem;
-}
-
-.article-wrapper {
-  height: auto;
-  display: flex;
-  padding: 5px;
-  margin: auto;
-  width: 70%;
-  align-items: center;
-  position: relative;
-  top: 1rem;
-  margin-bottom: 10px;
-  justify-content: space-evenly;
-  background-color: #fafafa;
-  border-radius: 10px;
-}
-
 .fitSubContainer{
   height: auto;
   display: flex;
@@ -462,6 +280,139 @@ h2 {
   justify-content: space-evenly;
   background-color: #fafafa;
   border-radius: 10px;
+}
+
+@media screen and (max-width:1024px){
+
+  .home-latest-sport-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-tech-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-bollywood-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-hollywood-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-fitness-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-food-stories-title {
+    margin-top: 10px;
+  }
+
+   .sports {
+    width: 80%;
+    height: auto;
+    margin-top: 6vh;
+  }
+
+  .sports-img {
+    height: 20%;
+    width: 80%;
+    margin-bottom: 4vh;
+  }
+
+  .bolly-stories {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .movie-container {
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bolly-wrapper {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 35vh;
+  }
+
+  .bolly-image-wrapper {
+    width: 70%;
+    height: 20%;
+  }
+
+  .bolly-image {
+    height: 20%;
+  }
+
+  .wrapper {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .movie-details-desc-para {
+    top: 0;
+    left: 0;
+  }
+
+  .movie-details-release-para {
+    top: 2vh;
+    left: 0;
+  }
+
+  .post-divider {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 8vh;
+  }
+
+  .top-post-title {
+    right: 0;
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    left: 0;
+  }
+
+  .post-title {
+    left: 0;
+    text-align: center;
+  }
+
+  
+
+  .top-post-details {
+    top: 0;
+    left: 0;
+    height: auto;
+    font-size: 1rem;
+  }
+
+  .top-post-underline {
+    left: 0;
+    margin: auto;
+  }
+
+  .top-post-divider {
+    position: relative;
+    width: 95%;
+    margin-top: 2vh;
+  }
+
+  .rotate-wrapper {
+    height: 20vh;
+  }
+
+  .text-rotate {
+    margin-top: -2.5vh;
+  }
 }
 
 @media screen and (max-width:1000px){
@@ -488,13 +439,6 @@ h2 {
     width: 50%;
   }
 
-  .article-wrapper {
-    width: 95%;
-    height: 80px;
-    flex-direction: column;
-    margin-top: auto;
-    /* background-color: red; */
-  }
   /* .HollyConatainer{
     background-color: red;
   } */
@@ -539,10 +483,6 @@ h2 {
     top: 0;
   }
 
-  /* .advertisement {
-    width: 80%;
-  } */
-
   .wrapper {
     width: 100%;
     height: auto;
@@ -550,12 +490,6 @@ h2 {
     flex-direction: column;
     position: relative;
   }
-
-  /* .bolly-wrapper {
-    width: 95%;
-    height: 50vh;
-    position: relative;
-  } */
 
   .left-data {
     width: 100%;
@@ -607,36 +541,9 @@ h2 {
     margin: auto;
   }
 
-  .right-data {
-    width: 95%;
-    height: auto;
-  }
-
-  .right-data-wrapper {
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .right-data-link {
-    width: 60%;
-    height: 30vh;
-  }
-
-  .top-post-image {
-    height: 30vh;
-    width: 100%;
-  }
-
-  .top-post-details {
+ .top-post-details {
     top: 0;
     left: 0;
-  }
-
-  .small-ad {
-    width: 80%;
   }
 
   .top-post-underline {
@@ -644,265 +551,9 @@ h2 {
     margin: auto;
   }
 
-  .article-content-wrapper {
-    width: 90%;
-  }
-
-  .avatar-wrapper {
-    margin: auto;
-    margin-top: 2vh;
-  }
-
   .top-post-divider {
     position: relative;
     width: 95%;
     margin-top: 2vh;
-  }
-}
-
-
-@media screen and (max-width:1024px){
-
-  .home-latest-sport-stories-title {
-    margin-top: 10px;
-  }
-
-  .home-latest-tech-stories-title {
-    margin-top: 10px;
-  }
-
-  .home-latest-bollywood-stories-title {
-    margin-top: 10px;
-  }
-
-  .home-latest-hollywood-stories-title {
-    margin-top: 10px;
-  }
-
-  .home-latest-fitness-stories-title {
-    margin-top: 10px;
-  }
-
-  .home-latest-food-stories-title {
-    margin-top: 10px;
-  }
-
-  /* .underline {
-    margin-top: 3vh;
-    top: 0;
-    position: relative;
-  } */
-/* 
-  .title-wrapper {
-    width: 50%;
-    height: 20vh;
-  } */
-
-  .article-wrapper {
-    width: 70%;
-    height: auto;
-    flex-direction: column;
-  }
-
-  .sports {
-    width: 80%;
-    height: auto;
-    margin-top: 6vh;
-  }
-
-  .sports-img {
-    height: 20%;
-    width: 80%;
-    margin-bottom: 4vh;
-  }
-
-  .bolly-stories {
-    width: 90%;
-    height: auto;
-    flex-direction: column;
-  }
-
-  .movie-container {
-    width: 85%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .bolly-wrapper {
-    width: 90%;
-    height: auto;
-    flex-direction: column;
-    margin-left: 0;
-    margin-top: 35vh;
-  }
-
-  .bolly-image-wrapper {
-    width: 70%;
-    height: 20%;
-  }
-
-  .bolly-image {
-    height: 20%;
-  }
-
-  .movie-details {
-    width: 90%;
-    height: auto;
-    position: relative;
-    margin-top: 4vh;
-  }
-
-  .movie-details-para {
-    top: 0;
-    height: auto;
-  }
-
-  /* .advertisement {
-    width: 50%;
-    height: 120vh;
-    margin-top: 20vh;
-  } */
-
-  .wrapper {
-    width: 95%;
-    height: auto;
-    flex-direction: column;
-    position: relative;
-  }
-
-  /* .bolly-wrapper {
-    width: 90%;
-    height: auto;
-    position: relative;
-    margin-top: 5vh;
-  } */
-
-  .left-data {
-    width: 80%;
-    height: auto;
-  }
-
-  .movie-details-desc-para {
-    top: 0;
-    left: 0;
-  }
-
-  .movie-details-release-para {
-    top: 2vh;
-    left: 0;
-  }
-
-  .post-divider {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 8vh;
-  }
-
-  .left-data-image {
-    width: 60%;
-    height: 80vh;
-  }
-
-  .left-data-link {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
-
-  .top-post-title {
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    width: 90%;
-    left: 0;
-  }
-
-  .post-title {
-    left: 0;
-    text-align: center;
-  }
-
-  /* .underline1 {
-    left: 0;
-    margin: auto;
-  } */
-
-  .right-data {
-    width: 70%;
-    height: auto;
-  }
-
-  .right-data-wrapper {
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* background-color: yellow; */
-    margin-top: 10vh;
-
-
-  }
-
-  .right-data-link {
-    width: 60%;
-    height: auto;
-  }
-
-  .top-post-image {
-    height: 70vh;
-    width: 65%;
-  }
-
-  .top-post-details {
-    top: 0;
-    left: 0;
-    height: auto;
-    font-size: 1rem;
-  }
-
-  /* .small-ad {
-    width: 60%;
-    margin: auto;
-    height: 100vh;
-    margin-top: 10vh;
-  } */
-
-  .top-post-underline {
-    left: 0;
-    margin: auto;
-  }
-
-  .article-content-wrapper {
-    width: 90%;
-  }
-
-  .article-img {
-    height: 80vh;
-    width: 80%;
-  }
-
-  .avatar-wrapper {
-    margin: auto;
-    margin-top: 10vh;
-  }
-
-  .top-post-divider {
-    position: relative;
-    width: 95%;
-    margin-top: 2vh;
-  }
-
-  .rotate-wrapper {
-    height: 20vh;
-  }
-
-  .text-rotate {
-    margin-top: -2.5vh;
   }
 }

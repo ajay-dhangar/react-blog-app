@@ -1,27 +1,80 @@
-.bollywoodComponent {
-    padding: 5%;
+/* .bollywoodComponent {
+    padding: 2%;
+} */
+
+.movie-data-contain {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.bolly-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dataContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .post-title {
     /* background-color: blue; */
     font-size: 32px;
     font-weight: 700;
-    color: #fff;
-    text-shadow: 3px 3px 12px #050117;
+    color: #050117;
+    text-shadow: 3px 3px 12px #fa14b5;
 }
-.left-bolly-image{
-    width: 80%;
-    height: 15%;
+
+
+
+.left-data-link {
+    /* position: relative; */
+    width: 40%;
+}
+
+.bolly-all-image {
+    border-radius: 10px;
     box-shadow: 4px 4px 8px #262626;
     border: 1px solid #f2f2f2;
-    border-radius: 10px;
 }
+
+.top-post-image {
+    height: 30vh;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    box-shadow: 4px 4px 8px #262626;
+}
+
+/* .top-post-image {
+    width: 100%;
+    height: 18vh;
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+} */
 
 .line {
     height: 2px;
     background-color: red;
     width: 120px;
     margin-bottom: 5px;
+}
+
+.right-data-link {
+    width: 10rem;
+}
+
+.right-data-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .line2 {
@@ -41,13 +94,11 @@
     color: green;
     font-family: sans-serif;
     margin-bottom: 10px;
-    margin: 5px;
-    padding-top: 1rem;
     padding: 5px;
 }
 
 .bitween {
-    background-color: red;
+    background: linear-gradient(yellow, orange, rgb(11, 27, 249));
     height: 2px;
     margin-top: 10px;
 }
@@ -56,9 +107,30 @@
     color: #050117;
 }
 
+.top-bolly-post-underline {
+    width: 15rem;
+    height: 3px;
+    background-color: red;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.top-bolly-post-underline2 {
+    width: 10rem;
+    height: 3px;
+    background-color: red;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
 .top-post-details-wrapper .title {
     font-weight: 700;
     font-size: 18px;
+}
+
+.bolly-top-img {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .bolly-title {
@@ -72,10 +144,35 @@
     font-weight: 500;
     margin-top: 0;
 }
-.desc{
-    margin-top: 0;   
+
+.desc {
+    margin-top: 0;
 }
-.release-left{
+
+.release-left {
     margin-top: 0;
     font-size: 18px;
+}
+
+.bolly-ads-container {
+    /* background-color: red; */
+    width: 70%;
+    height: 70%;
+}
+
+.bolly-ads-box {
+    width: 200px;
+    height: 300px;
+    border: 1px solid rgb(255, 19, 19);
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.movie-details-para {
+    margin-left: 30px;
+}
+
+.movie-details-release-para {
+    margin-left: 30px;
 }

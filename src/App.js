@@ -32,7 +32,7 @@ function App() {
             <Route path="/article/:path" element={<Article />} />
           </Routes>
         </ProvideInfo>
-      </div>      
+      </div>     
     </>
   );
 }

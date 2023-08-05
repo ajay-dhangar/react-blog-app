@@ -1,6 +1,8 @@
 import React from 'react';
 import { createContext, useState } from 'react';
 import PropTypes from 'prop-types';
+import Brahmastra from './bollywood/Brahmastra';
+
 // import Bolly7 from "./images/bollywood/bolly-1.jpg";
 
 import Bolly3 from "./images/bollywood/bolly-1.jpg";
@@ -122,18 +124,15 @@ export const ProvideInfo = (props) => {
       content: `Cricket, often referred to as the gentleman's game, is a sport of grace and strategy. Played between two teams with a bat and ball, it has a loyal following in many countries. The sound of leather on willow, the tension during close matches, and the artistry of a well-executed cover drive make cricket an unforgettable experience. Its history dates back centuries, and today, it has evolved into different formats, catering to diverse audiences. Cricket is more than just a sport; it's a way of life for millions of fans worldwide.`,
       details:
         "The Gentleman's Game Filled with Passion and Excitement",
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
     },
 
     // Bollywood (id: 12 - 24)
     {
-      id: 12,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      id: 12,      
       category: 'bollywood',
       name: 'Raanjhanaa',
-      desc: "A Heartfelt Bollywood Tale of Love and Sacrifice",
+      desc: "Bittersweet Love Saga: 'Raanjhanaa' Delves into Passion, Sacrifice, and Heartache.",
       image: img12,
       release: 'June 21, 2013',
       imdb: '7.6/10',
@@ -141,12 +140,10 @@ export const ProvideInfo = (props) => {
         `Released in 2013, "Raanjhanaa" is a captivating Bollywood movie that weaves an enchanting story of love, sacrifice, and societal norms. Directed by Aanand L. Rai, the film stars Dhanush, Sonam Kapoor, and Abhay Deol in lead roles. Set in the vibrant and culturally rich city of Varanasi, the movie takes the audience on an emotional rollercoaster, leaving an everlasting impact. The film introduces us to Kundan Shankar, portrayed brilliantly by Dhanush, a carefree and mischievous young boy who falls head over heels in love with Zoya Haider, played by Sonam Kapoor, a spirited and determined girl hailing from a Muslim family. Their innocent friendship blossoms into a beautiful love story that transcends the boundaries of religion and society. However, fate has other plans for the couple. Zoya's family discovers their relationship and vehemently opposes it due to their different religious backgrounds. The movie beautifully delves into the complexities of religious differences and the challenges faced by individuals in love, testing their devotion and resilience. Despite facing numerous hurdles and social pressures, Kundan remains steadfast in his love for Zoya. His devotion and determination to win her heart, even after she moves away, are heartwarming yet heart-wrenching. Dhanush's portrayal of Kundan's character is simply remarkable, bringing out the raw emotions of love and sacrifice flawlessly. As the story progresses, Zoya's life takes a dramatic turn, leading her to a new city with a fresh start. Abhay Deol's character, Jasjeet Singh Shergill, is introduced as a suitor for Zoya, bringing in another layer of complexity to the narrative. The film brilliantly showcases the internal conflict and dilemma faced by Zoya as she must choose between her past love, Kundan, and her present suitor, Jasjeet. "Raanjhanaa" explores the theme of unrequited love and selfless sacrifice, with Kundan going to great lengths to protect and support Zoya, even if it means jeopardizing his own happiness. His unwavering love for Zoya becomes the driving force of the movie, leading to a powerful climax that leaves the audience teary-eyed and emotionally moved. The film is also enriched with soulful music, composed by the legendary A.R. Rahman, which beautifully complements the narrative. Melodious tracks like "Tum Tak" and "Raanjhanaa Hua Mai Tera" stay etched in the hearts of the viewers, adding an enchanting charm to the film. In conclusion, "Raanjhanaa" is not just a love story; it is an emotional journey that touches upon various aspects of human emotions. It skillfully portrays the complexities of love, the strength of sacrifice, and the impact of societal norms on relationships. With stellar performances, a captivating storyline, and soulful music, the movie leaves a lasting impression on anyone who watches it.`,
     },
     {
-      id: 13,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      id: 13,      
       category: 'bollywood',
       name: 'RRR',
-      desc: "RRR: A Cinematic Extravaganza of Action and Emotion",
+      desc: `"RRR" is set in the 1920s and is a fictional retelling of the lives of two Indian freedom fighters,`,
       image:img13,
       release: 'October 13, 2021',
       imdb: '7.8/10',
@@ -166,48 +163,52 @@ export const ProvideInfo = (props) => {
         
     },
     {
-      id: 14,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      id: 14,      
       category: 'bollywood',
-      name: 'Title',
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      name: 'Bang Bang',
+      desc: `Action movies are a thrilling film genre characterized by intense physical feats, daring stunts, and high-octane sequences.`,
       image:img14,
-      release: '12th August,2021',
-      imdb: '8.9/10',
+      release: ' October 2, 2014',
+      imdb: '5.6/10',
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+        `"Bang Bang" movies are a thrilling and adrenaline-pumping genre that revolves around high-octane action sequences, intense gunfights, and explosive set pieces. These films prioritize excitement, delivering non-stop entertainment through a barrage of intense scenes. Typically, the plot centers on a charismatic and skilled protagonist, often an undercover agent, rogue cop, or a skilled mercenary. They find themselves entangled in a web of danger, espionage, or crime, leading to a series of confrontations that keep viewers on the edge of their seats.
+
+        The hallmark of "Bang Bang" movies is their emphasis on action over intricate storytelling. Fast-paced chases, daring stunts, and spectacular shootouts dominate the screen time, leaving little room for character development or intricate plot arcs. The antagonist is usually a formidable force, challenging the hero's abilities and pushing them to their limits.
+        
+        Visual effects and choreography play a vital role in these movies. Audiences are treated to meticulously choreographed fight sequences and explosions that aim to create a visceral experience. The movies often incorporate cutting-edge technology, high-tech weaponry, and breathtaking locations to enhance the overall cinematic experience.
+        
+        While character depth might take a back seat, the charismatic lead often brings a sense of charm and wit to the narrative. Their one-liners and charismatic presence contribute to the genre's appeal. "Bang Bang" movies are a testament to the magic of escapism, transporting viewers to a world where over-the-top action and heroics reign supreme.
+        
+        Notable examples include the "Die Hard" series, "Mad Max: Fury Road," and the "Fast & Furious" franchise. These films have gained massive popularity due to their ability to provide an adrenaline rush and pure excitement. Despite criticisms about their lack of depth, "Bang Bang" movies have carved out a unique space in the cinematic landscape, offering a guilty pleasure for those seeking unadulterated action and entertainment.`,
     },
     {
-      id: 15,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      id: 15,      
       category: 'bollywood',
-      name: 'Thugs Hindostan',
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      name: 'Thugs Of Hindostan',
+      desc: "Action-packed saga, 'Thugs of Hindostan,' a rollercoaster ride through daring heists and epic battles in colonial India.",
       image: img15,
       release: '12th August,2021',
-      imdb: '8.9/10',
+      imdb: '5.9/10',
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+        `"Thugs of Hindostan" is an Indian action-adventure film set in the 18th century during the British colonial era. The story follows a group of rebellious thugs who come together to challenge the oppressive rule of the British East India Company. Led by the charismatic and cunning Khudabaksh Azaad (played by Amitabh Bachchan), the group uses their unique skills and tactics to fight against the British forces.
+
+        The plot takes a turn when Firangi Mallah (played by Aamir Khan), a wily and unpredictable character, is recruited to infiltrate the thug group and gather information for the British. As the narrative unfolds, alliances are tested, loyalties are questioned, and epic battles ensue as the characters navigate a world of deceit, action, and adventure.
+        
+        The film blends action, drama, and elements of historical fiction, showcasing grand battles, daring heists, and larger-than-life characters. While the movie received mixed reviews for its complex plot and narrative execution, it remains notable for its scale, performances, and depiction of colonial-era India`,
     },
     {
-      id: 16,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      id: 16,      
       category: 'bollywood',
-      name: 'Shershaah',
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      name: 'Brahmastra',
+      desc: "Exploring the Enigma of Brahmastra: A Cinematic Odyssey",
       image: img16,
       release: '12th August,2021',
       imdb: '8.9/10',
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+      content: <Brahmastra/>,
     },
     {
       id: 17,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'bollywood',
       name: 'Shershaah',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -219,8 +220,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 18,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -232,8 +232,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 19,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -245,8 +244,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 20,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -258,8 +256,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 21,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -271,8 +268,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 22,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -284,8 +280,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 23,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -299,8 +294,7 @@ export const ProvideInfo = (props) => {
     // Technology (id: 24 - 36)
     {
       id: 24,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Artificial Intelligence (AI)',
       image: img24,
@@ -310,8 +304,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 25,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Security',
       image: img25,
@@ -321,8 +314,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 26,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Full Stack Developer',
       image: img26,
@@ -332,8 +324,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 27,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Network',
       image: img27,
@@ -343,8 +334,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 28,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Full Stack',
       image: img28,
@@ -354,8 +344,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 29,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -365,8 +354,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 30,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -376,8 +364,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 31,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -387,8 +374,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 32,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -398,8 +384,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 33,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -409,8 +394,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 34,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -420,8 +404,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 35,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -432,56 +415,51 @@ export const ProvideInfo = (props) => {
     // Hollywood (id: 36 - 48)
     {
       id: 36,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      desc:`Wakanda Forever is a 2022 American superhero film based on Marvel Comics featuring the character Shuri / Black Panther. `,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
       image: img36,
-      name: 'Title',
+      name: 'Wakanda Forever',
       content:
         "This is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 37,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      desc:`Marvel's Avengers: Earth's Mightiest Heroes Unite in Epic Film Saga. Action-packed superhero ensemble battles against formidable foes.`,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
       image: img37,
-      name: 'Title',
+      name: 'Avengers',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 38,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      desc:`The Dark Knight Rises' culminates Nolan's Batman trilogy in thrilling, explosive fashion.`,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
       image: img38,
-      name: 'Title',
+      name: 'The Dark Knight Rises',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 39,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      desc:`The Prestige' unravels obsession's dark magic. A cinematic masterpiece of mystery and obsession.`,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
       image: img39,
-      name: 'Title',
+      name: 'The Prestige',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 40,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       imdb: '7.6/10',
       release: '12th April,2002',
 
@@ -494,8 +472,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 41,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       imdb: '7.6/10',
       release: '12th April,2002',
 
@@ -508,8 +485,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 42,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       imdb: '7.6/10',
       release: '12th April,2002',
 
@@ -522,8 +498,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 43,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       imdb: '7.6/10',
       release: '12th April,2002',
 
@@ -536,8 +511,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 44,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       imdb: '7.6/10',
       release: '12th April,2002',
 
@@ -550,8 +524,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 45,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       imdb: '7.6/10',
       release: '12th April,2002',
 
@@ -564,8 +537,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 46,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       imdb: '7.6/10',
       release: '12th April,2002',
 
@@ -578,8 +550,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 48,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       imdb: '7.6/10',
       release: '12th April,2002',
 
@@ -592,8 +563,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 47,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       imdb: '7.6/10',
       release: '12th April,2002',
 
@@ -607,9 +577,7 @@ export const ProvideInfo = (props) => {
 
     // Fitness (id: 48 - 60)
     {
-      id: 48,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      id: 48,      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -619,8 +587,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 49,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -630,8 +597,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 50,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -641,8 +607,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 51,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -652,8 +617,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 52,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -664,8 +628,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 53,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -676,8 +639,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 54,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -688,8 +650,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 55,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -700,8 +661,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 56,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -712,8 +672,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 57,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -724,8 +683,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 58,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -736,8 +694,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 60,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -750,8 +707,7 @@ export const ProvideInfo = (props) => {
     // Food (id: 60 - 70)
     {
       id: 61,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image: img61,
@@ -761,8 +717,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 62,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image:img62,
@@ -772,8 +727,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 63,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image: img63,
@@ -783,8 +737,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 64,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image:img64,
@@ -794,8 +747,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 65,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image:img65,
@@ -805,8 +757,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 66,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image:
@@ -817,8 +768,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 67,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image:
@@ -829,8 +779,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 68,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image:
@@ -841,8 +790,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 69,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image:
@@ -853,8 +801,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 70,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image:
@@ -865,8 +812,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 71,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image:
@@ -877,8 +823,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 72,
-      avatar:
-        'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+      
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image:

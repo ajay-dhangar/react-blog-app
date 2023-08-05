@@ -28,10 +28,59 @@ const Fitstories = () => {
         <h2 className="home-latest-fitness-stories-title">
           Latest Fitness Stories
         </h2>
-        <hr className="underline" />
-        <div className="article-wrapper">
+        <hr className="home-latest-fitness-underline underline" />
+        <div className="dataContainer">
           {data
             .filter((value) => value.category === 'fitness').slice(0, 4)
+            .map((val) => (
+              <div key={val.id} className="sports">
+                <Link
+                  to={`/article/${val.id}`}
+                  style={{ position: 'relative', width: '5rem' }}
+                >
+                  <img className="sports-img" src={val.image} alt="" />
+                </Link>
+                <h3>{val.details}</h3>
+                <p className="texts">{val.name}</p>
+                <span
+                  style={{
+                    fontSize: '0.8rem',
+                    color: 'black',
+                    top: '0.5rem',
+                    position: 'relative',
+                  }}
+                >
+                  Date:
+                </span>
+                <span
+                  style={{
+                    color: 'grey',
+                    fontSize: '0.6rem',
+                    marginLeft: '10px',
+                    top: '0.5rem',
+                    position: 'relative',
+                  }}
+                >
+                  TODAY
+                </span>
+              </div>
+            ))}
+        </div>
+      </div>
+    </>
+  );
+};
+
+const Foodstories = () => {
+  const [data] = useContext(ContextData);
+  return (
+    <>
+      <div className='foodContainer'>
+        <h2 className="home-latest-food-stories-title">Latest Food Stories</h2>
+        <hr className="home-latest-fitness-underline underline" />
+        <div className="dataContainer">
+          {data
+            .filter((value) => value.category === 'food').slice(0, 4)
             .map((val) => (
               <div key={val.id} className="sports">
                 <Link
@@ -72,54 +121,6 @@ const Fitstories = () => {
   );
 };
 
-const Foodstories = () => {
-  const [data] = useContext(ContextData);
-  return (
-    <>
-      <h2 className="home-latest-food-stories-title">Latest Food Stories</h2>
-      <hr className="underline" />
-      <div className="article-wrapper">
-        {data
-          .filter((value) => value.category === 'food').slice(0, 4)
-          .map((val) => (
-            <div key={val.id} className="sports">
-              <Link
-                to={`/article/${val.id}`}
-                style={{ position: 'relative', width: '5rem' }}
-              >
-                <img src={val.image} alt="" className="sports-img" />
-              </Link>
-
-              <h3>{val.details}</h3>
-              <p className="texts">{val.name}</p>
-              <span
-                style={{
-                  fontSize: '0.8rem',
-                  color: 'black',
-                  top: '0.5rem',
-                  position: 'relative',
-                }}
-              >
-                Date:
-              </span>
-              <span
-                style={{
-                  color: 'grey',
-                  fontSize: '0.6rem',
-                  marginLeft: '10px',
-                  top: '0.5rem',
-                  position: 'relative',
-                }}
-              >
-                TODAY
-              </span>
-            </div>
-          ))}
-      </div>
-    </>
-  );
-};
-
 const Hollystories = () => {
   const [data] = useContext(ContextData);
 
@@ -137,30 +138,36 @@ const Hollystories = () => {
               .map((val) => (
                 <>
                   <div key={val.id} className="bolly-wrapper">
-                    <Link
-                      to={`/article/${val.id}`}
-                      className="bolly-image-wrapper"
-                    >
-                      <img src={val.image} alt="" className="bolly-image" />
-                    </Link>
+                    <div className='movie-img-containe'>
+                      <Link
+                        to={`/article/${val.id}`}
+                        className="bolly-image-wrapper"
+                      >
+                        <img src={val.image} alt="" className="bolly-image" />
+                      </Link>
+                    </div>
                     <div className="movie-details">
                       <div className="movie-data-1">
                         <p className="movie-title">{val.name}</p>
+                        <p className="movie-details-desc-para">{val.desc}</p>
                         <p className="movie-info">IMdb: {val.imdb}</p>
                       </div>
                       <hr style={{ height: '2px', backgroundColor: 'red' }} />
                       <div className="movie-data-2">
                         <p className="movie-rele">Release: {val.release}</p>
                       </div>
-                    </div>                    
+                    </div>
                   </div>
-                  {/* <hr style={{ height: '12px', backgroundColor: 'red' }} /> */}
                 </>
 
               ))}
           </div>
 
-          {/* <div className="advertisement">Advertisement</div> */}
+          <div className='ads-container'>
+            <div className="ads-box ads-1">Free <br /><br /> hollywood <br /><br />Movie</div>
+            <div className="ads-box ads-2">Free <br /><br /> hollywood <br /><br /> Movie</div>
+            <div className="ads-box ads-3">Free <br /><br /> hollywood <br /><br /> Movie</div>
+          </div>
         </div>
       </div>
     </>
@@ -185,22 +192,24 @@ const Bollystories = () => {
                   <img src={val.image} alt="" className="bolly-image" />
                 </Link>
                 <div className="movie-details">
-                      <div className="movie-data-1">
-                        <p className="movie-title">{val.name}</p>
-                        <p className="movie-info">IMdb: {val.imdb}</p>
-                      </div>
-                      <hr style={{ height: '2px', backgroundColor: 'red' }} />
-                      <div className="movie-data-2">
-                        <p className="movie-rele">Release: {val.release}</p>
-                      </div>
-                    </div> 
+                  <div className="movie-data-1">
+                    <p className="movie-title">{val.name}</p>
+                    <p className="movie-details-desc-para">{val.desc}</p>
+                    <p className="movie-info">IMdb: {val.imdb}</p>
+                  </div>
+                  <hr style={{ height: '2px', backgroundColor: 'red' }} />
+                  <div className="movie-data-2">
+                    <p className="movie-rele">Release: {val.release}</p>
+                  </div>
+                </div>
               </div>
             ))}
         </div>
-
-        {/* <div className="advertisement">
-
-        </div> */}
+        <div className='ads-container'>
+            <div className="ads-box ads-1">Free <br /><br /> Bollywood <br /><br />Movie</div>
+            <div className="ads-box ads-2">Free <br /><br /> Bollywood <br /><br /> Movie</div>
+            <div className="ads-box ads-3">Free <br /><br /> Bollywood <br /><br /> Movie</div>
+          </div>
       </div>
     </>
   );
@@ -245,8 +254,8 @@ const Sportstories = () => {
   return (
     <>
       <h2 className="home-latest-sport-stories-title">Latest Sports Stories</h2>
-      <hr className="underline" />
-      <div className="article-wrapper">
+      <hr className="home-latest-fitness-underline underline" />
+      <div className="dataContainer">
         {sport.map((value) => (
           <div key={value.id} className="sports">
             <Link
@@ -293,8 +302,8 @@ const Techstories = () => {
         <h2 className="home-latest-tech-stories-title">
           Latest Technology Stories
         </h2>
-        <hr className="underline" />
-        <div className="article-wrapper">
+        <hr className="home-latest-fitness-underline underline" />
+        <div className="dataContainer">
           {data
             .filter((value) => value.category === 'technology').slice(0, 4).map((val) => (
               <div key={val.id} className="sports">
