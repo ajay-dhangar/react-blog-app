@@ -75,30 +75,36 @@ const Info = () => {
                 </div>
               </div>
               <div>
-                <div>
+                <div className='main-right-container'>
                   {data
                     .filter((value) => value.category === 'food').slice(4, 8)
                     .map((val) => {
                       return (
                         <>
-                          <div key={val.id} className="right-data-wrapper">
-                            <Link to={`/article/${val.id}`} className="right-data-link">
-                              <img src={val.image} alt="" className="top-post-image" />
-                            </Link>
+                          <div className='main-rigth-container'>
+                            <div key={val.id} className="right-data-wrapper">
+                              <div className='right-img-container'>
+                                <Link to={`/article/${val.id}`} className="right-data-link">
+                                  <img src={val.image} alt="" className="top-post-image" />
+                                </Link>
+                              </div>
+                              <div className="top-post-details-wrapper">
+                                <p className="top-post-details title"><span style={{ color: 'orangered' }}>{val.name}</span></p>
+                                <p className="top-post-details fits-details"> {val.desc}</p>
 
-                            <div className="top-post-details-wrapper">
-                              <p className="top-post-details title"><span style={{color:'orangered'}}>{val.name}</span></p>
-                              <p className="top-post-details fits-details"> {val.desc}</p>
-
+                              </div>
                             </div>
-                          </div>
-                          {/* <hr className="top-post-divider" /> */}
-                          <div className='bolly-ads-container'>
-                            <div className="bolly-ads-box ads-1">Advertisement</div>
+                            {/* <hr className="top-post-divider" /> */}
+                            <div className='bolly-ads-container'>
+                              <div className="bolly-ads-box ads-1">Advertisement</div>
+                            </div>
                           </div>
                         </>
                       )
                     })}
+                </div>
+                <div className='bolly-ads-container'>
+                  <div className="bolly-ads-box-2 ads-2">Advertisement</div>
                 </div>
               </div>
             </div>

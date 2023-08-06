@@ -165,8 +165,6 @@ const Hollystories = () => {
 
           <div className='ads-container'>
             <div className="ads-box ads-1">Free <br /><br /> hollywood <br /><br />Movie</div>
-            <div className="ads-box ads-2">Free <br /><br /> hollywood <br /><br /> Movie</div>
-            <div className="ads-box ads-3">Free <br /><br /> hollywood <br /><br /> Movie</div>
           </div>
         </div>
       </div>
@@ -206,10 +204,8 @@ const Bollystories = () => {
             ))}
         </div>
         <div className='ads-container'>
-            <div className="ads-box ads-1">Free <br /><br /> Bollywood <br /><br />Movie</div>
-            <div className="ads-box ads-2">Free <br /><br /> Bollywood <br /><br /> Movie</div>
-            <div className="ads-box ads-3">Free <br /><br /> Bollywood <br /><br /> Movie</div>
-          </div>
+          <div className="ads-box ads-1">Free <br /><br /> Bollywood <br /><br /> Movie</div>
+        </div>
       </div>
     </>
   );
@@ -229,11 +225,11 @@ const Sportstories = () => {
         sport.push(data[i]);
         break;
       default:
-        console.log('no data found');
+        console.log('no data here...');
     }
   }
 
-  console.log(sport);
+  // console.log(sport);
 
   const [currentDate, setCurrentDate] = useState(new Date());
 
@@ -348,7 +344,7 @@ const Techstories = () => {
 const Home = () => {
   const [data] = useContext(ContextData);
 
-  console.log(data);
+  // console.log(data);
 
   const item1 = [];
   const item2 = [];
@@ -365,7 +361,7 @@ const Home = () => {
         break;
 
       default:
-        console.log('no data found');
+        console.log('no data here...');
     }
   }
 

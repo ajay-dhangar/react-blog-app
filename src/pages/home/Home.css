@@ -181,15 +181,10 @@ hr {
   border: 1px solid #fafafa;
   box-shadow: 4px 4px 8px #262626;
 }
-.ads-container{
-  /* background-color: red; */
-  width: 50%;
-  height: 70%;
-  
-}
+
 .ads-box{
-  width: 40%;
-  height: 30%;
+  width: 300px;
+  height: 500px;
   margin: 30px;
   border: 1px solid rgb(255, 19, 19);
   border-radius: 30px;
@@ -315,9 +310,9 @@ h2 {
   }
 
   .sports-img {
-    height: 20%;
-    width: 80%;
-    margin-bottom: 4vh;
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
   }
 
   .bolly-stories {
@@ -347,7 +342,7 @@ h2 {
   }
 
   .bolly-image {
-    height: 20%;
+    width: 350px;
   }
 
   .wrapper {
@@ -386,7 +381,10 @@ h2 {
     text-align: center;
   }
 
-  
+  .ads-box{
+    width: 400px;
+    height: 300px;    
+  }
 
   .top-post-details {
     top: 0;
@@ -555,5 +553,33 @@ h2 {
     position: relative;
     width: 95%;
     margin-top: 2vh;
+  }
+}
+@media screen and (max-width:570px){
+  .sports-img {
+    height: 150px;
+    width: 200px;
+    margin-bottom: 4vh;
+  }
+  .bolly-image {
+    width: 200px;
+  }
+  .ads-box{
+    width: 300px;
+    height: 200px;    
+  }
+}
+@media screen and (max-width:370px){
+  .bolly-image {
+    width: 150px;
+  }
+  .ads-box{
+    width: 200px;
+    height: 150px;    
+  }
+}
+@media screen and (max-width:370px){
+  .ads-box{
+    display: none;   
   }
 }

@@ -75,17 +75,19 @@ const Info = () => {
                 </div>
               </div>
               <div>
-                <div>
+              <div className='main-right-container'>
                   {data
                     .filter((value) => value.category === 'hollywood').slice(4, 8)
                     .map((val) => {
                       return (
                         <>
+                        <div className='main-rigth-container'>
                           <div key={val.id} className="right-data-wrapper">
+                          <div className='right-img-container'>
                             <Link to={`/article/${val.id}`} className="right-data-link">
                               <img src={val.image} alt="" className="top-post-image" />
                             </Link>
-
+                            </div>
                             <div className="top-post-details-wrapper">
                               <p className="top-post-details title">{val.name}</p>
                               <p className="top-post-details IMdb"><span style={{ fontWeight: '600' }}>IMdb:</span> {val.imdb}</p>
@@ -97,9 +99,13 @@ const Info = () => {
                           <div className='bolly-ads-container'>
                             <div className="bolly-ads-box ads-1">Advertisement</div>
                           </div>
+                          </div>
                         </>
                       )
                     })}
+                </div>
+                <div className='bolly-ads-container'>
+                  <div className="bolly-ads-box-2 ads-2">Advertisement</div>
                 </div>
               </div>
             </div>
