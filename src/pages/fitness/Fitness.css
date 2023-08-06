@@ -3,3 +3,9 @@
   /* background-color: red; */
   margin: 25px;
 }
+.fits-details{
+  width: 150px;
+  /* color: #262626; */
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #9a7878;
+}

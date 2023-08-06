@@ -124,12 +124,12 @@ export const ProvideInfo = (props) => {
       content: `Cricket, often referred to as the gentleman's game, is a sport of grace and strategy. Played between two teams with a bat and ball, it has a loyal following in many countries. The sound of leather on willow, the tension during close matches, and the artistry of a well-executed cover drive make cricket an unforgettable experience. Its history dates back centuries, and today, it has evolved into different formats, catering to diverse audiences. Cricket is more than just a sport; it's a way of life for millions of fans worldwide.`,
       details:
         "The Gentleman's Game Filled with Passion and Excitement",
-      
+
     },
 
     // Bollywood (id: 12 - 24)
     {
-      id: 12,      
+      id: 12,
       category: 'bollywood',
       name: 'Raanjhanaa',
       desc: "Bittersweet Love Saga: 'Raanjhanaa' Delves into Passion, Sacrifice, and Heartache.",
@@ -140,14 +140,14 @@ export const ProvideInfo = (props) => {
         `Released in 2013, "Raanjhanaa" is a captivating Bollywood movie that weaves an enchanting story of love, sacrifice, and societal norms. Directed by Aanand L. Rai, the film stars Dhanush, Sonam Kapoor, and Abhay Deol in lead roles. Set in the vibrant and culturally rich city of Varanasi, the movie takes the audience on an emotional rollercoaster, leaving an everlasting impact. The film introduces us to Kundan Shankar, portrayed brilliantly by Dhanush, a carefree and mischievous young boy who falls head over heels in love with Zoya Haider, played by Sonam Kapoor, a spirited and determined girl hailing from a Muslim family. Their innocent friendship blossoms into a beautiful love story that transcends the boundaries of religion and society. However, fate has other plans for the couple. Zoya's family discovers their relationship and vehemently opposes it due to their different religious backgrounds. The movie beautifully delves into the complexities of religious differences and the challenges faced by individuals in love, testing their devotion and resilience. Despite facing numerous hurdles and social pressures, Kundan remains steadfast in his love for Zoya. His devotion and determination to win her heart, even after she moves away, are heartwarming yet heart-wrenching. Dhanush's portrayal of Kundan's character is simply remarkable, bringing out the raw emotions of love and sacrifice flawlessly. As the story progresses, Zoya's life takes a dramatic turn, leading her to a new city with a fresh start. Abhay Deol's character, Jasjeet Singh Shergill, is introduced as a suitor for Zoya, bringing in another layer of complexity to the narrative. The film brilliantly showcases the internal conflict and dilemma faced by Zoya as she must choose between her past love, Kundan, and her present suitor, Jasjeet. "Raanjhanaa" explores the theme of unrequited love and selfless sacrifice, with Kundan going to great lengths to protect and support Zoya, even if it means jeopardizing his own happiness. His unwavering love for Zoya becomes the driving force of the movie, leading to a powerful climax that leaves the audience teary-eyed and emotionally moved. The film is also enriched with soulful music, composed by the legendary A.R. Rahman, which beautifully complements the narrative. Melodious tracks like "Tum Tak" and "Raanjhanaa Hua Mai Tera" stay etched in the hearts of the viewers, adding an enchanting charm to the film. In conclusion, "Raanjhanaa" is not just a love story; it is an emotional journey that touches upon various aspects of human emotions. It skillfully portrays the complexities of love, the strength of sacrifice, and the impact of societal norms on relationships. With stellar performances, a captivating storyline, and soulful music, the movie leaves a lasting impression on anyone who watches it.`,
     },
     {
-      id: 13,      
+      id: 13,
       category: 'bollywood',
       name: 'RRR',
       desc: `"RRR" is set in the 1920s and is a fictional retelling of the lives of two Indian freedom fighters,`,
-      image:img13,
+      image: img13,
       release: 'October 13, 2021',
       imdb: '7.8/10',
-      content:`The much-awaited blockbuster, "RRR," has taken the world by storm, leaving audiences captivated with its breathtaking action sequences and emotional depth. Directed by the visionary filmmaker S.S. Rajamouli, the movie is set against the backdrop of India's pre-independence era and revolves around the lives of two fictional revolutionary freedom fighters, Alluri Sitarama Raju and Komaram Bheem.
+      content: `The much-awaited blockbuster, "RRR," has taken the world by storm, leaving audiences captivated with its breathtaking action sequences and emotional depth. Directed by the visionary filmmaker S.S. Rajamouli, the movie is set against the backdrop of India's pre-independence era and revolves around the lives of two fictional revolutionary freedom fighters, Alluri Sitarama Raju and Komaram Bheem.
 
       The film begins with a spectacular display of action as we witness the unyielding spirit of Alluri Sitarama Raju, portrayed brilliantly by Ram Charan, fighting against the oppressive British rule. His valiant efforts to free the country from colonial shackles inspire patriotism in every viewer's heart. On the other hand, we have Komaram Bheem, played by the versatile Jr. NTR, a tribal leader fighting against the atrocities faced by his people. His raw energy and emotional intensity tug at our heartstrings, creating an instant connection with the audience.
       
@@ -160,14 +160,14 @@ export const ProvideInfo = (props) => {
       At its core, "RRR" is not just a movie; it's a cinematic experience that celebrates the spirit of freedom, friendship, and sacrifice. The film has broken box office records and garnered critical acclaim, cementing its place in the annals of Indian cinema.
       
       In conclusion, "RRR" is a masterfully crafted epic that combines breathtaking action with emotional storytelling. It's a must-watch for every cinephile, as it leaves an indelible mark on the hearts of its viewers. So, gear up for an unforgettable journey into the world of bravery and camaraderie with "RRR." Experience the magic of cinema at its finest, as Rajamouli weaves his directorial brilliance once again to mesmerize the audience.`,
-        
+
     },
     {
-      id: 14,      
+      id: 14,
       category: 'bollywood',
       name: 'Bang Bang',
       desc: `Action movies are a thrilling film genre characterized by intense physical feats, daring stunts, and high-octane sequences.`,
-      image:img14,
+      image: img14,
       release: ' October 2, 2014',
       imdb: '5.6/10',
       content:
@@ -182,7 +182,7 @@ export const ProvideInfo = (props) => {
         Notable examples include the "Die Hard" series, "Mad Max: Fury Road," and the "Fast & Furious" franchise. These films have gained massive popularity due to their ability to provide an adrenaline rush and pure excitement. Despite criticisms about their lack of depth, "Bang Bang" movies have carved out a unique space in the cinematic landscape, offering a guilty pleasure for those seeking unadulterated action and entertainment.`,
     },
     {
-      id: 15,      
+      id: 15,
       category: 'bollywood',
       name: 'Thugs Of Hindostan',
       desc: "Action-packed saga, 'Thugs of Hindostan,' a rollercoaster ride through daring heists and epic battles in colonial India.",
@@ -197,18 +197,18 @@ export const ProvideInfo = (props) => {
         The film blends action, drama, and elements of historical fiction, showcasing grand battles, daring heists, and larger-than-life characters. While the movie received mixed reviews for its complex plot and narrative execution, it remains notable for its scale, performances, and depiction of colonial-era India`,
     },
     {
-      id: 16,      
+      id: 16,
       category: 'bollywood',
       name: 'Brahmastra',
       desc: "Exploring the Enigma of Brahmastra: A Cinematic Odyssey",
       image: img16,
       release: '12th August,2021',
       imdb: '8.9/10',
-      content: <Brahmastra/>,
+      content: <Brahmastra />,
     },
     {
       id: 17,
-      
+
       category: 'bollywood',
       name: 'Shershaah',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -220,7 +220,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 18,
-      
+
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -232,7 +232,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 19,
-      
+
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -244,7 +244,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 20,
-      
+
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -256,7 +256,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 21,
-      
+
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -268,7 +268,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 22,
-      
+
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -280,21 +280,21 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 23,
-      
+
       category: 'bollywood',
       name: 'Title',
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      image:img23,
+      image: img23,
       release: '12th August,2021',
       imdb: '8.9/10',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
-    },    
+    },
 
     // Technology (id: 24 - 36)
     {
       id: 24,
-      
+
       category: 'technology',
       name: 'Artificial Intelligence (AI)',
       image: img24,
@@ -304,7 +304,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 25,
-      
+
       category: 'technology',
       name: 'Security',
       image: img25,
@@ -314,7 +314,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 26,
-      
+
       category: 'technology',
       name: 'Full Stack Developer',
       image: img26,
@@ -324,7 +324,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 27,
-      
+
       category: 'technology',
       name: 'Network',
       image: img27,
@@ -334,7 +334,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 28,
-      
+
       category: 'technology',
       name: 'Full Stack',
       image: img28,
@@ -344,7 +344,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 29,
-      
+
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -354,7 +354,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 30,
-      
+
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -364,7 +364,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 31,
-      
+
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -374,7 +374,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 32,
-      
+
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -384,7 +384,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 33,
-      
+
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -394,7 +394,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 34,
-      
+
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -404,7 +404,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 35,
-      
+
       category: 'technology',
       name: 'Full Stack',
       image: Bolly5,
@@ -415,7 +415,7 @@ export const ProvideInfo = (props) => {
     // Hollywood (id: 36 - 48)
     {
       id: 36,
-      desc:`Wakanda Forever is a 2022 American superhero film based on Marvel Comics featuring the character Shuri / Black Panther. `,
+      desc: `Wakanda Forever is a 2022 American superhero film based on Marvel Comics featuring the character Shuri / Black Panther. `,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
@@ -426,7 +426,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 37,
-      desc:`Marvel's Avengers: Earth's Mightiest Heroes Unite in Epic Film Saga. Action-packed superhero ensemble battles against formidable foes.`,
+      desc: `Marvel's Avengers: Earth's Mightiest Heroes Unite in Epic Film Saga. Action-packed superhero ensemble battles against formidable foes.`,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
@@ -437,7 +437,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 38,
-      desc:`The Dark Knight Rises' culminates Nolan's Batman trilogy in thrilling, explosive fashion.`,
+      desc: `The Dark Knight Rises' culminates Nolan's Batman trilogy in thrilling, explosive fashion.`,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
@@ -448,7 +448,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 39,
-      desc:`The Prestige' unravels obsession's dark magic. A cinematic masterpiece of mystery and obsession.`,
+      desc: `The Prestige' unravels obsession's dark magic. A cinematic masterpiece of mystery and obsession.`,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
@@ -459,117 +459,95 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 40,
-      
       imdb: '7.6/10',
       release: '12th April,2002',
-
       category: 'hollywood',
-      image:
-        'https://assets.gadgets360cdn.com/pricee/assets/product/202112/harry_potter_return_to_hogwarts_1640957863.jpg',
+      image: img36,
       name: 'Harry Potter',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 41,
-      
       imdb: '7.6/10',
       release: '12th April,2002',
-
       category: 'hollywood',
-      image:
-        'https://assets.gadgets360cdn.com/pricee/assets/product/202112/harry_potter_return_to_hogwarts_1640957863.jpg',
+      image: img36,
       name: 'Harry Potter',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 42,
-      
       imdb: '7.6/10',
       release: '12th April,2002',
-
       category: 'hollywood',
-      image:
-        'https://assets.gadgets360cdn.com/pricee/assets/product/202112/harry_potter_return_to_hogwarts_1640957863.jpg',
+      image: img36,
       name: 'Harry Potter',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 43,
-      
       imdb: '7.6/10',
       release: '12th April,2002',
-
       category: 'hollywood',
-      image:
-        'https://assets.gadgets360cdn.com/pricee/assets/product/202112/harry_potter_return_to_hogwarts_1640957863.jpg',
+      image: img36,
       name: 'Harry Potter',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 44,
-      
+
       imdb: '7.6/10',
       release: '12th April,2002',
-
+      image: img36,
       category: 'hollywood',
-      image:
-        'https://assets.gadgets360cdn.com/pricee/assets/product/202112/harry_potter_return_to_hogwarts_1640957863.jpg',
       name: 'Harry Potter',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 45,
-      
+
       imdb: '7.6/10',
       release: '12th April,2002',
-
+      image: img36,
       category: 'hollywood',
-      image:
-        'https://assets.gadgets360cdn.com/pricee/assets/product/202112/harry_potter_return_to_hogwarts_1640957863.jpg',
       name: 'Harry Potter',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 46,
-      
+
       imdb: '7.6/10',
       release: '12th April,2002',
-
+      image: img36,
       category: 'hollywood',
-      image:
-        'https://assets.gadgets360cdn.com/pricee/assets/product/202112/harry_potter_return_to_hogwarts_1640957863.jpg',
       name: 'Harry Potter',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 48,
-      
+
       imdb: '7.6/10',
       release: '12th April,2002',
-
+      image: img36,
       category: 'hollywood',
-      image:
-        'https://assets.gadgets360cdn.com/pricee/assets/product/202112/harry_potter_return_to_hogwarts_1640957863.jpg',
       name: 'Harry Potter',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
     },
     {
       id: 47,
-      
+
       imdb: '7.6/10',
       release: '12th April,2002',
-
+      image: img36,
       category: 'hollywood',
-      image:
-        'https://assets.gadgets360cdn.com/pricee/assets/product/202112/harry_potter_return_to_hogwarts_1640957863.jpg',
       name: 'Harry Potter',
       content:
         "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
@@ -577,7 +555,7 @@ export const ProvideInfo = (props) => {
 
     // Fitness (id: 48 - 60)
     {
-      id: 48,      
+      id: 48,
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -587,7 +565,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 49,
-      
+
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -597,7 +575,7 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 50,
-      
+
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -606,8 +584,7 @@ export const ProvideInfo = (props) => {
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
     {
-      id: 51,
-      
+      id: 51,      
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
@@ -617,98 +594,81 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 52,
-      
+      image: img48,
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
     {
       id: 53,
-      
+      image: img48,
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
     {
       id: 54,
-      
+      image: img48,
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
     {
       id: 55,
-      
+      image: img48,
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
     {
       id: 56,
-      
+      image: img48,
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
     {
       id: 57,
-      
+      image: img48,
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
     {
       id: 58,
-      
+      image: img48,
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
     {
       id: 60,
-      
+      image: img48,
       category: 'fitness',
       details: 'Increase your muscle mass to build up strength',
       name: 'Lunges',
-      image:
-        'https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg',
       content:
         'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
     },
-    
+
     // Food (id: 60 - 70)
     {
       id: 61,
-      
-      details: 'Have a quick bite today & refresh your mood',
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image: img61,
       name: 'Pizza Hut',
@@ -717,18 +677,18 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 62,
-      
-      details: 'Have a quick bite today & refresh your mood',
+
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:img62,
+      image: img62,
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
     },
     {
       id: 63,
-      
-      details: 'Have a quick bite today & refresh your mood',
+
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
       image: img63,
       name: 'Pizza Hut',
@@ -737,97 +697,83 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 64,
-      
-      details: 'Have a quick bite today & refresh your mood',
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:img64,
+      image: img64,
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
     },
     {
       id: 65,
-      
+
       details: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:img65,
+      image: img65,
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
     },
     {
       id: 66,
-      
-      details: 'Have a quick bite today & refresh your mood',
+      image: img61,
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
     },
     {
       id: 67,
-      
-      details: 'Have a quick bite today & refresh your mood',
+      image: img61,
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
     },
     {
       id: 68,
-      
-      details: 'Have a quick bite today & refresh your mood',
+      image: img61,
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
     },
     {
       id: 69,
-      
-      details: 'Have a quick bite today & refresh your mood',
+      image: img61,
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
     },
     {
       id: 70,
-      
-      details: 'Have a quick bite today & refresh your mood',
+      image: img61,
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
     },
     {
       id: 71,
-      
-      details: 'Have a quick bite today & refresh your mood',
+      image: img61,
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
     },
     {
       id: 72,
-      
-      details: 'Have a quick bite today & refresh your mood',
+
+      desc: 'Have a quick bite today & refresh your mood',
       category: 'food',
-      image:
-        'https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/one-plus-one-personal.7c69aa348df543d8ac2835d5f8fb1972.1.jpg',
+      image: img61,
       name: 'Pizza Hut',
       content:
         'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
