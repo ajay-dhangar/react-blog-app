@@ -49,7 +49,7 @@ const Info = () => {
                           </Link>
                         </div>
                         <div className="movie-details">
-                          <p className="movie-details-para bolly-title">Movie Name: <span style={{ color: 'orangered' }}>{val.name}</span></p>
+                          <p className="movie-details-para bolly-title">Name: <span style={{ color: 'orangered' }}>{val.name}</span></p>
                           <p className="desc">{val.details}</p>
                           {/* <div className="movie-data-contain">
                             <p className="movie-details-para IMdb"><b>IMdb:</b> {val.imdb} <b>,</b> </p>

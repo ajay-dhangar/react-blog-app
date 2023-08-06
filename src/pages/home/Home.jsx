@@ -164,7 +164,7 @@ const Hollystories = () => {
           </div>
 
           <div className='ads-container'>
-            <div className="ads-box ads-1">Free <br /><br /> hollywood <br /><br />Movie</div>
+            <div className="ads-box ads-1">Advertisement</div>
           </div>
         </div>
       </div>
@@ -204,7 +204,7 @@ const Bollystories = () => {
             ))}
         </div>
         <div className='ads-container'>
-          <div className="ads-box ads-1">Free <br /><br /> Bollywood <br /><br /> Movie</div>
+          <div className="ads-box ads-1">Advertisement</div>
         </div>
       </div>
     </>

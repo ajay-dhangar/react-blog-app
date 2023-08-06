@@ -13,10 +13,10 @@ function Footer() {
                     <div className="wave" id="wave4"></div>
                 </div>
                 <ul className="social_icon">
-                    <li><Link to="https://github.com/Ajay-Dhangar"><ion-icon name="logo-github"></ion-icon></Link></li>
-                    <li><Link to="https://twitter.com/AJAYDHA27250016"><ion-icon name="logo-twitter"></ion-icon></Link></li>
-                    <li><Link to="https://www.linkedin.com/in/ajay-dhangar/"><ion-icon name="logo-linkedin"></ion-icon></Link></li>
-                    <li><Link to="https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw"><ion-icon name="logo-youtube"></ion-icon></Link></li>
+                    <li><Link to="https://github.com/Ajay-Dhangar" target='blank'><ion-icon name="logo-github"></ion-icon></Link></li>
+                    <li><Link to="https://twitter.com/AJAYDHA27250016" target='blank'><ion-icon name="logo-twitter"></ion-icon></Link></li>
+                    <li><Link to="https://www.linkedin.com/in/ajay-dhangar/" target='blank'><ion-icon name="logo-linkedin"></ion-icon></Link></li>
+                    <li><Link to="https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw" target='blank'><ion-icon name="logo-youtube"></ion-icon></Link></li>
                 </ul>
 
                 {/* <ul className="menu">

@@ -1,17 +1,19 @@
 {
   "name": "react-blog-app",
   "version": "0.1.0",
-  "homepage": "https://ajay-dhangar.github.io/react-blog-app/",  
+  "homepage": "https://ajay-dhangar.github.io/react-blog-app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "jquery": "^3.7.0",
+    "marked": "^6.0.0",
     "node-sass": "^9.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
