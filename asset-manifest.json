@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-blog-app/static/css/main.749e5864.css",
-    "main.js": "/react-blog-app/static/js/main.767edf3c.js",
+    "main.css": "/react-blog-app/static/css/main.58e5e2ab.css",
+    "main.js": "/react-blog-app/static/js/main.25e8c11e.js",
     "static/media/War-.jpg": "/react-blog-app/static/media/War-.d29d7af91be62faf9450.jpg",
     "static/media/students.jpg": "/react-blog-app/static/media/students.55d44a4d7dfd2f6b30ee.jpg",
     "static/media/food-1.jpg": "/react-blog-app/static/media/food-1.ea4ba24cc552fec42ab2.jpg",
@@ -26,11 +26,11 @@
     "static/media/pathan.jpg": "/react-blog-app/static/media/pathan.09f78e0bec15dafbcea8.jpg",
     "static/media/fitness-3.jpg": "/react-blog-app/static/media/fitness-3.3cae7ed481eb0f6440b2.jpg",
     "index.html": "/react-blog-app/index.html",
-    "main.749e5864.css.map": "/react-blog-app/static/css/main.749e5864.css.map",
-    "main.767edf3c.js.map": "/react-blog-app/static/js/main.767edf3c.js.map"
+    "main.58e5e2ab.css.map": "/react-blog-app/static/css/main.58e5e2ab.css.map",
+    "main.25e8c11e.js.map": "/react-blog-app/static/js/main.25e8c11e.js.map"
   },
   "entrypoints": [
-    "static/css/main.749e5864.css",
-    "static/js/main.767edf3c.js"
+    "static/css/main.58e5e2ab.css",
+    "static/js/main.25e8c11e.js"
   ]
 }
