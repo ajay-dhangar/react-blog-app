@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-blog-app/static/css/main.1027f2ba.css",
-    "main.js": "/react-blog-app/static/js/main.9eec0cfd.js",
+    "main.css": "/react-blog-app/static/css/main.01c41110.css",
+    "main.js": "/react-blog-app/static/js/main.562a72ab.js",
     "static/media/War-.jpg": "/react-blog-app/static/media/War-.d29d7af91be62faf9450.jpg",
     "static/media/students.jpg": "/react-blog-app/static/media/students.55d44a4d7dfd2f6b30ee.jpg",
     "static/media/food-1.jpg": "/react-blog-app/static/media/food-1.ea4ba24cc552fec42ab2.jpg",
@@ -26,11 +26,11 @@
     "static/media/pathan.jpg": "/react-blog-app/static/media/pathan.09f78e0bec15dafbcea8.jpg",
     "static/media/fitness-3.jpg": "/react-blog-app/static/media/fitness-3.3cae7ed481eb0f6440b2.jpg",
     "index.html": "/react-blog-app/index.html",
-    "main.1027f2ba.css.map": "/react-blog-app/static/css/main.1027f2ba.css.map",
-    "main.9eec0cfd.js.map": "/react-blog-app/static/js/main.9eec0cfd.js.map"
+    "main.01c41110.css.map": "/react-blog-app/static/css/main.01c41110.css.map",
+    "main.562a72ab.js.map": "/react-blog-app/static/js/main.562a72ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.1027f2ba.css",
-    "static/js/main.9eec0cfd.js"
+    "static/css/main.01c41110.css",
+    "static/js/main.562a72ab.js"
   ]
 }
