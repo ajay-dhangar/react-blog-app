@@ -70,7 +70,6 @@ const Article = () => {
                       <img src='https://api.iconify.design/ph:thumbs-up-duotone.svg' alt='like' className='share-icon' />
                       <img src='https://api.iconify.design/ic:outline-share.svg' alt="share" style={{ marginLeft: '10px' }} className='sb share-icon' />
                       <img src="https://api.iconify.design/ph:hands-clapping.svg" alt="Clap-2" style={{ marginLeft: '10px' }} className='cb share-icon' />
-
                     </div>
                     <hr
                       style={{ marginTop: '2rem', position: 'relative', width: '100%' }}

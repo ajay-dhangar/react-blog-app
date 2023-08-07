@@ -72,7 +72,7 @@
     top: 1rem;
     margin-bottom: 10px;
     justify-content: space-evenly;
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
     border-radius: 10px;
 }
 
@@ -218,5 +218,7 @@
 
 .like-img {
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 

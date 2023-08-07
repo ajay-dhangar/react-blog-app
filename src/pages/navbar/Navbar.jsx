@@ -30,7 +30,7 @@ function Navbar() {
         </div>
 
         <nav className="navbar" id="navbar">
-          <div className="container">
+          <div className="nav-container">
             <div className="" id="navbarResponsive">
               <ul className="nav navbar-nav">
                 <li className="nav-item">
