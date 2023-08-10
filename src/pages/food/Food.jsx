@@ -3,28 +3,36 @@ import { ContextData } from '../../data/Data';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 // import './Bollywood.css';
-// import ImageSlider from '../home/ImageSlider';
+import ImageSlider from '../home/ImageSlider';
 import Footer from '../../component/footer/Footer'
+import './Food.css'
+import image1 from '../../data/images/food/Burgers.jpg'
+import image2 from '../../data/images/food/Cheesecake.jpg'
+import image3 from '../../data/images/food/Chocolate.jpg'
+import image4 from '../../data/images/food/Curry.jpg'
+import image5 from '../../data/images/food/Donuts.jpg'
+import image6 from '../../data/images/food/Ice-cream.jpg'
+import image7 from '../../data/images/food/Macarons.jpg'
+import image8 from '../../data/images/food/Pasta.jpg'
+import image9 from '../../data/images/food/Pizza.jpg'
+import image10 from '../../data/images/food/Ramen.jpg'
+import image11 from '../../data/images/food/Sushi.jpg'
+import image12 from '../../data/images/food/Tacos.jpg'
 
-// import image1 from './img/check.jpg'
-// import image2 from './img/students.jpg'
-import image3 from '../../pages/home/img/home-4.jpg'
-// import image4 from './img/pathan.jpg'
-// import image5 from './img/War-.jpg'
-// import image6 from './img/brahmastra.jpg'
-// import image7 from './img/don2.jpg'
-// import image8 from './img/War-.jpg'
-
-// const images = [
-//   image1,
-//   image2,
-//   image3,
-//   image4,
-//   image5,
-//   image6,
-//   image7,
-//   image8,
-// ];
+const images = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
+  image9,
+  image10,
+  image11,
+  image12,
+];
 
 const Info = () => {
   const [data] = useContext(ContextData);
@@ -45,11 +53,11 @@ const Info = () => {
                       <div key={val.id} className="bolly-wrapper">
                         <div className="img-container">
                           <Link to={`/article/${val.id}`} className="left-data-link">
-                            <img src={val.image} alt="" className="bolly-all-image" />
+                            <img src={val.image} alt="" className="food-all-image" />
                           </Link>
                         </div>
                         <div className="movie-details">
-                          <p className="movie-details-para bolly-title">Name: <span style={{ color: 'orangered' }}>{val.name}</span></p>
+                          <p className="movie-details-para bolly-title"><span style={{ color: 'orangered', fontSize:'28px' }}>{val.name}</span></p>
                           <p className="desc">{val.desc}</p>
                           {/* <div className="movie-data-contain">
                             <p className="movie-details-para IMdb"><b>IMdb:</b> {val.imdb} <b>,</b> </p>
@@ -65,17 +73,18 @@ const Info = () => {
                 })}
             </div>
 
-            <div className="right-data">
+            <div className="food-right-data">
               <div className="top-post-heading-wrapper">
                 <h2 className="top-post-title">Top Post</h2>
                 <div className="top-bolly-post-underline"></div>
                 <div className="top-bolly-post-underline2"></div>
-                <div className='bolly-top-img'>
-                  <img src={image3} alt="top img" />
+                <div className='food-top-img'>
+                  {/* <img src={image3} alt="top img" /> */}
+                  <ImageSlider images={images} />
                 </div>
               </div>
               <div>
-                <div className='main-right-container'>
+                <div className='main-right-container food-main-right-container'>
                   {data
                     .filter((value) => value.category === 'food').slice(4, 8)
                     .map((val) => {
@@ -90,7 +99,7 @@ const Info = () => {
                               </div>
                               <div className="top-post-details-wrapper">
                                 <p className="top-post-details title"><span style={{ color: 'orangered' }}>{val.name}</span></p>
-                                <p className="top-post-details fits-details"> {val.desc}</p>
+                                <p className="top-post-details fits-details"> {val.dif}</p>
 
                               </div>
                             </div>

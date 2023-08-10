@@ -1,0 +1,484 @@
+.HomeContainer {
+  padding: 5px;
+  text-align: center;
+}
+
+
+.home-latest-hollywood-stories-title {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 2vh;
+}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:1000px) {}
+
+@media screen and (max-width:570px) {}
+
+@media screen and (max-width:370px) {}
+
+/* ==================================================== */
+
+.home-latest-food-stories-title {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:1000px) {}
+
+@media screen and (max-width:570px) {}
+
+@media screen and (max-width:370px) {}
+
+/* ====================================================== */
+
+.home-latest-fitness-stories-title {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 4vh;
+  margin-bottom: 2vh,
+}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:1000px) {}
+
+@media screen and (max-width:570px) {}
+
+@media screen and (max-width:370px) {}
+
+/* ====================================================== */
+
+
+/* Extra Styling  */
+
+.underline {
+  width: 2rem;
+  height: 2px;
+  background-color: red;
+  margin-top: 1rem;
+}
+
+.underline:hover {
+  width: 10rem;
+  transition: width 1s;
+}
+
+.underline1 {
+  width: 3rem;
+  height: 3px;
+  background-color: red;
+  cursor: pointer;
+  position: relative;
+  left: 15rem;
+  top: 1rem;
+}
+
+.top-post-underline {
+  width: 3rem;
+  height: 3px;
+  background-color: red;
+  cursor: pointer;
+}
+
+
+.post-divider {
+  width: 45rem;
+  margin-left: 4.5rem;
+}
+
+.movie-info {
+  font-size: 18px;
+}
+
+
+
+hr {
+  width: 70%;
+  margin: auto;
+  background-color: lightgrey;
+}
+
+
+.text-rotate {
+  transform: rotate(-90deg);
+  position: relative;
+  top: 1.5rem;
+}
+
+.rotate-wrapper {
+  width: 15%;
+  height: 8vh;
+  background-color: black;
+  color: white;
+}
+
+.title-wrapper {
+  width: 15%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home-latest-fitness-underline {
+  margin-bottom: 50px;
+}
+
+
+
+.texts {
+  color: orangered;
+  margin-top: 0.6rem;
+  word-wrap: break-word;
+  font-size: 1.5rem;
+  /* -webkit-text-stroke: 1px #130f27; */
+}
+
+
+
+.story-wrapper {
+  width: 80%;
+  height: 70vh;
+  margin: auto;
+  position: relative;
+  top: 2rem;
+  /* background-color: red; */
+}
+
+.story-content {
+  width: 100%;
+  height: 30vh;
+  background-color: red;
+  position: relative;
+  display: flex;
+}
+
+.story-content-text {
+  width: 40%;
+  height: 20vh;
+}
+
+.stories {
+  width: 60%;
+  height: 40vh;
+}
+
+
+
+.bolly-stories {
+  width: 80%;
+  background-color: #fafafa;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bolly-wrapper {
+  width: 90%;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.1rem;
+  color: green;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  margin: 5px;
+  padding-top: 1rem;
+  padding: 5px;
+}
+
+.display-hollywood-data {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ads-box {
+  width: 300px;
+  height: 500px;
+  margin: 30px;
+  border: 1px solid rgb(255, 19, 19);
+  border-radius: 30px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.movie-title {
+  font-weight: 700;
+}
+
+.movie-details-desc-para {
+  font-size: 1.0rem;
+  color: #262626;
+  top: 3rem;
+  margin-left: 2%;
+}
+
+h2 {
+  cursor: pointer;
+}
+
+
+.post-title {
+  font-family: sans-serif;
+  position: relative;
+  top: 1rem;
+  /* left: 15rem; */
+}
+
+.top-post-title {
+  left: 5rem;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.top-post-details {
+  position: relative;
+  /* top: 2rem; */
+  font-size: 0.8rem;
+  left: 1rem;
+}
+
+.small-ad {
+  width: 50%;
+  height: 50vh;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.fitSubContainer {
+  height: auto;
+  display: flex;
+  padding: 5px;
+  margin: auto;
+  width: 70%;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:1024px) {
+
+  .home-latest-sport-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-hollywood-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-fitness-stories-title {
+    margin-top: 10px;
+  }
+
+  .home-latest-food-stories-title {
+    margin-top: 10px;
+  }
+
+ 
+
+  .wrapper {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .movie-details-desc-para {
+    top: 0;
+    left: 0;
+  }
+
+
+
+  .post-divider {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 8vh;
+  }
+
+  .top-post-title {
+    right: 0;
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    left: 0;
+  }
+
+  .post-title {
+    left: 0;
+    text-align: center;
+  }
+
+  .ads-box {
+    width: 400px;
+    height: 300px;
+  }
+
+  .top-post-details {
+    top: 0;
+    left: 0;
+    height: auto;
+    font-size: 1rem;
+  }
+
+  .top-post-underline {
+    left: 0;
+    margin: auto;
+  }
+
+  .top-post-divider {
+    position: relative;
+    width: 95%;
+    margin-top: 2vh;
+  }
+
+  .rotate-wrapper {
+    height: 20vh;
+  }
+
+  .text-rotate {
+    margin-top: -2.5vh;
+  }
+}
+
+@media screen and (max-width:1000px) {
+
+  .underline {
+    top: 0;
+    margin-top: 2vh;
+  }
+
+  .home-latest-food-stories-title {
+    margin-bottom: 0;
+    margin-top: 5vh;
+  }
+
+  .home-latest-hollywood-stories-title {
+    margin-top: 6vh;
+  }
+
+  .home-latest-fitness-stories-title {
+    margin-top: 6vh;
+  }
+
+  .title-wrapper {
+    width: 50%;
+  }
+
+  /* .HollyConatainer{
+    background-color: red;
+  } */
+
+  .HomeContainer {
+    margin: 10px;
+  }  
+
+  .wrapper {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .left-data {
+    width: 100%;
+    height: auto;
+  }
+
+  .movie-details-desc-para {
+    top: 0;
+    left: 0;
+  }
+
+ 
+
+  .post-divider {
+    width: 100%;
+    margin-left: auto;
+  }
+
+  .left-data-image {
+    width: 85%;
+  }
+
+  .left-data-link {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-post-title {
+    right: 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    left: 0;
+  }
+
+  .post-title {
+    left: 0;
+    text-align: center;
+  }
+
+  .underline1 {
+    left: 0;
+    margin: auto;
+  }
+
+  .top-post-details {
+    top: 0;
+    left: 0;
+  }
+
+  .top-post-underline {
+    left: 0;
+    margin: auto;
+  }
+
+  .top-post-divider {
+    position: relative;
+    width: 95%;
+    margin-top: 2vh;
+  }
+}
+
+@media screen and (max-width:570px) {
+  .bolly-image {
+    width: 200px;
+  }
+
+  .ads-box {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:370px) {
+ 
+}

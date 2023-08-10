@@ -45,7 +45,7 @@ const Info = () => {
                       <div key={val.id} className="bolly-wrapper">
                         <div className="img-container">
                           <Link to={`/article/${val.id}`} className="left-data-link">
-                            <img src={val.image} alt="" className="bolly-all-image" />
+                          <img src={val.image} alt="" className="food-all-image" />
                           </Link>
                         </div>
                         <div className="movie-details">
@@ -88,7 +88,7 @@ const Info = () => {
                                   <img src={val.image} alt="" className="top-post-image" />
                                 </Link>
                               </div>
-                              <div className="top-post-details-wrapper">
+                              <div className="top-post-details-wrapper food-top-post-details-wrapper">
                                 <p className="top-post-details title"><span style={{ color: 'orangered' }}>{val.name}</span></p>
                                 <p className="top-post-details fits-details"> {val.details}</p>
                               </div>

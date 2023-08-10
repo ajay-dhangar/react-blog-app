@@ -1,0 +1,74 @@
+/* Styling for Sport Content is Started*/
+
+.home-latest-sport-stories-title {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .Home-Sport-Container {
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sports {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(102, 98, 98);
+    cursor: pointer;
+    /* background-color: red; */
+  }
+  
+  .sports-img {
+    width: 70%;
+    height: 150px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #262626;
+  }
+  
+  .sport-texts {
+    /* font-size: 18px; */
+    color: orangered;
+    margin-top: 0.6rem;
+    word-wrap: break-word;
+    font-size: 1.5rem;
+    /* -webkit-text-stroke: 1px #130f27; */
+  }
+  
+  @media screen and (max-width:1024px) {
+    .sports {
+      width: 80%;
+      height: auto;
+      margin-top: 6vh;
+    }
+  
+    .sports-img {
+      height: 300px;
+      width: 400px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width:1000px) {
+    .sports {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width:570px) {
+    .sports-img {
+      height: 150px;
+      width: 200px;
+      margin-bottom: 4vh;
+    }
+  }
+  
+  @media screen and (max-width:370px) {}
+  
+  /* ==== Styling for Sport Content is End ====== */

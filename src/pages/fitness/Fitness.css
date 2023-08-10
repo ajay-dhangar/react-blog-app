@@ -5,7 +5,31 @@
 }
 .fits-details{
   width: 150px;
-  /* color: #262626; */
+  color: #262626;
   font-size: 20px;
   text-shadow: 2px 2px 4px #9a7878;
+}
+
+@media screen and (max-width:1024px) {
+  
+  .fits-details{
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width:500px){
+  .top-post-image{
+    margin-left: 10%;
+    width: 250px;
+  }
+}
+@media screen and (max-width:290px){
+  .top-post-image{
+    margin-left: 10%;
+    width: 180px;
+  }
+}
+@media screen and (max-width:205px){
+  .top-post-image{
+    margin-left: 2%;
+  }
 }

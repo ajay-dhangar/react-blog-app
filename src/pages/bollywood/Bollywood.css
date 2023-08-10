@@ -5,11 +5,6 @@
     background-color: red;
 } */
 
-.movie-data-contain {
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
-}
 
 .bolly-container {
     display: flex;
@@ -136,25 +131,10 @@
     margin-bottom: 25px;
 }
 
-.bolly-title {
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 0;
-}
-
-.IMdb {
-    font-size: 17px;
-    font-weight: 500;
-    margin-top: 0;
-}
 
 .desc {
     margin-top: 0;
-}
-
-.release-left {
-    margin-top: 0;
-    font-size: 18px;
+    margin-left: 15px;
 }
 
 .bolly-ads-container {
@@ -173,13 +153,7 @@
     margin-top: 10px;
 }
 
-.movie-details-para {
-    margin-left: 30px;
-}
 
-.movie-details-release-para {
-    margin-left: 30px;
-}
 
 .bolly-ads-box-2 {
     display: none;
@@ -218,13 +192,7 @@
         /* background-color: red; */
     }
 
-    .bolly-wrapper {
-        width: 100%;
-        /* margin-bottom: 2px; */
-        /* margin-top: 0%;
-        margin-bottom: 0%; */
-        /* background-color: red; */
-    }
+    
 
     .bitween {
         background: linear-gradient(yellow, orange, rgb(11, 27, 249));
@@ -259,16 +227,22 @@
         display: none;
     }
 
+    .food-right-data {
+        display: none;
+    }
+
     .top-bolly-post-underline,
     .top-bolly-post-underline2 {
         display: none;
-    }  
-    .main-right-container{
+    }
+
+    .main-right-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         /* background-color: red; */
-    }  
+    }
+
     /* .main-rigth-container {
         display: flex;
         flex-wrap: wrap;
@@ -276,35 +250,37 @@
         flex-wrap: wrap;
         margin: 0 -10px;
       } */
-    
-      .right-data-wrapper {
+
+    .right-data-wrapper {
         /* width: calc(33.33% - 20px);  */
         margin: 10px;
         padding: 10px;
         border: 1px solid #ccc;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-    
-      .right-img-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        /* background-color: red; */
+
+    }
+
+    .right-img-container {
         width: 150px;
         height: auto;
         text-align: center;
-      }
-    
-      .top-post-details-wrapper {
+    }
+
+    .top-post-details-wrapper {
         width: 100%;
         text-align: center;
         margin-top: 10px;
-      }
+    }
 
-      .bolly-ads-container {
+    .bolly-ads-container {
         width: 100%;
         text-align: center;
         margin-top: 20px;
-      }
+    }
 
     .bolly-ads-box {
         display: none;
@@ -366,6 +342,6 @@
 
     .right-data-wrapper .top-post-details-wrapper {
         padding: 10px;
-    } 
-  
+    }
+
 }

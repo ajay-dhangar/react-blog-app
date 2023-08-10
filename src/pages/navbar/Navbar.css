@@ -2,11 +2,13 @@
   position: relative;
   padding: 10px;
   margin-top: 15px;
-  display: none;
+  margin-bottom: 15px;
+  
+  /* display: none; */
 }
-/* .navContainer{
-  background-color: #000;
-} */
+.navContainer{
+  text-align: center;
+}
 .roted {
   transform: rotate(-90deg);
   background-color: #262626;
@@ -27,10 +29,11 @@
   text-align: center;
   /* margin: 40px 0 40px; */
   text-align: center;
-  font-size: 30px;
+  font-size: 32px;
   color: #ff07b9;
   text-shadow: 2px 2px 4px #1e07ed;
   font-family: 'Cherry Swash', cursive;
+  -webkit-text-stroke: 1px #130f27;
 }
 
 #navbar {

@@ -1,0 +1,134 @@
+/* Bollywood Styling started  */
+
+.home-latest-bollywood-stories-title {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5vh;
+}
+
+.bolly-stories {
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 4px #262626; */
+    padding: 10px;
+}
+
+/* .bolly-image-wrapper{
+
+} */
+
+.movie-details p {
+    color: #343b5f;
+}
+
+.movie-details-para {
+    margin-left: 15px;
+}
+
+.movie-details-release-para {
+    margin-left: 15px;
+}
+
+.bolly-image {
+    border-radius: 8px;
+    border: 1px solid #fafafa;
+    box-shadow: 4px 4px 8px #262626;
+}
+
+.bolly-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.IMdb {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.release-left {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+@media screen and (max-width:1024px) {
+    .home-latest-bollywood-stories-title {
+        margin-top: 10px;
+    }
+
+    .bolly-wrapper {
+        width: 100%;
+        /* margin-bottom: 2px; */
+        /* margin-top: 0%;
+        margin-bottom: 0%; */
+        /* background-color: red; */
+    }
+    .movie-details-release-para {
+        top: 2vh;
+        left: 0;
+      }
+}
+
+@media screen and (max-width:1000px) {
+    .bolly-stories {
+        /* margin-right: 10px; */
+        width: 96%;
+        height: auto;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+
+    .movie-container {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .bolly-wrapper {
+      width: 95%;
+      height: 50vh;
+      flex-direction: column;
+      margin-left: 10px;
+      background-image: blue;
+    } */
+
+    .movie-details {
+        width: 90%;
+        height: auto;
+        position: relative;
+        top: 0;
+    }
+
+    .movie-details-para {
+        top: 0;
+    }
+    .movie-details-release-para {
+        top: 2vh;
+        left: 0;
+      }
+}
+
+@media screen and (max-width:570px) {}
+
+@media screen and (max-width:370px) {
+    .bolly-image {
+        width: 150px;
+    }
+
+    .ads-box {
+        width: 200px;
+        height: 150px;
+    }
+
+    .ads-box {
+        display: none;
+    }
+}
+
+
+.movie-data-contain {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}

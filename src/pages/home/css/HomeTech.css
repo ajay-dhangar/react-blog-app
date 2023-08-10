@@ -1,0 +1,83 @@
+/* ==== Styling for Tech Content is Started ===== */
+
+.Home-Tech-Container {
+    /* background-color: red; */
+    padding: 5px;
+    margin-top: 40px;
+  }
+  
+  .home-latest-tech-stories-title {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .Home-Tech-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tech {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(102, 98, 98);
+    cursor: pointer;
+    /* background-color: red; */
+  }
+  
+  .tech-img {
+    width: 70%;
+    height: 150px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #262626;
+  }
+  
+  .tech-texts {
+    /* font-size: 18px; */
+    color: orangered;
+    margin-top: 0.6rem;
+    word-wrap: break-word;
+    font-size: 1.5rem;
+    /* -webkit-text-stroke: 1px #130f27; */
+  }
+  @media screen and (max-width:1024px) {
+    .home-latest-tech-stories-title {
+      margin-top: 10px;
+    }
+    .tech {
+      width: 80%;
+      height: auto;
+      margin-top: 6vh;
+    }
+  
+    .tech-img {
+      height: 300px;
+      width: 400px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width:1000px) {
+    .home-latest-tech-stories-title {
+      margin-top: 6vh;
+    }
+    .tech {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width:570px) {
+    .tech-img {
+      height: 150px;
+      width: 200px;
+      margin-bottom: 4vh;
+    }
+  }
+  
+  @media screen and (max-width:370px) {}
+  

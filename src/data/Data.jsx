@@ -31,28 +31,59 @@ import img25 from "./images/technology/tech-2.jpg";
 import img26 from "./images/technology/tech-3.jpg";
 import img27 from "./images/technology/tech-4.jpg";
 import img28 from "./images/technology/tech-5.jpg";
+// import img29 from "./images/technology/tech-5.jpg";
+// import img30 from "./images/technology/tech-5.jpg";
+// import img31 from "./images/technology/tech-5.jpg";
+// import img32 from "./images/technology/tech-5.jpg";
+// import img33 from "./images/technology/tech-5.jpg";
+// import img34 from "./images/technology/tech-5.jpg";
+// import img35 from "./images/technology/tech-5.jpg";
 
 //  Hollywood Images
 
-import img36 from "./images/hollywood/holly-5.jpg";
-import img37 from "./images/hollywood/holly-6.jpg";
-import img38 from "./images/hollywood/holly-7.jpg";
-import img39 from "./images/hollywood/holly-8.jpg";
+import img36 from "./images/hollywood/Avatar.jpg";
+import img37 from "./images/hollywood/Avengers-Endgame.jpg";
+import img38 from "./images/hollywood/Jurassic-Park.jpg";
+import img39 from "./images/hollywood/Star-Wars.jpg";
+import img40 from "./images/hollywood/The-Dark-Knight.jpg";
+import img41 from "./images/hollywood/The-Godfather.jpg";
+import img42 from "./images/hollywood/The-Lord-of-the-Rings.jpg";
+import img43 from "./images/hollywood/The-Shawshank-Redemption.jpg";
+import img44 from "./images/hollywood/Titanic.jpg";
+// import img45 from "./images/hollywood/holly-8.jpg";
+// import img46 from "./images/hollywood/holly-8.jpg";
+// import img47 from "./images/hollywood/holly-8.jpg";
 
 // Fitness Images
 
-import img48 from "./images/fitness/fitness-1.jpg";
-import img49 from "./images/fitness/fitness-2.jpg";
-import img50 from "./images/fitness/fitness-3.jpg";
-import img51 from "./images/fitness/fitness.jpg";
+import img48 from "./images/fitness/sit-up.gif";
+import img49 from "./images/fitness/side-band.gif";
+import img50 from "./images/fitness/air-bike.gif";
+import img51 from "./images/fitness/Fours-Squad-Stretch.gif";
+import img52 from "./images/fitness/Alternate-Heel-Touchers.gif";
+import img53 from "./images/fitness/Alternate-Lateral-Pulldown.gif";
+import img54 from "./images/fitness/Ankle-Circles.gif";
+import img55 from "./images/fitness/Archer-Pull-Up.gif";
+import img56 from "./images/fitness/Archer-Push-Up.gif";
+import img57 from "./images/fitness/Arm-Slingers-Hanging-Bent-Knee-Legs.gif";
+import img58 from "./images/fitness/Assisted-Hanging-Knee-Raise.gif";
+import img59 from "./images/fitness/Assisted-Parallel-Close-Grip-Pull-Up.gif";
+import img60 from "./images/fitness/Astride-Jumps-(Male).gif";
 
 // Food Images
 
-import img61 from "./images/food/food-1.jpg";
-import img62 from "./images/food/food-2.jpg";
-import img63 from "./images/food/food-3.jpg";
-import img64 from "./images/food/food-4.jpg";
-import img65 from "./images/food/food-5.jpg";
+import img61 from "./images/food/Pizza.jpg";
+import img62 from "./images/food/Sushi.jpg";
+import img63 from "./images/food/Chocolate.jpg";
+import img64 from "./images/food/Tacos.jpg";
+import img65 from "./images/food/Ice-cream.jpg";
+import img66 from "./images/food/Cheesecake.jpg";
+import img67 from "./images/food/Burgers.jpg";
+import img68 from "./images/food/Pasta.jpg";
+import img69 from "./images/food/Curry.jpg";
+import img70 from "./images/food/Macarons.jpg";
+import img71 from "./images/food/Ramen.jpg";
+import img72 from "./images/food/Donuts.jpg";
 
 
 
@@ -412,109 +443,102 @@ export const ProvideInfo = (props) => {
     // Hollywood (id: 36 - 48)
     {
       id: 36,
-      desc: `Wakanda Forever is a 2022 American superhero film based on Marvel Comics featuring the character Shuri / Black Panther. `,
+      desc: `Avatar`,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
       image: img36,
-      name: 'Wakanda Forever',
-      content:
-        "This is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+      name: 'Avatar',
+      content:``
     },
     {
       id: 37,
-      desc: `Marvel's Avengers: Earth's Mightiest Heroes Unite in Epic Film Saga. Action-packed superhero ensemble battles against formidable foes.`,
+      desc: `Avengers EndGame`,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
       image: img37,
-      name: 'Avengers',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+      name: 'Avengers EndGame',
+      content: ``
     },
     {
       id: 38,
-      desc: `The Dark Knight Rises' culminates Nolan's Batman trilogy in thrilling, explosive fashion.`,
+      desc: `Jurassic Park`,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
       image: img38,
-      name: 'The Dark Knight Rises',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+      name: 'Jurassic Park',
+      content:``
     },
     {
       id: 39,
-      desc: `The Prestige' unravels obsession's dark magic. A cinematic masterpiece of mystery and obsession.`,
+      desc: `Star Wars`,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
       image: img39,
-      name: 'The Prestige',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+      name: 'Star Wars',
+      content:``
     },
     {
       id: 40,
       imdb: '7.6/10',
+      desc: `The Dark Knight`,
       release: '12th April,2002',
       category: 'hollywood',
-      image: img36,
-      name: 'Harry Potter',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+      image: img40,
+      name: 'The Dark Knight',
+      content:``
     },
     {
       id: 41,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
-      image: img36,
-      name: 'Harry Potter',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+      image: img41,
+      name: 'The GodFather',
+      desc: `The GodFather`,
+      content:``
     },
     {
       id: 42,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
-      image: img36,
-      name: 'Harry Potter',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+      image: img42,
+      name: 'The Loard Of The Rings',
+      desc: `The Loard Of The Rings`,
+      content:``
     },
     {
       id: 43,
       imdb: '7.6/10',
       release: '12th April,2002',
       category: 'hollywood',
-      image: img36,
-      name: 'Harry Potter',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+      image: img43,
+      name: 'The Shawshank Redemption',
+      desc: `The Shawshank Redemption`,
+      content:``
     },
     {
       id: 44,
-
       imdb: '7.6/10',
       release: '12th April,2002',
-      image: img36,
+      image: img44,
       category: 'hollywood',
-      name: 'Harry Potter',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+      name: 'Titanic',
+      desc: `Titanic`,
+      content:``,
     },
     {
       id: 45,
-
       imdb: '7.6/10',
       release: '12th April,2002',
       image: img36,
       category: 'hollywood',
       name: 'Harry Potter',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
+      content:``
     },
     {
       id: 46,
@@ -524,256 +548,288 @@ export const ProvideInfo = (props) => {
       image: img36,
       category: 'hollywood',
       name: 'Harry Potter',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
-    },
-    {
-      id: 48,
-
-      imdb: '7.6/10',
-      release: '12th April,2002',
-      image: img36,
-      category: 'hollywood',
-      name: 'Harry Potter',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
-    },
+      content:``,
+      },    
     {
       id: 47,
-
       imdb: '7.6/10',
       release: '12th April,2002',
       image: img36,
       category: 'hollywood',
       name: 'Harry Potter',
-      content:
-        "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.",
-    },
+      content:``,
+  },
 
     // Fitness (id: 48 - 60)
+
     {
       id: 48,
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
+      details: `Exercises keep you strong. 3/4 Sit-Up bup is one of the best
+      exercises to target your abs. It will help you improve your
+      mood and gain energy.`,
+      name: 'Sit Up',
       image: img48,
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
-    },
+      content:`A strong core forms the foundation of a fit and healthy body. Sit ups, a classic exercise, have long been favored for their ability to target the abdominal muscles and contribute to core strength. In this article, we'll delve into the benefits of sit ups, how to perform them with proper technique, and variations that can spice up your core workout routine.
+      Sit ups are renowned for their effectiveness in strengthening the rectus abdominis, transverse abdominis, and obliques. By engaging these muscles, you'll not only develop a toned midsection but also improve posture and stability. Strong core muscles can enhance your athletic performance, reduce the risk of lower back pain, and support everyday activities.`,
+         },
     {
       id: 49,
-
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
+      details: `Exercises keep you strong. 45° Side Bend bup is one of the best
+      exercises to target your abs. It will help you improve your
+      mood and gain energy.`,
+      name: 'side Bend',
       image: img49,
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
+      content:`Side bends are a classic exercise that can significantly contribute to your fitness journey by targeting the often-neglected oblique muscles. While core exercises like crunches and planks are essential, incorporating side bends into your routine can provide a well-rounded workout for your midsection. In this article, we'll delve into the benefits of side bends, proper form, variations, and safety tips to help you make the most out of this exercise.
+      `
     },
     {
       id: 50,
-
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
       image: img50,
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
-    },
+      details: `Exercises keep you strong. Air Bike bup is one of the best
+      exercises to target your abs. It will help you improve your
+      mood and gain energy.`,
+      name: 'Air Bike',
+      
+      content: `Air bikes have rapidly gained popularity in the fitness world, offering a unique and effective cardio workout that engages both upper and lower body muscles. Whether you're a seasoned athlete or just starting your fitness journey, incorporating air bikes into your routine can take your workouts to the next level. In this article, we'll explore the benefits of air bikes, how they work, and why they are a must-have addition to any fitness regimen.`,
+      },
     {
       id: 51,      
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
+      details: `Exercises keep you strong. All Fours Squad Stretch bup is one of the best
+      exercises to target your quads. It will help you improve your
+      mood and gain energy.`,
+      name: 'Fours Squad Stretch',
       image: img51,
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
+      content:`The Four Squad Stretch is a versatile and effective exercise that targets multiple muscle groups while enhancing flexibility and promoting overall mobility. Whether you're an athlete, fitness enthusiast, or someone looking to improve their range of motion, incorporating the Four Squad Stretch into your routine can bring numerous benefits. In this article, we'll delve into the proper technique, benefits, and variations of the Four Squad Stretch.`
     },
     {
       id: 52,
-      image: img48,
+      image: img52,
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
+      details: `Exercises keep you strong. Alternate Heel Touchers bup is one of the best
+      exercises to target your abs. It will help you improve your
+      mood and gain energy.`,
+      name: 'Alternate Heel Touchers',
+      content:`Alternate Heel Touchers are a bodyweight exercise that primarily focuses on engaging the oblique muscles, which are located on the sides of your abdomen. This exercise is effective for toning and sculpting your waistline while also providing a good overall core workout.`
     },
     {
       id: 53,
-      image: img48,
+      image: img53,
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
-    },
+      details: `Exercises keep you strong. Alternate Lateral Pulldown bup is one of the best
+      exercises to target your lats. It will help you improve your
+      mood and gain energy.`,
+      name: 'Alternate Lateral Pulldown',
+      content: `The Alternate Lateral Pulldown is a fundamental exercise that targets the muscles of the upper back, specifically the latissimus dorsi. It's a great addition to any upper body workout routine, helping you develop a strong and well-defined back. In this guide, we'll break down the proper technique, benefits, variations, and common mistakes associated with the Alternate Lateral Pulldown.`
+       },
     {
       id: 54,
-      image: img48,
+      image: img54,
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
+      details: `Exercises keep you strong. Ankle Circles bup is one of the best
+      exercises to target your calves. It will help you improve your
+      mood and gain energy.`,
+      name: 'Ankle Circles',
+      content: `Ankle mobility plays a crucial role in various activities, from walking and running to performing squats and lunges. Ankle Circles are a valuable exercise that can help improve your ankle flexibility and range of motion. In this guide, we'll delve into the benefits of Ankle Circles and provide step-by-step instructions on how to perform them correctly.`,
     },
     {
       id: 55,
-      image: img48,
+      image: img55,
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
-    },
+      details: `Exercises keep you strong. Archer Pull Up bup is one of the best
+      exercises to target your lats. It will help you improve your
+      mood and gain energy.`,
+      name: 'Archer Pull Up',
+      content:`Archer Pull Ups are a powerful addition to your fitness routine, allowing you to engage various muscles and work towards a stronger, more well-rounded upper body. In this guide, we'll dive into what Archer Pull Ups are, the muscles they target, how to perform them with proper form, and tips for progressing as you build your strength.`,
+      },
     {
       id: 56,
-      image: img48,
+      image: img56,
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
+      details: `Exercises keep you strong. Archer Push Up bup is one of the best
+      exercises to target your pectorals. It will help you improve your
+      mood and gain energy.`,
+      name: 'Archer Push Up',
+      content: `Archer Push Ups are a dynamic variation of the traditional push-up exercise that can take your upper body strength and stability to the next level. This advanced movement not only engages your chest, shoulders, and triceps but also requires core activation and balance. In this guide, we'll break down the proper form, benefits, and progression strategies to help you master Archer Push Ups.`
     },
     {
       id: 57,
-      image: img48,
+      image: img57,
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
+      details: `Exercises keep you strong. Arm Slingers Hanging Bent Knee Legs bup is one of the best
+      exercises to target your abs. It will help you improve your
+      mood and gain energy.`,
+      name: 'Arm Slingers Hanging Bent Knee Legs',
+      content: `Arm Slingers Hanging Bent Knee Legs is a dynamic exercise that targets multiple muscle groups simultaneously. It combines the benefits of hanging exercises with knee raises to provide an effective workout for your core, upper body, and lower abs. Whether you're a fitness enthusiast or just starting your fitness journey, incorporating Arm Slingers Hanging Bent Knee Legs into your routine can help you achieve a stronger and more toned physique.`
     },
     {
       id: 58,
-      image: img48,
+      image: img58,
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
+      details: `Exercises keep you strong. Assisted Hanging Knee Raise bup is one of the best
+      exercises to target your abs. It will help you improve your
+      mood and gain energy.`,
+      name: 'Assisted Hanging Knee Raise',
+      content: `The Assisted Hanging Knee Raise is a highly effective core exercise that targets your lower abs, hip flexors, and overall core stability. Whether you're a beginner looking to build foundational strength or an experienced fitness enthusiast aiming to challenge your core muscles, this exercise can be tailored to suit your fitness level. In this guide, we'll walk you through the proper technique, benefits, and variations of the Assisted Hanging Knee Raise.`
+    },
+    {
+      id: 59,
+      image: img59,
+      category: 'fitness',
+      details: `Exercises keep you strong. Assisted Parallel Close Grip Pull-Up bup is one of the best
+      exercises to target your lats. It will help you improve your
+      mood and gain energy.`,
+      name: 'Assisted Parallel Close Grip Pull-Up',
+      content: `The Assisted Parallel Close Grip Pull-Up is a challenging yet rewarding exercise that targets your upper body muscles, primarily the back, biceps, and shoulders. Whether you're a fitness enthusiast or a beginner, this exercise can be adapted to your fitness level using assistance, making it a great addition to your routine. In this guide, we'll walk you through the proper form, benefits, and variations of the Assisted Parallel Close Grip Pull-Up.`,
     },
     {
       id: 60,
-      image: img48,
+      image: img60,
       category: 'fitness',
-      details: 'Increase your muscle mass to build up strength',
-      name: 'Lunges',
-      content:
-        'The lunge is a popular leg-strengthening exercise with a multitude of variations to add variety to your workout. In addition, varying your technique allows you to emphasize different muscles or parts of those muscles.This exercise is beneficial for injury prevention, as well as rehabilitation after injuries occur. It’s often part of a foundational strength program or rehab protocol, allowing athletes and exercisers to return to their sport or activity of interest as quickly as possible.For instance, it’s a common position people assume to get up from the ground, and it mimics many of the movements and muscle-activation patterns of daily activities, such as walking and running and ascending or descending stairs.',
+      details: `Exercises keep you strong. Astride Jumps (Male) bup is one of the best
+      exercises to target your cardiovascular system. It will help you improve your
+      mood and gain energy.`,
+      name: 'Astride Jumps (Male)',
+      content:`Astride jumps, also known as straddle jumps, are a dynamic plyometric exercise that engages multiple muscle groups while providing cardiovascular benefits. This explosive movement is a great addition to any fitness routine, helping to improve lower body strength, power, and agility. Astride jumps are particularly effective for targeting the quadriceps, hamstrings, glutes, and calf muscles.`
     },
 
     // Food (id: 60 - 70)
     {
       id: 61,
-      desc: 'Have a quick bite today & refresh your mood',
+      desc: `Deliciously versatile, pizza is a timeless classic loved worldwide. Savory toppings atop a cheesy base create a perfect bite.`,
       category: 'food',
       image: img61,
-      name: 'Pizza Hut',
-      content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+      name: 'Pizza',
+      content: `Pizza, an iconic dish that has transcended borders and cultures, is a true masterpiece in the culinary world. With its origins dating back to ancient civilizations, this beloved creation has evolved into countless variations, each more tantalizing than the last.
+
+      At its heart, pizza is a harmonious marriage of flavors and textures. A thin, crispy crust forms the foundation, offering a satisfying crunch with every bite. This base serves as a canvas for an array of delectable toppings – from the traditional duo of tomato sauce and mozzarella cheese to innovative combinations that cater to every palate.
+      
+      The magic happens in the oven, where the heat transforms these simple elements into a symphony of tastes. The tanginess of the tomato sauce melds seamlessly with the gooey richness of melted cheese, while a medley of vegetables, meats, and aromatic herbs add layers of complexity.
+      
+      Pizza not only delights the taste buds but also fosters a sense of togetherness. It's the centerpiece of gatherings, where friends and family come together to share slices and stories. Its universal appeal bridges cultural divides, bringing joy to people of all backgrounds.
+      
+      Whether you savor a classic Margherita or dare to venture into uncharted flavor territories, pizza's allure is undeniable. It's a comfort food, a celebration food, and a culinary masterpiece that continues to capture hearts – one slice at a time.`,
     },
     {
       id: 62,
-
-      desc: 'Have a quick bite today & refresh your mood',
+      desc: 'Exquisite sushi: a delicate harmony of fresh fish, rice, and seaweed. Experience the art of Japanese cuisine.',
       category: 'food',
       image: img62,
-      name: 'Pizza Hut',
-      content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+      name: 'Sushi',
+      content: `Sushi: A Culinary Artistry from Japan.
+
+      Sushi, a masterpiece of Japanese cuisine, is a harmonious blend of flavors, textures, and aesthetics. Crafted with precision, it showcases fresh, raw fish atop seasoned vinegared rice. From traditional nigiri to creative rolls, sushi offers a delightful journey for the palate. Immerse yourself in the world of umami and experience the allure of sushi, a true culinary art form.`,
     },
     {
       id: 63,
-
-      desc: 'Have a quick bite today & refresh your mood',
+      dif: `Indulge in the rich, velvety delight of chocolate - a timeless...`,
+      desc: 'Indulge in the rich, velvety delight of chocolate - a timeless treat loved worldwide for its heavenly taste and comforting allure.',
       category: 'food',
       image: img63,
-      name: 'Pizza Hut',
-      content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+      name: 'Chocolate',
+      content:`Chocolate, the sweet seduction that transcends cultures and generations, is more than just a treat – it's an experience. With its origins dating back to ancient civilizations, this delectable delight has evolved into an art form that tantalizes the senses.
+
+      From velvety milk chocolate to intense dark variations, each bite unveils a symphony of flavors. Explore the journey from cacao bean to delectable bar, discovering the meticulous craftsmanship that goes into every creation. Whether you're savoring a classic chocolate bar, luxuriating in a molten lava cake, or reveling in truffles adorned with edible gold, the magic of chocolate knows no bounds.`,
     },
     {
       id: 64,
-      desc: 'Have a quick bite today & refresh your mood',
+      dif: `Delicious tacos: savory fillings, vibrant toppings, and warm tortillas.`,
+      desc: 'Delicious tacos: savory fillings, vibrant toppings, and warm tortillas. A symphony of flavors in every bite!',
       category: 'food',
       image: img64,
-      name: 'Pizza Hut',
-      content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+      name: 'Tacos',
+      content:`Tacos, the beloved culinary creations that bridge cultures and bring people together. These handheld delights have captured hearts worldwide, thanks to their versatility and mouthwatering combinations. Originating in Mexico, tacos have evolved into a global phenomenon, offering a canvas for culinary imagination.
+
+      1. Authentic Mexican Roots: Grounded in Mexican street food culture, tacos pay homage to tradition. Corn or flour tortillas cradle a variety of fillings, from succulent meats to fresh veggies, all topped with zesty salsas.
+      
+      2. Creative Fusion: Tacos have transcended boundaries, embracing international influences. Explore Korean-inspired BBQ tacos, Mediterranean falafel fillings, or even sushi-infused versions, proving that innovation knows no limits.
+      
+      3. Endless Variety: From fish tacos bursting with citrusy freshness to hearty carnitas tacos oozing with savory delight, the options are infinite. Vegetarians and vegans savor plant-based variations like jackfruit or roasted cauliflower.
+      
+      4. DIY Adventure: Tacos ignite interactive dining experiences. Lay out an array of fillings, salsas, and toppings, inviting everyone to create their perfect masterpiece. It's a fiesta of flavors and camaraderie.
+      
+      5. Street to Gourmet: While street stalls offer authentic treasures, upscale restaurants elevate tacos to gourmet status. Truffle-infused tacos or lobster-topped delights showcase the dish's ability to suit any occasion.
+      
+      6. Culture and Connection: Sharing tacos is sharing stories. It's about bonding over the crackling of tortillas and the explosion of tastes. Whether at a food truck, family gathering, or high-end eatery, tacos unite us.`,       
     },
     {
       id: 65,
-
-      details: 'Have a quick bite today & refresh your mood',
+      dif: `Indulge in creamy delights: Ice Cream, a timeless treat of frozen sweetness...`,
+      desc: 'Indulge in creamy delights: Ice Cream, a timeless treat of frozen sweetness, perfect for any occasion. 🍦',
       category: 'food',
       image: img65,
-      name: 'Pizza Hut',
-      content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+      name: 'Ice Cream',
+      content:`Ice cream, a beloved frozen treat, has been enchanting taste buds for generations. With its rich and creamy texture, delightful array of flavors, and endless possibilities for customization, ice cream is more than just dessert – it's an experience that transcends age, culture, and time. Join us on a delectable journey through the world of ice cream, where we'll explore its history, flavors, making, and the joy it brings to people of all ages.`
+      
     },
     {
       id: 66,
-      image: img61,
-      desc: 'Have a quick bite today & refresh your mood',
+      image: img66,
+      dif: `Indulge in creamy delight with Cheesecake - a luscious dessert...`,
+      desc: 'Indulge in creamy delight with Cheesecake - a luscious dessert crafted with a rich, velvety filling on a buttery graham crust.',
       category: 'food',
-      name: 'Pizza Hut',
-      content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+      name: 'Cheesecake',
+      content:`Indulge in the velvety decadence of a timeless dessert – the Cheesecake. With its rich and creamy texture, combined with a variety of luscious toppings and crust options, cheesecake is a true culinary masterpiece that has captured the hearts and taste buds of people around the world. In this article, we delve into the origins, flavors, and creative variations of this delectable treat.`    
     },
     {
       id: 67,
-      image: img61,
-      desc: 'Have a quick bite today & refresh your mood',
+      image: img67,
+      dif: `Juicy burgers: A timeless classic of grilled perfection savory toppings, nestled in a soft bun.`,
+      desc: 'Juicy burgers: A timeless classic of grilled perfection, savory toppings, nestled in a soft bun. Pure satisfaction in every bite.',
       category: 'food',
-      name: 'Pizza Hut',
-      content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+      name: 'Burgers',
+      content:`Burgers, the iconic culinary creation that has captured the hearts (and stomachs) of people around the globe. With their succulent patties, creative toppings, and perfect buns, burgers are the epitome of comfort food and culinary innovation. In this article, we'll delve into the history, variations, and tips to craft the perfect burger that satisfies even the most discerning taste buds.`
     },
     {
       id: 68,
-      image: img61,
-      desc: 'Have a quick bite today & refresh your mood',
+      image: img68,
+      dif:`eliciously twirling strands of pasta coated in rich sauces a classic comfort dish enjoyed worldwide.`,
+      desc: 'Deliciously twirling strands of pasta coated in rich sauces, a classic comfort dish enjoyed worldwide.',
       category: 'food',
-      name: 'Pizza Hut',
-      content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+      name: 'Pasta',
+      content:`Pasta, a culinary masterpiece that has stolen the hearts of food enthusiasts around the globe, is much more than just a dish. It's a canvas of flavors, a representation of diverse cultures, and a testament to the art of gastronomy. From its humble beginnings in Italy to its status as a worldwide comfort food, pasta's journey is as rich as its taste.`
     },
     {
       id: 69,
-      image: img61,
-      desc: 'Have a quick bite today & refresh your mood',
+      image: img69,
+      dif:`Delight in the rich flavors of Curry...`,
+      desc: 'Delight in the rich flavors of Curry, a harmonious blend of spices and ingredients that create a truly satisfying and aromatic culinary experience',
       category: 'food',
-      name: 'Pizza Hut',
-      content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+      name: 'Curry',
+      content: `Curry, with its rich blend of aromatic spices and diverse culinary traditions, is a culinary masterpiece that has captured the hearts and taste buds of food enthusiasts worldwide. This iconic dish boasts a history as colorful as its flavors, originating from various corners of the globe. Join us as we dive into the tantalizing world of curry, uncovering its origins, variations, and the artistry behind its creation.`
     },
     {
       id: 70,
-      image: img61,
-      desc: 'Have a quick bite today & refresh your mood',
+      image: img70,
+      dif: `The company assumed the name of Yum! Brands on May 22, 2002.`,
+      desc: 'Delicate and colorful French macarons, a perfect blend of crispy meringue shells and luscious fillings, create a delightful indulgence',
       category: 'food',
-      name: 'Pizza Hut',
+      name: 'Macarons',
       content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+        'Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
     },
     {
       id: 71,
-      image: img61,
-      desc: 'Have a quick bite today & refresh your mood',
+      image: img71,
+      dif: `Delicious Japanese noodle soup with savory broth, tender noodles, and an array of flavorful toppings.`,
+      desc: 'Delicious Japanese noodle soup with savory broth, tender noodles, and an array of flavorful toppings. A comforting classic',
       category: 'food',
-      name: 'Pizza Hut',
+      name: 'Ramen',
       content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+        `Ramen, a beloved Japanese dish that has captured the hearts and taste buds of people worldwide, is more than just a bowl of soup and noodles. It's a culinary masterpiece that brings together a symphony of flavors, textures, and cultures. From its humble origins to the diverse range of variations available today, ramen continues to be a comfort food that warms both body and soul.`,
     },
     {
       id: 72,
-
-      desc: 'Have a quick bite today & refresh your mood',
+      desc: 'Delight in fluffy, glazed circles of joy. Our donuts are a perfect blend of sweetness and comfort, sure to brighten your day.',
       category: 'food',
-      image: img61,
-      name: 'Pizza Hut',
+      dif: `Delight in fluffy, glazed circles of joy.`,
+      image: img72,
+      name: 'Donuts',
       content:
-        'Pizza Hut was founded on June 15, 1958, by two brothers, Dan and Frank Carney, both Wichita State students, as a single location in Wichita, Kansas.[7] Six months later they opened a second outlet and within a year they had six Pizza Hut restaurants. The brothers began franchising in 1959. The iconic Pizza Hut building style was designed in 1963 by Chicago architect George Lindstrom[8] and was implemented in 1969.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.PepsiCo acquired Pizza Hut in November 1977.[10][11] Twenty years later, Pizza Hut (alongside Taco Bell and Kentucky Fried Chicken) were spun off by PepsiCo on May 30, 1997, and all three restaurant chains became part of a new company named Tricon Global Restaurants, Inc. The company assumed the name of Yum! Brands on May 22, 2002.Before closing in 2015, the oldest continuously operating Pizza Hut was in Manhattan, Kansas, in a shopping and tavern district known as Aggieville near Kansas State University. The first Pizza Hut restaurant east of the Mississippi River was opened in Athens, Ohio, in 1966 by Lawrence Berberick and Gary Meyers.',
+        `Indulge your taste buds in the world of donuts – those delectable, ring-shaped treats that bring joy to people of all ages. Whether glazed, powdered, filled, or frosted, donuts hold a special place in the hearts of dessert enthusiasts worldwide. In this article, we'll take you on a mouthwatering journey through the history, varieties, and irresistible charm of these sugary delights.`
     },
 
   ]);
