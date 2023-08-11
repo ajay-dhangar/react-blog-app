@@ -3,7 +3,6 @@
   text-align: center;
 }
 
-
 .home-latest-hollywood-stories-title {
   text-align: center;
   font-family: sans-serif;
@@ -91,12 +90,10 @@
   width: 45rem;
   margin-left: 4.5rem;
 }
-
+/* 
 .movie-info {
   font-size: 18px;
-}
-
-
+} */
 
 hr {
   width: 70%;
@@ -132,8 +129,6 @@ hr {
   margin-bottom: 50px;
 }
 
-
-
 .texts {
   color: orangered;
   margin-top: 0.6rem;
@@ -141,8 +136,6 @@ hr {
   font-size: 1.5rem;
   /* -webkit-text-stroke: 1px #130f27; */
 }
-
-
 
 .story-wrapper {
   width: 80%;
@@ -214,9 +207,9 @@ hr {
   padding: 10px;
 }
 
-.movie-title {
+/* .movie-title {
   font-weight: 700;
-}
+} */
 
 .movie-details-desc-para {
   font-size: 1.0rem;
@@ -413,9 +406,6 @@ h2 {
     top: 0;
     left: 0;
   }
-
- 
-
   .post-divider {
     width: 100%;
     margin-left: auto;

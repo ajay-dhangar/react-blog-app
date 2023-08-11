@@ -1,5 +1,209 @@
-.techComponent{
-  width: 80%;
+.techComponent {
   /* background-color: red; */
-  margin: 25px;
+  padding: 15px;
 }
+
+.tech-component-title {
+  /* background-color: blue; */
+  text-align: center;
+}
+
+.tech-line,
+.tech-line2 {
+  height: 2px;
+  background-color: red;
+}
+
+.tech-line {
+  margin-top: -5px;
+  width: 160px;
+}
+
+.tech-line2 {
+  margin-top: 5px;
+  width: 100px;
+}
+
+.techContainer {
+  /* background-color: red; */
+  /* border: 1px solid red; */
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech-Left-Data {
+  width: 60%;
+  /* background-color: red; */
+}
+
+.tech-right-data {
+  width: 40%;
+  /* background-color: rgb(0, 255, 17); */
+}
+
+.tech-wrapper {
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech-img-container {
+  width: 30%;
+}
+
+/* .tech-left-data-link{
+  background-color: red;
+} */
+.tech-all-image {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 4px 4px 8px #262626;
+}
+
+.tech-details {
+  /* background-color: red; */
+  width: 60%;
+  padding: 5px;
+}
+
+.tech-title {
+  /* text-shadow: 2px 2px 4px #858080; */
+  font-weight: 600;
+  font-size: 28px;
+  color: #352929;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tech-desc {
+  color: #262626;
+}
+
+.tech-bitween {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 2px;
+  background-color: red;
+}
+
+/* .tech-top-post-heading-wrapper{
+  background-color: red;
+} */
+
+.tech-top-post-title {
+  /* background-color: red; */
+  padding: 2px;
+}
+
+.top-tech-post-underline,
+.top-tech-post-underline2 {
+  height: 2px;
+  background-color: red;
+}
+
+.top-tech-post-underline {
+  margin-top: -10px;
+  width: 150px;
+}
+
+.top-tech-post-underline2 {
+  margin-top: 5px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* .tech-top-img{
+  background-color: red;
+} */
+.top-tech-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.tech-main-right-container {
+  /* background-color: red; */
+  padding: 5px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.right-tech-data-wrapper {
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-tech-img-container {
+  width: 40%;
+}
+
+.top-tech-post-details-wrapper {
+
+  width: 60%;
+}
+
+.top-tech-post-image {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 4px 4px 8px #5f4646;
+}
+
+.top-tech-post-title {
+  color: #352929;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;color: #352929;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  /* text-shadow: 2px 2px 4px #5f4646; */
+}
+
+.tech-left-details {
+  font-size: 16px;
+  padding: 2px;
+  color: #262626;
+  /* background-color: blue; */
+}
+
+.tech-ads-container{
+  width: 100%;
+  height: 400px;
+  /* background-color: red; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.tech-ads-container2{
+  display: none;
+}
+/* 
+@media screen and (max-width:1024px) {
+  .tech-all-image {
+    
+    width: 400px;
+    height: 300px;
+  }
+  .top-post-details-wrapper{
+    flex-direction: column;
+  }
+  
+} */
+
+/* @media (max-width: 382px) {
+  .tech-all-image {    
+    width: 60%;
+    height: auto;
+  }
+} */
