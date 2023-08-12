@@ -41,7 +41,7 @@
     /* -webkit-text-stroke: 1px #130f27; */
   }
   
-  @media screen and (max-width:1024px) {
+  /* @media screen and (max-width:1024px) {
     .sports {
       width: 80%;
       height: auto;
@@ -69,6 +69,6 @@
     }
   }
   
-  @media screen and (max-width:370px) {}
+  @media screen and (max-width:370px) {} */
   
   /* ==== Styling for Sport Content is End ====== */

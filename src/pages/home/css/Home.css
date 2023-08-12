@@ -167,7 +167,7 @@ hr {
 
 
 .bolly-stories {
-  width: 80%;
+  width: 100%;
   background-color: #fafafa;
   margin: auto;
   margin-top: 2rem;
@@ -272,7 +272,7 @@ h2 {
   border-radius: 10px;
 }
 
-@media screen and (max-width:1024px) {
+/* @media screen and (max-width:1024px) {
 
   .home-latest-sport-stories-title {
     margin-top: 10px;
@@ -303,9 +303,6 @@ h2 {
     top: 0;
     left: 0;
   }
-
-
-
   .post-divider {
     width: 100%;
     margin-left: 0;
@@ -324,7 +321,6 @@ h2 {
     left: 0;
     text-align: center;
   }
-
   .ads-box {
     width: 400px;
     height: 300px;
@@ -355,10 +351,10 @@ h2 {
   .text-rotate {
     margin-top: -2.5vh;
   }
-}
+} */
 
 @media screen and (max-width:1000px) {
-
+/* 
   .underline {
     top: 0;
     margin-top: 2vh;
@@ -379,16 +375,16 @@ h2 {
 
   .title-wrapper {
     width: 50%;
-  }
+  } */
 
   /* .HollyConatainer{
     background-color: red;
   } */
-
+/* 
   .HomeContainer {
     margin: 10px;
-  }  
-
+  }   */
+/* 
   .wrapper {
     width: 100%;
     height: auto;
@@ -455,9 +451,10 @@ h2 {
     position: relative;
     width: 95%;
     margin-top: 2vh;
-  }
+  } */
 }
 
+/* 
 @media screen and (max-width:570px) {
   .bolly-image {
     width: 200px;
@@ -467,8 +464,8 @@ h2 {
     width: 300px;
     height: 200px;
   }
-}
-
+} */
+/* 
 @media screen and (max-width:370px) {
  
-}
+} */

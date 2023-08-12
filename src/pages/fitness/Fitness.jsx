@@ -7,7 +7,7 @@ import Footer from '../../component/footer/Footer'
 import './Fitness.css'
 // import image1 from './img/img-1.jpg'
 // import image2 from './img/img-2.jpg'
-import image3 from '../../data/images/fitness/banner.jpg'
+// import image3 from '../../data/images/fitness/banner.jpg'
 // import image4 from './img/img-4.jpg'
 // import image5 from './img/img-3.jpg'
 
@@ -62,7 +62,7 @@ const Info = () => {
               <div className="top-fit-post-underline"></div>
               <div className="top-fit-post-underline2"></div>
               <div className='fit-top-img'>
-                <img src={image3} alt="top-fit-img" />
+                {/* <img src={image3} alt="top-fit-img" /> */}
               </div>
             </div>
             <div>

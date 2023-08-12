@@ -45,7 +45,7 @@
     font-size: 1.5rem;
     /* -webkit-text-stroke: 1px #130f27; */
   }
-  @media screen and (max-width:1024px) {
+  /* @media screen and (max-width:1024px) {
     .home-latest-tech-stories-title {
       margin-top: 10px;
     }
@@ -80,4 +80,4 @@
   }
   
   @media screen and (max-width:370px) {}
-  
+   */

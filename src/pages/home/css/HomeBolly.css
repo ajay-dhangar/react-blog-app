@@ -9,7 +9,7 @@
 .bolly-stories {
     border-radius: 10px;
     /* box-shadow: 2px 2px 4px #262626; */
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 /* .bolly-image-wrapper{
@@ -52,30 +52,25 @@
 }
 
 @media screen and (max-width:1024px) {
-    .home-latest-bollywood-stories-title {
+    /* .home-latest-bollywood-stories-title {
         margin-top: 10px;
-    }
+    } */
 
-    .bolly-wrapper {
+    /* .bolly-wrapper {
         width: 100%;
-        /* margin-bottom: 2px; */
-        /* margin-top: 0%;
-        margin-bottom: 0%; */
-        /* background-color: red; */
     }
     .movie-details-release-para {
         top: 2vh;
         left: 0;
-      }
+      } */
 }
 
 @media screen and (max-width:1000px) {
-    .bolly-stories {
-        /* margin-right: 10px; */
-        width: 96%;
+    /* .bolly-stories {
+        
+        width: 100%;
         height: auto;
         flex-direction: column;
-        /* background-color: red; */
     }
 
     .movie-container {
@@ -83,7 +78,7 @@
         height: auto;
         display: flex;
         flex-direction: column;
-    }
+    } */
 
     /* .bolly-wrapper {
       width: 95%;
@@ -93,7 +88,7 @@
       background-image: blue;
     } */
 
-    .movie-details {
+    /* .movie-details {
         width: 90%;
         height: auto;
         position: relative;
@@ -106,12 +101,12 @@
     .movie-details-release-para {
         top: 2vh;
         left: 0;
-      }
+      } */
 }
 
-@media screen and (max-width:570px) {}
+/* @media screen and (max-width:570px) {} */
 
-@media screen and (max-width:370px) {
+/* @media screen and (max-width:370px) {
     .bolly-image {
         width: 150px;
     }
@@ -124,7 +119,7 @@
     .ads-box {
         display: none;
     }
-}
+} */
 
 
 .movie-data-contain {

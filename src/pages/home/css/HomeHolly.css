@@ -9,7 +9,7 @@
 .bolly-stories {
     border-radius: 10px;
     /* box-shadow: 2px 2px 4px #262626; */
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 /* .bolly-image-wrapper{
@@ -57,11 +57,7 @@
     }
 
     .bolly-wrapper {
-        width: 100%;
-        /* margin-bottom: 2px; */
-        /* margin-top: 0%;
-        margin-bottom: 0%; */
-        /* background-color: red; */
+        width: 100%;        
     }
     .movie-details-release-para {
         top: 2vh;
@@ -69,13 +65,12 @@
       }
 }
 
-@media screen and (max-width:1000px) {
+/* @media screen and (max-width:1000px) {
     .bolly-stories {
-        /* margin-right: 10px; */
         width: 96%;
         height: auto;
         flex-direction: column;
-        /* background-color: red; */
+        
     }
 
     .movie-container {
@@ -83,15 +78,7 @@
         height: auto;
         display: flex;
         flex-direction: column;
-    }
-
-    /* .bolly-wrapper {
-      width: 95%;
-      height: 50vh;
-      flex-direction: column;
-      margin-left: 10px;
-      background-image: blue;
-    } */
+    }   
 
     .movie-details {
         width: 90%;
@@ -124,11 +111,10 @@
     .ads-box {
         display: none;
     }
-}
+} */
 
 
 .movie-data-contain {
     display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
+    flex-wrap: wrap;    
 }

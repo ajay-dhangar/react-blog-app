@@ -1,7 +1,7 @@
-/* .main-holly-Container{
+.main-holly-Container{
   padding: 5px;
   text-align: center;
-} */
+}
 
 .hollyComponent {
     /* background-color: red; */
@@ -77,7 +77,7 @@
     /* text-shadow: 2px 2px 4px #858080; */
     font-weight: 600;
     font-size: 28px;
-    color: #352929;
+    color: orangered;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -166,7 +166,7 @@
   }
   
   .top-holly-post-title {
-    color: #352929;
+    color: orangered;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;

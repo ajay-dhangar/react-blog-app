@@ -1,83 +1,85 @@
 /* ==== Styling for fit Content is Started ===== */
 
 .Home-fit-Container {
-    /* background-color: red; */
-    padding: 5px;
-    margin-top: 40px;
-  }
-  
+  /* background-color: red; */
+  padding: 5px;
+  margin-top: 40px;
+}
+
+.home-latest-fit-stories-title {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.Home-fit-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fit {
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(102, 98, 98);
+  cursor: pointer;
+  /* background-color: red; */
+}
+
+.fit-img {
+  width: 70%;
+  height: 150px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #262626;
+}
+
+.fit-texts {
+  /* font-size: 18px; */
+  color: orangered;
+  margin-top: 0.6rem;
+  word-wrap: break-word;
+  font-size: 1.5rem;
+  /* -webkit-text-stroke: 1px #130f27; */
+}
+
+/* @media screen and (max-width:1024px) {
   .home-latest-fit-stories-title {
-    text-align: center;
-    font-family: sans-serif;
+    margin-top: 10px;
   }
-  
-  .Home-fit-Container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
+
   .fit {
-    width: 25%;
+    width: 80%;
     height: auto;
-    position: relative;
-    text-align: center;
-    font-size: 0.9rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(102, 98, 98);
-    cursor: pointer;
-    /* background-color: red; */
+    margin-top: 6vh;
   }
-  
+
   .fit-img {
-    width: 70%;
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .home-latest-fit-stories-title {
+    margin-top: 6vh;
+  }
+
+  .fit {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:570px) {
+  .fit-img {
     height: 150px;
-    position: relative;
-    border-radius: 8px;
-    box-shadow: 2px 2px 4px #262626;
+    width: 200px;
+    margin-bottom: 4vh;
   }
-  
-  .fit-texts {
-    /* font-size: 18px; */
-    color: orangered;
-    margin-top: 0.6rem;
-    word-wrap: break-word;
-    font-size: 1.5rem;
-    /* -webkit-text-stroke: 1px #130f27; */
-  }
-  @media screen and (max-width:1024px) {
-    .home-latest-fit-stories-title {
-      margin-top: 10px;
-    }
-    .fit {
-      width: 80%;
-      height: auto;
-      margin-top: 6vh;
-    }
-  
-    .fit-img {
-      height: 300px;
-      width: 400px;
-      margin-bottom: 20px;
-    }
-  }
-  
-  @media screen and (max-width:1000px) {
-    .home-latest-fit-stories-title {
-      margin-top: 6vh;
-    }
-    .fit {
-      width: 90%;
-    }
-  }
-  
-  @media screen and (max-width:570px) {
-    .fit-img {
-      height: 150px;
-      width: 200px;
-      margin-bottom: 4vh;
-    }
-  }
-  
-  @media screen and (max-width:370px) {}
-  
+}
+
+@media screen and (max-width:370px) {} */
