@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/react-blog-app/static/css/main.b2f05f8a.css",
-    "main.js": "/react-blog-app/static/js/main.5682912a.js",
+    "main.css": "/react-blog-app/static/css/main.561773a1.css",
+    "main.js": "/react-blog-app/static/js/main.f08c56e2.js",
+    "static/media/wallpaper-5.jpg": "/react-blog-app/static/media/wallpaper-5.4a250810390cb21f990e.jpg",
+    "static/media/wallpaper-2.jpg": "/react-blog-app/static/media/wallpaper-2.1ef5151aa3cf88728af0.jpg",
     "static/media/War-.jpg": "/react-blog-app/static/media/War-.d29d7af91be62faf9450.jpg",
     "static/media/Internet of Things (IoT).jpg": "/react-blog-app/static/media/Internet of Things (IoT).103841675b2df127056b.jpg",
     "static/media/Star-Wars.jpg": "/react-blog-app/static/media/Star-Wars.222760f7c70d28363e45.jpg",
     "static/media/Cybersecurity and Data Privacy.jpg": "/react-blog-app/static/media/Cybersecurity and Data Privacy.635e265f8e740845f72a.jpg",
+    "static/media/wallpaper-1.jpg": "/react-blog-app/static/media/wallpaper-1.d289099b4224b2760bc0.jpg",
     "static/media/Archer-Push-Up.gif": "/react-blog-app/static/media/Archer-Push-Up.b3c6034501393106e2e0.gif",
     "static/media/air-bike.gif": "/react-blog-app/static/media/air-bike.a7c0c74cacb4a8f8fa7f.gif",
     "static/media/Astride-Jumps-(Male).gif": "/react-blog-app/static/media/Astride-Jumps-(Male).d86dca99fdc58d29fdff.gif",
+    "static/media/wallpaper.jpg": "/react-blog-app/static/media/wallpaper.74ac02f6156316cbe3b4.jpg",
     "static/media/The-Dark-Knight.jpg": "/react-blog-app/static/media/The-Dark-Knight.c4a37134bf00111da596.jpg",
+    "static/media/E.T. the Extra-Terrestrial.jpg": "/react-blog-app/static/media/E.T. the Extra-Terrestrial.ad9168510d640cadc4da.jpg",
     "static/media/Jurassic-Park.jpg": "/react-blog-app/static/media/Jurassic-Park.015533a6030932c65885.jpg",
+    "static/media/Gladiator.jpg": "/react-blog-app/static/media/Gladiator.8c991fe1a2b5dae8db30.jpg",
+    "static/media/wallpaper-3.jpg": "/react-blog-app/static/media/wallpaper-3.fd168c4c1634ab12b373.jpg",
     "static/media/Avengers-Endgame.jpg": "/react-blog-app/static/media/Avengers-Endgame.8be7c890c79996588163.jpg",
     "static/media/Avatar.jpg": "/react-blog-app/static/media/Avatar.3f73b25d65d99012662d.jpg",
     "static/media/Alternate-Heel-Touchers.gif": "/react-blog-app/static/media/Alternate-Heel-Touchers.2f81c1317e735f049613.gif",
@@ -21,12 +28,14 @@
     "static/media/sit-up.gif": "/react-blog-app/static/media/sit-up.2af49a7e51d2a04e8676.gif",
     "static/media/Arm-Slingers-Hanging-Bent-Knee-Legs.gif": "/react-blog-app/static/media/Arm-Slingers-Hanging-Bent-Knee-Legs.68d61ce6b7a07efca506.gif",
     "static/media/Fours-Squad-Stretch.gif": "/react-blog-app/static/media/Fours-Squad-Stretch.c4d0c88e124bc641be5f.gif",
+    "static/media/wallpaper-4.jpg": "/react-blog-app/static/media/wallpaper-4.0515596aa128f80b992c.jpg",
     "static/media/Archer-Pull-Up.gif": "/react-blog-app/static/media/Archer-Pull-Up.efe5d3843d127d491a43.gif",
     "static/media/The-Shawshank-Redemption.jpg": "/react-blog-app/static/media/The-Shawshank-Redemption.43c6b41a0b7108e4f5bb.jpg",
     "static/media/Titanic.jpg": "/react-blog-app/static/media/Titanic.717229ff499f702bc053.jpg",
     "static/media/Alternate-Lateral-Pulldown.gif": "/react-blog-app/static/media/Alternate-Lateral-Pulldown.bb0958f9e6d0dcdb6659.gif",
     "static/media/Ankle-Circles.gif": "/react-blog-app/static/media/Ankle-Circles.40094289b938b15599e8.gif",
     "static/media/Bahubali2.jpg": "/react-blog-app/static/media/Bahubali2.73732ef5a54b8f82640d.jpg",
+    "static/media/Harry-Potter.jpg": "/react-blog-app/static/media/Harry-Potter.98c9fa23533694112bcd.jpg",
     "static/media/The-Godfather.jpg": "/react-blog-app/static/media/The-Godfather.1c2873f4c3d1d95047b3.jpg",
     "static/media/students.jpg": "/react-blog-app/static/media/students.55d44a4d7dfd2f6b30ee.jpg",
     "static/media/Pizza.jpg": "/react-blog-app/static/media/Pizza.d6c00070c0b2da62b458.jpg",
@@ -34,6 +43,7 @@
     "static/media/Pasta.jpg": "/react-blog-app/static/media/Pasta.aea8da31be9366c4c8a0.jpg",
     "static/media/tech-5.jpg": "/react-blog-app/static/media/tech-5.1aff7b37cc39bc997386.jpg",
     "static/media/Tacos.jpg": "/react-blog-app/static/media/Tacos.352e9446831d498872fd.jpg",
+    "static/media/home.jpg": "/react-blog-app/static/media/home.1b15b74ba5db1d6288ff.jpg",
     "static/media/check.jpg": "/react-blog-app/static/media/check.626c0a4e667dfe1df911.jpg",
     "static/media/bolly-11.jpg": "/react-blog-app/static/media/bolly-11.8d95c9a1bd857ace5113.jpg",
     "static/media/home-4.jpg": "/react-blog-app/static/media/home-4.80ca4dbb259b5b3ecf5d.jpg",
@@ -48,11 +58,11 @@
     "static/media/pathan.jpg": "/react-blog-app/static/media/pathan.09f78e0bec15dafbcea8.jpg",
     "static/media/Sushi.jpg": "/react-blog-app/static/media/Sushi.183719dd3d91ff5aec2c.jpg",
     "index.html": "/react-blog-app/index.html",
-    "main.b2f05f8a.css.map": "/react-blog-app/static/css/main.b2f05f8a.css.map",
-    "main.5682912a.js.map": "/react-blog-app/static/js/main.5682912a.js.map"
+    "main.561773a1.css.map": "/react-blog-app/static/css/main.561773a1.css.map",
+    "main.f08c56e2.js.map": "/react-blog-app/static/js/main.f08c56e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2f05f8a.css",
-    "static/js/main.5682912a.js"
+    "static/css/main.561773a1.css",
+    "static/js/main.f08c56e2.js"
   ]
 }
