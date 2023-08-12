@@ -8,7 +8,7 @@ import Footer from '../../component/footer/Footer'
 
 // import image1 from './img/check.jpg'
 // import image2 from './img/students.jpg'
-import image3 from '../../pages/home/img/home-4.jpg'
+import image3 from '../../data/images/technology/tech.jpg'
 // import image4 from './img/pathan.jpg'
 // import image5 from './img/War-.jpg'
 // import image6 from './img/brahmastra.jpg'
@@ -31,7 +31,7 @@ const Info = () => {
   return (
     <>
     <div className='techComponent'>
-      <h1 className="tech-component-title">tech</h1>
+      <h1 className="tech-component-title">Technology</h1>
       <hr className="tech-line" />
       <hr className="tech-line2" />
       <div className="techContainer">
@@ -102,10 +102,12 @@ const Info = () => {
                 )
               })}
           </div>
-          <div className='tech-ads-container2'>
+          
+        </div>
+
+        <div className='tech-ads-container2'>
             <div className="tech-ads-box-2 tech-ads-2">Advertisement</div>
           </div>
-        </div>
       </div>
     </div>
   </>

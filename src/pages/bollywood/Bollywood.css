@@ -203,22 +203,52 @@
   display: none;
 }
 
-/* 
-  @media screen and (max-width:1024px) {
-    .food-all-image {
-      
-      width: 400px;
-      height: 300px;
-    }
-    .top-post-details-wrapper{
-      flex-direction: column;
-    }
-    
-  } */
+@media screen and (max-width:1000px) {
+  .bollyContainer {
+    display: block;
+  }
 
-/* @media (max-width: 382px) {
-    .food-all-image {    
-      width: 60%;
-      height: auto;
-    }
-  } */
+  .bolly-Left-Data {
+    width: 100%;
+
+    /* background-color: red; */
+  }
+
+  .bolly-right-data {
+    display: none;
+    /* background-color: rgb(0, 255, 17); */
+  }
+
+  .bolly-ads-container2 {
+    display: block;
+    width: 90%;
+    height: 200px;
+    /* background-color: red; */
+    border:  1px solid red;
+    border-radius: 8px;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width:588px) {
+  .bolly-wrapper {
+    display: block;
+    /* background-color: red; */
+  }
+
+  .bolly-img-container {
+    width: 80%;
+  }
+
+  .bolly-all-image {
+    width: 100%;
+    /* margin-left: 10%; */
+  }
+
+  .bolly-details {
+    /* background-color: red; */
+    width: 90%;
+    padding: 5px;
+  }
+
+}

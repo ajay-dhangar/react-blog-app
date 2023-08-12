@@ -26,18 +26,18 @@ import img23 from "./images/bollywood/bolly-13.jpg";
 
 //  Tech Images 
 
-import img24 from "./images/technology/tech-1.jpg";
-import img25 from "./images/technology/tech-2.jpg";
-import img26 from "./images/technology/tech-3.jpg";
-import img27 from "./images/technology/tech-4.jpg";
-import img28 from "./images/technology/tech-5.jpg";
-// import img29 from "./images/technology/tech-5.jpg";
-// import img30 from "./images/technology/tech-5.jpg";
-// import img31 from "./images/technology/tech-5.jpg";
-// import img32 from "./images/technology/tech-5.jpg";
-// import img33 from "./images/technology/tech-5.jpg";
-// import img34 from "./images/technology/tech-5.jpg";
-// import img35 from "./images/technology/tech-5.jpg";
+import img24 from "./images/technology/5G.jpg";
+import img25 from "./images/technology/AI-ML.jpg";
+import img26 from "./images/technology/Ar-vr.jpg";
+import img27 from "./images/technology/Automation and Robotics.jpg";
+import img28 from "./images/technology/Blockchain Technology.jpg";
+import img29 from "./images/technology/Cloud Computing.jpg";
+import img30 from "./images/technology/Cybersecurity and Data Privacy.jpg";
+import img31 from "./images/technology/Internet of Things (IoT).jpg";
+import img32 from "./images/technology/Quantum Computing.jpg";
+import img33 from "./images/technology/tech-6.jpg";
+import img34 from "./images/technology/tech-9.jpg";
+import img35 from "./images/technology/tech-3.jpg";
 
 //  Hollywood Images
 
@@ -324,8 +324,7 @@ export const ProvideInfo = (props) => {
 
     // Technology (id: 24 - 36)
     {
-      id: 24,
-
+      id: 24,      
       category: 'technology',
       name: 'Artificial Intelligence (AI)',
       image: img24,
@@ -335,7 +334,6 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 25,
-
       category: 'technology',
       name: 'Security',
       image: img25,
@@ -345,7 +343,6 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 26,
-
       category: 'technology',
       name: 'Full Stack Developer',
       image: img26,
@@ -364,7 +361,6 @@ export const ProvideInfo = (props) => {
     },
     {
       id: 28,
-
       category: 'technology',
       name: 'Full Stack',
       image: img28,
@@ -376,7 +372,7 @@ export const ProvideInfo = (props) => {
       id: 29,
       category: 'technology',
       name: 'Full Stack',
-      image: img26,
+      image: img29,
       details: 'The Rise of Full Stack Freelancing',
       content:
         'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
@@ -385,57 +381,52 @@ export const ProvideInfo = (props) => {
       id: 30,
       category: 'technology',
       name: 'Full Stack',
-      image: img26,
+      image: img30,
       details: 'The Rise of Full Stack Freelancing',
       content:
         'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
     },
     {
       id: 31,
-
       category: 'technology',
       name: 'Full Stack',
-      image: img26,
+      image: img31,
       details: 'The Rise of Full Stack Freelancing',
       content:
         'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
     },
     {
       id: 32,
-
       category: 'technology',
       name: 'Full Stack',
-      image: img26,
+      image: img32,
       details: 'The Rise of Full Stack Freelancing',
       content:
         'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
     },
     {
       id: 33,
-
       category: 'technology',
       name: 'Full Stack',
-      image: img26,
+      image: img33,
       details: 'The Rise of Full Stack Freelancing',
       content:
         'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
     },
     {
       id: 34,
-
       category: 'technology',
       name: 'Full Stack',
-      image: img26,
+      image: img34,
       details: 'The Rise of Full Stack Freelancing',
       content:
         'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
     },
     {
       id: 35,
-
       category: 'technology',
       name: 'Full Stack',
-      image: img26,
+      image: img35,
       details: 'The Rise of Full Stack Freelancing',
       content:
         'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',

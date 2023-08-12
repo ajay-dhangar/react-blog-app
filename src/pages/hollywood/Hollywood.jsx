@@ -102,9 +102,11 @@ const Info = () => {
                   )
                 })}
             </div>
-            <div className='holly-ads-container2'>
-              <div className="holly-ads-box-2 holly-ads-2">Advertisement</div>
-            </div>
+
+          </div>
+
+          <div className='holly-ads-container2'>
+            <div className="holly-ads-box-2 holly-ads-2">Advertisement</div>
           </div>
         </div>
       </div>

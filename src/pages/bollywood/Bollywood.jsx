@@ -7,9 +7,9 @@ import ImageSlider from '../home/ImageSlider';
 import Footer from '../../component/footer/Footer'
 
 import image1 from './img/check.jpg'
-import image2 from './img/students.jpg'
+import image2 from './img/wallpaper-10.jpg'
 import image3 from './img/kala.jpg'
-import image4 from './img/pathan.jpg'
+import image4 from './img/player.jpg'
 import image5 from './img/War-.jpg'
 import image6 from './img/brahmastra.jpg'
 import image7 from './img/don2.jpg'
@@ -101,11 +101,12 @@ const Info = () => {
                     </>
                   )
                 })}
-            </div>
-            <div className='bolly-ads-container2'>
+            </div>            
+          </div>
+
+          <div className='bolly-ads-container2'>
               <div className="bolly-ads-box-2 bolly-ads-2">Advertisement</div>
             </div>
-          </div>
         </div>
       </div>
     </>

@@ -109,11 +109,11 @@ const Info = () => {
                     </>
                   )
                 })}
-            </div>
-            <div className='food-ads-container2'>
+            </div>            
+          </div>
+          <div className='food-ads-container2'>
               <div className="food-ads-box-2 food-ads-2">Advertisement</div>
             </div>
-          </div>
         </div>
       </div>
     </>

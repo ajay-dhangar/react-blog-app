@@ -93,11 +93,12 @@ const Info = () => {
                     )
                   })}
               </div>
-              <div className='fit-ads-container2'>
-                <div className="fit-ads-box-2 ads-2">Advertisement</div>
-              </div>
+              
             </div>
           </div>
+          <div className='fit-ads-container2'>
+                <div className="fit-ads-box-2 ads-2">Advertisement</div>
+              </div>
         </div>
       </div>
     </>
