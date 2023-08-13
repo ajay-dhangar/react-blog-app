@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-blog-app/static/css/main.992cb627.css",
-    "main.js": "/react-blog-app/static/js/main.2bbcfdaf.js",
+    "main.css": "/react-blog-app/static/css/main.6542a84b.css",
+    "main.js": "/react-blog-app/static/js/main.260e5051.js",
     "static/media/wallpaper-5.jpg": "/react-blog-app/static/media/wallpaper-5.4a250810390cb21f990e.jpg",
     "static/media/Automation and Robotics.jpg": "/react-blog-app/static/media/Automation and Robotics.3d4ef7ece7123df06177.jpg",
     "static/media/wallpaper-2.jpg": "/react-blog-app/static/media/wallpaper-2.1ef5151aa3cf88728af0.jpg",
@@ -60,11 +60,11 @@
     "static/media/Burgers.jpg": "/react-blog-app/static/media/Burgers.be7404a69105197d91a1.jpg",
     "static/media/Sushi.jpg": "/react-blog-app/static/media/Sushi.183719dd3d91ff5aec2c.jpg",
     "index.html": "/react-blog-app/index.html",
-    "main.992cb627.css.map": "/react-blog-app/static/css/main.992cb627.css.map",
-    "main.2bbcfdaf.js.map": "/react-blog-app/static/js/main.2bbcfdaf.js.map"
+    "main.6542a84b.css.map": "/react-blog-app/static/css/main.6542a84b.css.map",
+    "main.260e5051.js.map": "/react-blog-app/static/js/main.260e5051.js.map"
   },
   "entrypoints": [
-    "static/css/main.992cb627.css",
-    "static/js/main.2bbcfdaf.js"
+    "static/css/main.6542a84b.css",
+    "static/js/main.260e5051.js"
   ]
 }
