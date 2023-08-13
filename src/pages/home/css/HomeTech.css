@@ -45,39 +45,25 @@
     font-size: 1.5rem;
     /* -webkit-text-stroke: 1px #130f27; */
   }
-  /* @media screen and (max-width:1024px) {
-    .home-latest-tech-stories-title {
-      margin-top: 10px;
-    }
+
+  @media screen and (max-width:895px) {   
     .tech {
-      width: 80%;
+      width: 100%;
       height: auto;
       margin-top: 6vh;
     }
   
     .tech-img {
       height: 300px;
-      width: 400px;
+      width: 380px;
       margin-bottom: 20px;
     }
   }
   
-  @media screen and (max-width:1000px) {
-    .home-latest-tech-stories-title {
-      margin-top: 6vh;
-    }
-    .tech {
-      width: 90%;
-    }
-  }
-  
-  @media screen and (max-width:570px) {
+  @media screen and (max-width:405px) {
     .tech-img {
-      height: 150px;
-      width: 200px;
-      margin-bottom: 4vh;
+      height: auto;
+      width: 70%;
+      margin-bottom: 20px;
     }
   }
-  
-  @media screen and (max-width:370px) {}
-   */

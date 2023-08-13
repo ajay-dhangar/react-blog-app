@@ -73,35 +73,37 @@ const Sportstories = () => {
       <div className="Home-Sport-Container">
         {sport.map((value) => (
           <div key={value.id} className="sports">
-            <Link
-              to={`/article/${value.id}`}
-              style={{ position: 'relative', width: '5rem' }}
-            >
-              <img src={value.image} alt="" className="sports-img" />
-            </Link>
-            <h3>{value.details}</h3>
-            <p className="sport-texts">{value.name}</p>
-            <span
-              style={{
-                fontSize: '1rem',
-                color: 'black',
-                marginTop: '2vh',
-                position: 'relative',
-              }}
-            >
-              Date:
-            </span>
-            <span
-              style={{
-                color: '#262626',
-                fontSize: '0.8rem',
-                marginLeft: '10px',
-                marginTop: '2vh',
-                position: 'relative',
-              }}
-            >
-              {formatDate(currentDate)}
-            </span>
+            <div className="all-sport-content">
+              <Link
+                to={`/article/${value.id}`}
+                style={{ position: 'relative', width: '5rem' }}
+              >
+                <img src={value.image} alt="" className="sports-img" />
+              </Link>
+              <h3>{value.details}</h3>
+              <p className="sport-texts">{value.name}</p>
+              <span
+                style={{
+                  fontSize: '1rem',
+                  color: 'black',
+                  marginTop: '2vh',
+                  position: 'relative',
+                }}
+              >
+                Date:
+              </span>
+              <span
+                style={{
+                  color: '#262626',
+                  fontSize: '0.8rem',
+                  marginLeft: '10px',
+                  marginTop: '2vh',
+                  position: 'relative',
+                }}
+              >
+                {formatDate(currentDate)}
+              </span>
+            </div>
           </div>
         ))}
       </div>

@@ -41,34 +41,25 @@
     /* -webkit-text-stroke: 1px #130f27; */
   }
   
-  /* @media screen and (max-width:1024px) {
+  @media screen and (max-width:835px) {   
     .sports {
-      width: 80%;
+      width: 100%;
       height: auto;
       margin-top: 6vh;
     }
   
     .sports-img {
       height: 300px;
-      width: 400px;
+      width: 380px;
       margin-bottom: 20px;
     }
   }
   
-  @media screen and (max-width:1000px) {
-    .sports {
-      width: 90%;
-    }
-  }
-  
-  @media screen and (max-width:570px) {
+  @media screen and (max-width:405px) {
     .sports-img {
-      height: 150px;
-      width: 200px;
-      margin-bottom: 4vh;
+      height: 10%;
+      width: 70%;
+      margin-bottom: 20px;
     }
   }
   
-  @media screen and (max-width:370px) {} */
-  
-  /* ==== Styling for Sport Content is End ====== */

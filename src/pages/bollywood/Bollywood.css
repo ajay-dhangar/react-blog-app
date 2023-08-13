@@ -237,11 +237,12 @@
   }
 
   .bolly-img-container {
-    width: 80%;
+    width: 100%;
   }
 
   .bolly-all-image {
-    width: 100%;
+    width: 80%;
+    height: 250px;
     /* margin-left: 10%; */
   }
 
