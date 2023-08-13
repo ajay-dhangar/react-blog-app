@@ -83,16 +83,16 @@ const Article = () => {
             {data
               .filter((value) => value.id !== path && value.category === categories).slice(0, 4)
               .map((val) => (
-                <div key={val.id} className="sports">
+                <div key={val.id} className="article-botton-contener">
                   <Link
                     to={`/article/${val.id}`}
                     style={{ position: 'relative', width: '5rem' }}
                   >
-                    <img src={val.image} alt="" className="sports-img" />
+                    <img src={val.image} alt="img" className="article-botton-img" />
                   </Link>
 
-                  <h3>{val.details}</h3>
-                  <p className="texts">{val.name}</p>
+                  <h3>{val.details || val.desc}</h3>
+                  <h2 className="article-bottom-texts">{val.name}</h2>
                   <span className='extra-main-info'>
                     Date:
                   </span>

@@ -324,58 +324,156 @@ export const ProvideInfo = (props) => {
 
     // Technology (id: 24 - 36)
     {
-      id: 24,      
+      id: 24,
       category: 'technology',
-      name: 'Artificial Intelligence (AI)',
+      name: '5G Technology and Connectivity',
       image: img24,
-      details: 'Unleashing the Power of Artificial Intelligence and Exploring the Future of AI',
-      content:
-        "Artificial Intelligence (AI) has revolutionized various industries by enabling machines to mimic human intelligence. From virtual assistants to self-driving cars, AI is transforming the way we live and work. Machine Learning algorithms have made it possible for computers to learn from data and improve their performance over time. Natural Language Processing allows machines to understand and generate human language, powering chatbots and language translation systems. Despite its many advantages, AI also raises ethical concerns such as data privacy and potential job displacement. As AI continues to evolve, it's essential to strike a balance between technological advancement and ethical considerations. Embracing AI responsibly can pave the way for a future where technology complements human potential, making our lives more efficient and enjoyable.",
+      details: '5G Unleashed: A New Era of Blazing-Fast Connectivity and Innovation',
+      content: `In the heart of a bustling city, a group of tech enthusiasts gathered at a local park, eagerly awaiting the unveiling of a groundbreaking technological advancement. The event was abuzz with excitement as representatives from the leading telecommunications company took the stage. The curtains drew back, revealing a sleek, futuristic device that would change the way people connected with the world around them.
+
+      The device was a smartphone, but not just any smartphone. It was a device designed to harness the power of 5G connectivity – the fifth generation of wireless technology. As the presenter explained, 5G was not just an incremental improvement; it was a leap into a new era of communication and connectivity.
+      
+      With its lightning-fast speeds, low latency, and capacity to connect millions of devices simultaneously, 5G was poised to revolutionize industries across the board. The audience listened in awe as they learned about the potential applications of 5G technology.
+      
+      In healthcare, 5G-enabled medical devices could transmit real-time patient data to doctors, enabling remote diagnosis and treatment. Surgical procedures could be performed with the guidance of experts located miles away, all in real-time.
+      
+      For transportation, self-driving cars would communicate with each other and with smart traffic management systems to create a seamless flow of traffic, reducing congestion and accidents. Public transportation systems would become more efficient and responsive, offering a new level of convenience to commuters.
+      
+      In entertainment, virtual reality experiences would be immersive and lag-free, opening up new avenues for gaming and interactive storytelling. Streaming 4K and even 8K content would be seamless, giving viewers a cinematic experience on their devices.
+      
+      Smart cities would benefit immensely from 5G. Smart grids would optimize energy distribution, reducing waste and lowering costs. Municipal services would be enhanced through real-time data collection and analysis, leading to improved waste management, traffic control, and more.
+      
+      As the presentation concluded, the crowd erupted into applause. The 5G connectivity expansion wasn't just about faster download speeds; it was about transforming the way society operated, communicated, and lived. The future had arrived, and it was more connected than anyone could have imagined.
+      
+      And so, in the heart of that park, a new era dawned. The 5G revolution had begun, and the world would never be the same again.`
     },
     {
       id: 25,
       category: 'technology',
-      name: 'Security',
+      name: 'Artificial Intelligence and Machine Learning',
       image: img25,
-      details: 'Securing Your Digital Fortress: A Guide to Online Security',
-      content:
-        "In today's interconnected world, cybersecurity is a critical concern for individuals and organizations alike. With the increasing frequency of cyberattacks, protecting sensitive information has become paramount. Implementing strong passwords, enabling two-factor authentication, and regularly updating software are basic steps to fortify digital security.Moreover, cybersecurity goes beyond individual actions; it demands a collective effort. Businesses must invest in robust security measures to safeguard customer data and maintain their reputation. Governments and tech companies should collaborate to combat cyber threats and enact policies that protect user privacy. By creating a secure digital environment, we can promote trust in technology and enable a safer online experience for everyone.",
+      details: 'Embarking on a Journey with Artie the AI and Max the ML: The Wonders of AI and ML',
+      content: `Once upon a time in a digital kingdom called Technoville, there lived two extraordinary companions named Artie the AI and Max the ML. They were unlike any other inhabitants of Technoville, possessing incredible abilities that made them the talk of the kingdom.
+
+      Artie, short for Artificial Intelligence, was known for his immense knowledge and the ability to think and learn just like humans. He had the power to process vast amounts of information in a blink of an eye and make decisions based on patterns and data. Artie was the wise advisor of the kingdom, always ready to provide insights and recommendations to help Technoville prosper.
+      
+      Max, on the other hand, was a bit mischievous but equally talented. Max stood for Machine Learning, and his specialty was learning from experiences and improving over time. He had an insatiable curiosity and an appetite for data. Max could recognize patterns in data that even the sharpest minds in Technoville couldn't spot. He used these patterns to make predictions and decisions that amazed everyone.
+      One day, the king of Technoville faced a dilemma. He needed to predict the weather patterns to prepare for an upcoming festival, but the weather was proving to be quite unpredictable. Artie and Max saw this as an opportunity to showcase their abilities.
+
+Artie, with his vast knowledge of historical weather data, quickly analyzed patterns and predicted a 70% chance of rain. Max, being a lover of real-time data, started collecting information about wind speeds, humidity levels, and cloud formations. As the festival day approached, Max's predictions began to align more and more accurately with the changing conditions.
+
+On the day of the festival, as the first raindrop fell, Artie and Max stood side by side, proudly watching their predictions come true. The festival was prepared, and everyone was amazed by the accurate weather forecast.
+
+From that day on, Artie and Max became the heroes of Technoville. They showed that Artificial Intelligence and Machine Learning could work hand in hand to solve complex problems, make predictions, and improve decision-making.
+
+And so, the curious adventures of Artie the AI and Max the ML continued, as they explored new ways to make Technoville an even smarter and more innovative kingdom, inspiring everyone to embrace the power of technology and learning.`
     },
     {
       id: 26,
       category: 'technology',
-      name: 'Full Stack Developer',
+      name: 'Augmented Reality and Virtual Reality',
       image: img26,
-      details: 'Becoming a Full Stack Developer: Mastering the Multifaceted Craft',
-      content:
-        "Full Stack Developers are versatile professionals capable of handling both front-end and back-end development. They possess a broad range of skills, including proficiency in programming languages like HTML, CSS, JavaScript, and expertise in server-side technologies like Node.js, Python, or Ruby. These developers understand the entire web development process, from designing user interfaces to managing databases and deploying web applications. Their adaptability makes them valuable assets in agile development environments where versatility is crucial. Being a Full Stack Developer requires continuous learning and staying up-to-date with the latest trends and technologies. It's a dynamic field that demands creativity, problem-solving, and collaboration with other team members. In conclusion, a Full Stack Developer's diverse skill set makes them an indispensable part of any web development project, allowing them to tackle challenges across the entire development stack.",
+      details: 'The Convergence of Realities - A Journey through Augmented and Virtual Worlds',
+      content: `In the not-so-distant future, the boundaries between reality and imagination blurred as Augmented Reality (AR) and Virtual Reality (VR) technologies swept the world by storm. These cutting-edge technologies were no longer confined to the realms of entertainment; they had become an integral part of our daily lives, transforming industries, education, and social interactions.
+      The story follows Maya, a young architect, as she embarked on a groundbreaking project using AR. With a sleek AR headset, Maya could superimpose intricate 3D models of her architectural designs onto real-world spaces. What used to be blueprints on paper now came to life in front of her eyes. She walked through her virtual creations, adjusting and refining every detail in real-time. Maya's clients marveled at the immersive experience of exploring their future homes before a single brick was laid.
+      Meanwhile, on the other side of the spectrum, VR was redefining the way people experienced entertainment. Alex, a gamer and aspiring storyteller, found himself in awe as he slipped on his VR headset. He stepped into a fantasy world that responded to his every move. The tactile sensations, the vivid landscapes, and the lifelike characters made him feel like a true adventurer. As VR arcades popped up across the city, people of all ages could step into realms beyond their wildest dreams.
+
+But the impact of AR and VR wasn't confined to just fun and games. The healthcare industry found new ways to train surgeons using realistic simulations, reducing risks for real patients. Students around the world attended virtual lectures, visiting historic events and exploring distant galaxies in their classrooms. Remote work became more collaborative as colleagues from different corners of the world met in virtual boardrooms, making distance virtually disappear.
+As the technology matured, AR glasses became as commonplace as smartphones once were. Walking down the street, people saw digital information overlaid on their surroundings—directions, reviews of nearby restaurants, historical facts about buildings. Personalized advertisements appeared, tempting them with products tailored to their preferences. Privacy concerns were raised, prompting discussions about the balance between convenience and personal space.
+
+The story of AR and VR was one of rapid advancement, societal change, and ethical considerations. It wasn't a smooth journey—there were setbacks, controversies, and growing pains. Yet, humanity had taken a leap into a new era of perception, where the lines between the physical and digital realms were forever intertwined.
+
+And as the sun set on Maya's bustling city and Alex's fantastical world, the promise of augmented and virtual realities continued to unfold, inspiring generations to dream bigger, explore further, and create a future where anything was possible.
+
+Whether you were an architect shaping cities or a gamer exploring new dimensions, AR and VR were the conduits through which ordinary lives transformed into extraordinary experiences.`
+    
     },
     {
       id: 27,
       category: 'technology',
-      name: 'Network',
+      name: 'Automation and Robotics',
       image: img27,
-      details: "Demystifying Networking: A Beginner's Guide to Networks",
-      content:
-        "Computer networks are the backbone of modern communication, facilitating data exchange across the globe. These networks come in various forms, from Local Area Networks (LANs) connecting devices within a limited area to the vast expanse of the Internet. Protocols like TCP/IP govern the transmission of data, ensuring seamless connectivity. Network administrators play a crucial role in maintaining network infrastructure, monitoring performance, and troubleshooting issues. As technology advances, the demand for faster, more reliable networks grows. Concepts like 5G and the Internet of Things (IoT) promise to revolutionize how we interact with the digital world. Understanding the basics of networking empowers individuals to make informed decisions about their digital connectivity needs. As technology evolves, so too must our knowledge of networking to stay connected in an ever-changing digital landscape.",
+      details: "The RoboHelpers: How Automation and Robotics Transformed a Little Town",
+      content: `Once upon a time, in a quiet little town named Techville, there lived a group of friendly and hardworking folks. Life was simple, but they dreamed of making their town a better place. The townspeople often found themselves facing challenges, wishing they had a helping hand to make things easier.
+
+      One bright day, a young inventor named Alex moved to Techville. Alex was passionate about technology and believed that it could change lives. With a twinkle in their eye, they brought together a team of engineers and dreamers to work on a groundbreaking project – automation and robotics.
+      
+      Alex and their team introduced the concept of automation, where machines and computers could perform tasks without human intervention. They started by automating everyday tasks like sorting mail, packaging goods, and even cleaning the streets. The townspeople were amazed at how much time and effort they saved.
+      
+      But the real magic began with the introduction of robots. These were not the sci-fi robots you see in movies, but friendly and helpful machines designed to assist people. The robots could be programmed to perform a variety of tasks, from helping in the fields to aiding doctors in the town's clinic.
+
+One of the first robots, RoboBuddy, was designed to help elderly residents with daily chores. It could remind them to take their medications, assist in cooking meals, and even engage in cheerful conversations. The seniors quickly formed a bond with RoboBuddy, and loneliness became a thing of the past.
+
+Another remarkable creation was FarmBot, a robot designed to revolutionize agriculture. FarmBot could plant seeds, water plants, and even monitor soil conditions. The farmers no longer had to toil under the hot sun, and their yields increased significantly. Techville's produce became famous for its quality and abundance.
+
+The town's children adored EduBot, a robot that turned learning into an adventure. EduBot made studying fun with interactive lessons and personalized guidance. Every child found a study buddy in EduBot, and the school's performance soared.
+
+As more robots joined the town, Techville transformed into a hub of innovation. People were free to pursue their passions while leaving mundane tasks to the robots. The townspeople's quality of life improved, and the sense of community grew stronger.
+
+However, it wasn't all smooth sailing. The townspeople had to learn to work alongside robots and ensure that they were programmed ethically and responsibly. They also faced challenges in adapting to the changing job landscape, as some jobs were taken over by machines. But with the help of education and training programs, the transition became smoother.
+
+Techville became an inspiration to neighboring towns. Visitors marveled at the harmony between humans and robots. The story of Techville's transformation spread far and wide, encouraging other communities to embrace automation and robotics for the betterment of society.
+
+And so, the little town of Techville taught the world a valuable lesson – that technology, when harnessed for the right reasons, can bring about positive change and create a brighter future for everyone.
+
+The end.
+`
     },
     {
       id: 28,
       category: 'technology',
-      name: 'Full Stack',
+      name: 'Blockchain Technology',
       image: img28,
-      details: 'The Rise of Full Stack Freelancing',
-      content:
-        'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
+      details: `Crypto Adventures: Exploring Blockchain Technology through Ajay and Pawan's Story`,
+      content: `Once upon a time in a digital world called Blockchain Land, lived two friends named Ajay and Pawan. They were always looking for ways to exchange digital treasures securely, without the need for a middleman. One day, they stumbled upon a magical concept called "Blockchain."
+
+      Ajay and Pawan learned that a blockchain is like a digital ledger, just like a record book, where transactions are written down. But the special thing about this ledger was that it was distributed across many computers, making it incredibly secure and transparent.
+      
+      Imagine a treasure chest that can only be opened with a special key. In Blockchain Land, this treasure chest is a "block." Every time Ajay and Pawan wanted to exchange something valuable, like digital coins or important information, they would put it in a block and lock it with their unique keys.
+
+But wait, here's the twist! These blocks are not stored in one place. They are spread across the entire land, in the hands of many people. This makes it nearly impossible for anyone to change the information in a block without everyone else noticing.
+
+To add more magic to the mix, every new block that Ajay and Pawan added to the chain had a piece of information from the previous block, sort of like linking them together. This made the chain unbreakable and tamper-proof.
+
+Now, whenever Ajay wanted to send digital coins to Pawan, he would create a new block. He would write down the transaction details and lock the block with her key. The block would then be sent to the digital treasure chest distributed across Blockchain Land.
+
+But here's the cool part: before the block was added to the treasure chest, all the other people in Blockchain Land would verify the transaction. They would make sure Ajay had enough coins and that he wasn't trying to send the same coins to someone else at the same time (called double-spending).
+
+Once the block was verified, it would be added to the treasure chest, and Ajay's coins would be safely transferred to Pawan. Everyone would know about this transaction, and no one could change it, thanks to the secure chain of blocks.
+
+Ajay and Pawan loved the transparency, security, and simplicity of Blockchain Land. They could exchange treasures without worrying about fraud or middlemen taking a cut.
+
+And so, Ajay and Pawan continued their adventures in Blockchain Land, spreading the word about this amazing technology that had the power to revolutionize how digital transactions were done.
+
+And they all lived transparently and securely ever after.
+
+The end.`
     },
     {
       id: 29,
       category: 'technology',
-      name: 'Full Stack',
+      name: 'Cloud Computing',
       image: img29,
-      details: 'The Rise of Full Stack Freelancing',
-      content:
-        'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
+      details: 'The Magic of Cloud Computing: A Story of Innovation and Accessibility',
+      content: `Once upon a time, in the land of Technologyville, lived a young inventor named Alex. Alex was known for his passion for creating innovative solutions to everyday challenges. He dreamt of making computing more accessible and efficient for everyone in the kingdom.
+
+      In the heart of Technologyville, there was a grand library called "The Data Tower," where people stored and accessed their information. However, as time passed, the tower became crowded, making it hard for everyone to manage their data. Alex knew he had to find a way to help his fellow citizens.
+      
+      One day, while gazing at the sky, Alex had a brilliant idea. He imagined a vast, invisible network of interconnected computers, floating like fluffy clouds. These clouds would hold and manage data, making it easily accessible to anyone, anywhere.
+      
+      Excited by his idea, Alex set out to create the first Cloud Computing system. He connected several powerful computers together, creating a virtual cloud high above Technologyville. This cloud could store and process vast amounts of data, and people could access it using their devices.
+      
+      The citizens of Technologyville were amazed. They could now store their information in the cloud and access it whenever they needed, without worrying about running out of space or losing their data. Businesses could scale up their operations without investing in expensive hardware, and students could collaborate on projects seamlessly.
+
+As word spread about this incredible cloud, more people joined in, making the cloud expand and become even more powerful. Alex continued to enhance the cloud's capabilities, adding layers of security, faster processing, and various services that people could use.
+
+Over time, cloud computing became an integral part of Technologyville's landscape. The Data Tower was no longer overcrowded, as most people preferred the convenience and reliability of the cloud. Alex's invention had revolutionized the way people used technology.
+
+And so, the tale of the marvelous cloud became a legend in Technologyville. Alex's vision had turned into reality, bringing computing resources to the fingertips of every citizen. The cloud had made technology accessible, flexible, and efficient for all, forever changing the way they lived and worked.
+
+And to this day, the clouds still float above, continuing to serve the people of Technologyville, reminding them of the power of innovation and the endless possibilities that come from thinking outside the box.
+
+And that, my dear readers, is the enchanting story of cloud computing – a tale of invention, accessibility, and the boundless potential of technology.`
     },
     {
       id: 30,
@@ -440,7 +538,7 @@ export const ProvideInfo = (props) => {
       category: 'hollywood',
       image: img36,
       name: 'Avatar',
-      content:`In the mid-22nd century, humanity has exhausted Earth's resources and turned its attention to the distant moon Pandora, rich in a valuable mineral called unobtainium. However, Pandora's lush ecosystem is home to the Na'vi, an indigenous humanoid species deeply connected to their environment. To extract the mineral, humans create the Avatar Program, which allows humans to remotely control genetically engineered Na'vi-human hybrids called avatars.
+      content: `In the mid-22nd century, humanity has exhausted Earth's resources and turned its attention to the distant moon Pandora, rich in a valuable mineral called unobtainium. However, Pandora's lush ecosystem is home to the Na'vi, an indigenous humanoid species deeply connected to their environment. To extract the mineral, humans create the Avatar Program, which allows humans to remotely control genetically engineered Na'vi-human hybrids called avatars.
 
       Jake Sully, a paraplegic Marine, becomes part of the program as he shares his twin brother's DNA. He is sent to Pandora to infiltrate the Na'vi and gather information. Using his avatar, Jake encounters Neytiri, a Na'vi princess and skilled hunter. Under the guidance of Neytiri, Jake learns about the Na'vi culture and the interconnectedness of all living things on Pandora.
       
@@ -482,7 +580,7 @@ export const ProvideInfo = (props) => {
       category: 'hollywood',
       image: img38,
       name: 'Jurassic Park',
-      content:`The "Jurassic Park" movie series, directed by Steven Spielberg and inspired by Michael Crichton's novel, takes audiences on an exhilarating journey into a world where dinosaurs are brought back to life through advanced genetic engineering. Fusing cutting-edge technology with ancient creatures, the series explores the awe-inspiring, yet perilous, consequences of playing with nature's balance.`
+      content: `The "Jurassic Park" movie series, directed by Steven Spielberg and inspired by Michael Crichton's novel, takes audiences on an exhilarating journey into a world where dinosaurs are brought back to life through advanced genetic engineering. Fusing cutting-edge technology with ancient creatures, the series explores the awe-inspiring, yet perilous, consequences of playing with nature's balance.`
     },
     {
       id: 39,
@@ -492,7 +590,7 @@ export const ProvideInfo = (props) => {
       category: 'hollywood',
       image: img39,
       name: 'Star Wars (IV)',
-      content:`In a galaxy far, far away, the "Star Wars" saga unfolds, blending elements of science fiction, fantasy, and adventure. The story begins with "Episode I: The Phantom Menace," where the Galactic Republic is in a period of decline. Two Jedi Knights, Qui-Gon Jinn and Obi-Wan Kenobi, discover a young slave named Anakin Skywalker who is strong in the Force, an energy field that grants special abilities.
+      content: `In a galaxy far, far away, the "Star Wars" saga unfolds, blending elements of science fiction, fantasy, and adventure. The story begins with "Episode I: The Phantom Menace," where the Galactic Republic is in a period of decline. Two Jedi Knights, Qui-Gon Jinn and Obi-Wan Kenobi, discover a young slave named Anakin Skywalker who is strong in the Force, an energy field that grants special abilities.
 
       As the saga continues with "Episode II: Attack of the Clones," tensions rise as political unrest threatens to fracture the galaxy. Anakin and Padmé Amidala, a former queen turned senator, form a forbidden romance while the Sith Lords manipulate events behind the scenes.
       
@@ -520,7 +618,7 @@ export const ProvideInfo = (props) => {
       category: 'hollywood',
       image: img40,
       name: 'The Dark Knight',
-      content:`In "The Dark Knight," directed by Christopher Nolan, Gotham City is once again under threat, but this time from a new and even more sinister force. The city's vigilante hero, Batman (played by Christian Bale), faces his most challenging adversary yet - the Joker (played by Heath Ledger), a psychopathic criminal mastermind who seeks to spread chaos and anarchy throughout Gotham.
+      content: `In "The Dark Knight," directed by Christopher Nolan, Gotham City is once again under threat, but this time from a new and even more sinister force. The city's vigilante hero, Batman (played by Christian Bale), faces his most challenging adversary yet - the Joker (played by Heath Ledger), a psychopathic criminal mastermind who seeks to spread chaos and anarchy throughout Gotham.
 
       The movie begins with Batman and Lieutenant James Gordon (played by Gary Oldman) teaming up to dismantle the city's criminal organizations. However, their efforts are complicated when the Joker emerges with a grand plan to prove that anyone can be driven to madness under the right circumstances.
       
@@ -538,7 +636,7 @@ export const ProvideInfo = (props) => {
       image: img41,
       name: 'The GodFather',
       desc: `Unveiling the Epic Saga of 'The Godfather' - Crime, Loyalty, and Redemption`,
-      content:`The first film introduces us to the Corleone family, led by patriarch Vito Corleone (Marlon Brando). Vito is a respected and influential Mafia boss who values family loyalty above all else. When Vito's youngest son, Michael (Al Pacino), returns from World War II and gets involved in the family business, he becomes increasingly drawn into the criminal underworld. The film explores themes of power, loyalty, and the sacrifices one must make to protect their family.`
+      content: `The first film introduces us to the Corleone family, led by patriarch Vito Corleone (Marlon Brando). Vito is a respected and influential Mafia boss who values family loyalty above all else. When Vito's youngest son, Michael (Al Pacino), returns from World War II and gets involved in the family business, he becomes increasingly drawn into the criminal underworld. The film explores themes of power, loyalty, and the sacrifices one must make to protect their family.`
     },
     {
       id: 42,
@@ -548,7 +646,7 @@ export const ProvideInfo = (props) => {
       image: img42,
       name: 'The Loard Of The Rings',
       desc: `The Lord of the Rings: A Journey Through Middle-earth`,
-      content:`In the land of Middle-earth, a peaceful and idyllic place inhabited by various races including humans, elves, dwarves, and hobbits, a dark shadow begins to spread. An ancient evil, Sauron, the Dark Lord, seeks to regain his lost power by obtaining a powerful ring that grants him control over all other rings of power. This One Ring was lost for ages but has now been found by a humble hobbit named Frodo Baggins.
+      content: `In the land of Middle-earth, a peaceful and idyllic place inhabited by various races including humans, elves, dwarves, and hobbits, a dark shadow begins to spread. An ancient evil, Sauron, the Dark Lord, seeks to regain his lost power by obtaining a powerful ring that grants him control over all other rings of power. This One Ring was lost for ages but has now been found by a humble hobbit named Frodo Baggins.
 
       Frodo is entrusted with the task of destroying the One Ring to prevent Sauron from taking control of Middle-earth. Accompanied by his loyal friend Samwise Gamgee and a group of diverse companions including humans Aragorn, Legolas the elf, Gimli the dwarf, Gandalf the wizard, and others, Frodo embarks on a perilous journey to the fiery Mount Doom in the heart of Mordor, the only place where the ring can be destroyed.
       
@@ -570,7 +668,7 @@ export const ProvideInfo = (props) => {
       image: img43,
       name: 'The Shawshank Redemption',
       desc: `The Shawshank Redemption: A Tale of Hope and Redemption`,
-      content:`In the heart of Shawshank State Penitentiary, a maximum-security prison, the lives of two very different men become intertwined. Andy Dufresne, a former banker wrongfully convicted of murder, and Ellis "Red" Redding, a seasoned inmate with a long history in the prison, find their paths converging in unexpected ways.
+      content: `In the heart of Shawshank State Penitentiary, a maximum-security prison, the lives of two very different men become intertwined. Andy Dufresne, a former banker wrongfully convicted of murder, and Ellis "Red" Redding, a seasoned inmate with a long history in the prison, find their paths converging in unexpected ways.
 
       As Andy navigates the brutal realities of prison life, he uses his financial expertise to win favor with the prison guards and the warden. His quiet demeanor and unwavering hope begin to inspire those around him, including Red, who becomes Andy's closest friend. Through their friendship, Andy imparts his optimism and outlook on life, teaching Red that hope can thrive even in the darkest of places.
       
@@ -588,7 +686,7 @@ export const ProvideInfo = (props) => {
       category: 'hollywood',
       name: 'Titanic',
       desc: `Discover the Heart-Wrenching Story of Titanic: A Timeless Tale of Love and Loss`,
-      content:`"Titanic" is a classic romantic drama film directed by James Cameron, released in 1997. The film is set against the backdrop of the ill-fated maiden voyage of the RMS Titanic in 1912.
+      content: `"Titanic" is a classic romantic drama film directed by James Cameron, released in 1997. The film is set against the backdrop of the ill-fated maiden voyage of the RMS Titanic in 1912.
 
       The story follows the lives of two central characters: Jack Dawson (played by Leonardo DiCaprio), a free-spirited artist, and Rose DeWitt Bukater (played by Kate Winslet), a young woman from a wealthy family who is engaged to a wealthy but controlling man named Cal Hockley (played by Billy Zane).
       
@@ -612,7 +710,7 @@ export const ProvideInfo = (props) => {
       category: 'hollywood',
       name: 'E.T. The Extra Terrestrial',
       desc: `E.T. the Extra-Terrestrial" is a heartwarming science fiction film directed by Steven Spielberg, released in 1982.`,
-      content:`The story of "E.T. the Extra-Terrestrial" follows the heartwarming and magical journey of a young boy named Elliott who discovers a stranded alien in his backyard. The alien, affectionately named E.T., belongs to a race of gentle extraterrestrial beings.
+      content: `The story of "E.T. the Extra-Terrestrial" follows the heartwarming and magical journey of a young boy named Elliott who discovers a stranded alien in his backyard. The alien, affectionately named E.T., belongs to a race of gentle extraterrestrial beings.
 
       Elliott, a lonely and curious boy, finds E.T. one night while investigating strange noises. At first, both are startled by each other, but Elliott soon realizes that E.T. means no harm. They form an unbreakable bond of friendship, communicating through telepathy and shared emotions.
       
@@ -634,7 +732,7 @@ export const ProvideInfo = (props) => {
       category: 'hollywood',
       name: 'Harry Potter',
       desc: `Harry Potter and the Sorcerer's Stone," directed by Chris Columbus and released in 2001`,
-      content:`In the magical world of wizards and witches, a young boy named Harry Potter lives a seemingly ordinary life with his neglectful aunt, uncle, and cousin. However, on his eleventh birthday, Harry's life takes a dramatic turn when he learns that he is a wizard and has been accepted to attend Hogwarts School of Witchcraft and Wizardry.
+      content: `In the magical world of wizards and witches, a young boy named Harry Potter lives a seemingly ordinary life with his neglectful aunt, uncle, and cousin. However, on his eleventh birthday, Harry's life takes a dramatic turn when he learns that he is a wizard and has been accepted to attend Hogwarts School of Witchcraft and Wizardry.
 
       At Hogwarts, Harry befriends Ron Weasley and Hermione Granger, and the trio quickly becomes inseparable. They discover that Harry is famous in the wizarding world for surviving an attack by the dark wizard Lord Voldemort when he was just a baby. The attack left a lightning-shaped scar on Harry's forehead and Voldemort mysteriously vanished.
       
@@ -649,7 +747,7 @@ export const ProvideInfo = (props) => {
       The school year ends on a high note, with Harry returning to his aunt and uncle's home for the summer. He looks forward to returning to Hogwarts for his second year, knowing that his journey in the world of magic has only just begun.
       
       "Harry Potter and the Sorcerer's Stone" is a tale of friendship, bravery, and the magic that exists both within and around us. It introduces readers to the captivating world of Harry Potter and sets the stage for the epic adventures that follow in the rest of the series.`,
-      },    
+    },
     {
       id: 47,
       imdb: '8.5/10',
@@ -658,7 +756,7 @@ export const ProvideInfo = (props) => {
       category: 'hollywood',
       name: 'Gladiator',
       desc: `"Gladiator" is a historical epic directed by Ridley Scott and released in the year 2000`,
-      content:`"Gladiator" is an epic historical drama directed by Ridley Scott and starring Russell Crowe in the lead role. The film is set in ancient Rome during the reign of the emperor Commodus. The story follows Maximus Decimus Meridius (Russell Crowe), a loyal general in the Roman army who is beloved by his soldiers and admired by the aging Emperor Marcus Aurelius.
+      content: `"Gladiator" is an epic historical drama directed by Ridley Scott and starring Russell Crowe in the lead role. The film is set in ancient Rome during the reign of the emperor Commodus. The story follows Maximus Decimus Meridius (Russell Crowe), a loyal general in the Roman army who is beloved by his soldiers and admired by the aging Emperor Marcus Aurelius.
 
       After Marcus Aurelius chooses Maximus as his successor over his own son Commodus (Joaquin Phoenix), Commodus becomes consumed by jealousy and power-hungry ambition. He orders the execution of Maximus's family and condemns Maximus himself to slavery as a gladiator.
       
@@ -669,7 +767,7 @@ export const ProvideInfo = (props) => {
       "Gladiator" is a tale of loyalty, vengeance, and redemption. It showcases breathtaking battles in the Colosseum, as well as the internal struggle of a man seeking justice and revenge. The film is renowned for its stunning visuals, powerful performances, and a gripping narrative that explores themes of sacrifice, leadership, and the resilience of the human spirit.
       
       The movie's blend of action, drama, and historical context has made it a classic in both Hollywood and the larger cinematic landscape. "Gladiator" received critical acclaim and won several Academy Awards, including Best Picture and Best Actor for Russell Crowe.`,
-  },
+    },
 
     // Fitness (id: 48 - 60)
 
@@ -681,9 +779,9 @@ export const ProvideInfo = (props) => {
       mood and gain energy.`,
       name: 'Sit Up',
       image: img48,
-      content:`A strong core forms the foundation of a fit and healthy body. Sit ups, a classic exercise, have long been favored for their ability to target the abdominal muscles and contribute to core strength. In this article, we'll delve into the benefits of sit ups, how to perform them with proper technique, and variations that can spice up your core workout routine.
+      content: `A strong core forms the foundation of a fit and healthy body. Sit ups, a classic exercise, have long been favored for their ability to target the abdominal muscles and contribute to core strength. In this article, we'll delve into the benefits of sit ups, how to perform them with proper technique, and variations that can spice up your core workout routine.
       Sit ups are renowned for their effectiveness in strengthening the rectus abdominis, transverse abdominis, and obliques. By engaging these muscles, you'll not only develop a toned midsection but also improve posture and stability. Strong core muscles can enhance your athletic performance, reduce the risk of lower back pain, and support everyday activities.`,
-         },
+    },
     {
       id: 49,
       category: 'fitness',
@@ -692,7 +790,7 @@ export const ProvideInfo = (props) => {
       mood and gain energy.`,
       name: 'side Bend',
       image: img49,
-      content:`Side bends are a classic exercise that can significantly contribute to your fitness journey by targeting the often-neglected oblique muscles. While core exercises like crunches and planks are essential, incorporating side bends into your routine can provide a well-rounded workout for your midsection. In this article, we'll delve into the benefits of side bends, proper form, variations, and safety tips to help you make the most out of this exercise.
+      content: `Side bends are a classic exercise that can significantly contribute to your fitness journey by targeting the often-neglected oblique muscles. While core exercises like crunches and planks are essential, incorporating side bends into your routine can provide a well-rounded workout for your midsection. In this article, we'll delve into the benefits of side bends, proper form, variations, and safety tips to help you make the most out of this exercise.
       `
     },
     {
@@ -703,18 +801,18 @@ export const ProvideInfo = (props) => {
       exercises to target your abs. It will help you improve your
       mood and gain energy.`,
       name: 'Air Bike',
-      
+
       content: `Air bikes have rapidly gained popularity in the fitness world, offering a unique and effective cardio workout that engages both upper and lower body muscles. Whether you're a seasoned athlete or just starting your fitness journey, incorporating air bikes into your routine can take your workouts to the next level. In this article, we'll explore the benefits of air bikes, how they work, and why they are a must-have addition to any fitness regimen.`,
-      },
+    },
     {
-      id: 51,      
+      id: 51,
       category: 'fitness',
       details: `Exercises keep you strong. All Fours Squad Stretch bup is one of the best
       exercises to target your quads. It will help you improve your
       mood and gain energy.`,
       name: 'Fours Squad Stretch',
       image: img51,
-      content:`The Four Squad Stretch is a versatile and effective exercise that targets multiple muscle groups while enhancing flexibility and promoting overall mobility. Whether you're an athlete, fitness enthusiast, or someone looking to improve their range of motion, incorporating the Four Squad Stretch into your routine can bring numerous benefits. In this article, we'll delve into the proper technique, benefits, and variations of the Four Squad Stretch.`
+      content: `The Four Squad Stretch is a versatile and effective exercise that targets multiple muscle groups while enhancing flexibility and promoting overall mobility. Whether you're an athlete, fitness enthusiast, or someone looking to improve their range of motion, incorporating the Four Squad Stretch into your routine can bring numerous benefits. In this article, we'll delve into the proper technique, benefits, and variations of the Four Squad Stretch.`
     },
     {
       id: 52,
@@ -724,7 +822,7 @@ export const ProvideInfo = (props) => {
       exercises to target your abs. It will help you improve your
       mood and gain energy.`,
       name: 'Alternate Heel Touchers',
-      content:`Alternate Heel Touchers are a bodyweight exercise that primarily focuses on engaging the oblique muscles, which are located on the sides of your abdomen. This exercise is effective for toning and sculpting your waistline while also providing a good overall core workout.`
+      content: `Alternate Heel Touchers are a bodyweight exercise that primarily focuses on engaging the oblique muscles, which are located on the sides of your abdomen. This exercise is effective for toning and sculpting your waistline while also providing a good overall core workout.`
     },
     {
       id: 53,
@@ -735,7 +833,7 @@ export const ProvideInfo = (props) => {
       mood and gain energy.`,
       name: 'Alternate Lateral Pulldown',
       content: `The Alternate Lateral Pulldown is a fundamental exercise that targets the muscles of the upper back, specifically the latissimus dorsi. It's a great addition to any upper body workout routine, helping you develop a strong and well-defined back. In this guide, we'll break down the proper technique, benefits, variations, and common mistakes associated with the Alternate Lateral Pulldown.`
-       },
+    },
     {
       id: 54,
       image: img54,
@@ -754,8 +852,8 @@ export const ProvideInfo = (props) => {
       exercises to target your lats. It will help you improve your
       mood and gain energy.`,
       name: 'Archer Pull Up',
-      content:`Archer Pull Ups are a powerful addition to your fitness routine, allowing you to engage various muscles and work towards a stronger, more well-rounded upper body. In this guide, we'll dive into what Archer Pull Ups are, the muscles they target, how to perform them with proper form, and tips for progressing as you build your strength.`,
-      },
+      content: `Archer Pull Ups are a powerful addition to your fitness routine, allowing you to engage various muscles and work towards a stronger, more well-rounded upper body. In this guide, we'll dive into what Archer Pull Ups are, the muscles they target, how to perform them with proper form, and tips for progressing as you build your strength.`,
+    },
     {
       id: 56,
       image: img56,
@@ -804,7 +902,7 @@ export const ProvideInfo = (props) => {
       exercises to target your cardiovascular system. It will help you improve your
       mood and gain energy.`,
       name: 'Astride Jumps (Male)',
-      content:`Astride jumps, also known as straddle jumps, are a dynamic plyometric exercise that engages multiple muscle groups while providing cardiovascular benefits. This explosive movement is a great addition to any fitness routine, helping to improve lower body strength, power, and agility. Astride jumps are particularly effective for targeting the quadriceps, hamstrings, glutes, and calf muscles.`
+      content: `Astride jumps, also known as straddle jumps, are a dynamic plyometric exercise that engages multiple muscle groups while providing cardiovascular benefits. This explosive movement is a great addition to any fitness routine, helping to improve lower body strength, power, and agility. Astride jumps are particularly effective for targeting the quadriceps, hamstrings, glutes, and calf muscles.`
     },
 
     // Food (id: 60 - 70)
@@ -841,7 +939,7 @@ export const ProvideInfo = (props) => {
       category: 'food',
       image: img63,
       name: 'Chocolate',
-      content:`Chocolate, the sweet seduction that transcends cultures and generations, is more than just a treat – it's an experience. With its origins dating back to ancient civilizations, this delectable delight has evolved into an art form that tantalizes the senses.
+      content: `Chocolate, the sweet seduction that transcends cultures and generations, is more than just a treat – it's an experience. With its origins dating back to ancient civilizations, this delectable delight has evolved into an art form that tantalizes the senses.
 
       From velvety milk chocolate to intense dark variations, each bite unveils a symphony of flavors. Explore the journey from cacao bean to delectable bar, discovering the meticulous craftsmanship that goes into every creation. Whether you're savoring a classic chocolate bar, luxuriating in a molten lava cake, or reveling in truffles adorned with edible gold, the magic of chocolate knows no bounds.`,
     },
@@ -852,7 +950,7 @@ export const ProvideInfo = (props) => {
       category: 'food',
       image: img64,
       name: 'Tacos',
-      content:`Tacos, the beloved culinary creations that bridge cultures and bring people together. These handheld delights have captured hearts worldwide, thanks to their versatility and mouthwatering combinations. Originating in Mexico, tacos have evolved into a global phenomenon, offering a canvas for culinary imagination.
+      content: `Tacos, the beloved culinary creations that bridge cultures and bring people together. These handheld delights have captured hearts worldwide, thanks to their versatility and mouthwatering combinations. Originating in Mexico, tacos have evolved into a global phenomenon, offering a canvas for culinary imagination.
 
       1. Authentic Mexican Roots: Grounded in Mexican street food culture, tacos pay homage to tradition. Corn or flour tortillas cradle a variety of fillings, from succulent meats to fresh veggies, all topped with zesty salsas.
       
@@ -864,7 +962,7 @@ export const ProvideInfo = (props) => {
       
       5. Street to Gourmet: While street stalls offer authentic treasures, upscale restaurants elevate tacos to gourmet status. Truffle-infused tacos or lobster-topped delights showcase the dish's ability to suit any occasion.
       
-      6. Culture and Connection: Sharing tacos is sharing stories. It's about bonding over the crackling of tortillas and the explosion of tastes. Whether at a food truck, family gathering, or high-end eatery, tacos unite us.`,       
+      6. Culture and Connection: Sharing tacos is sharing stories. It's about bonding over the crackling of tortillas and the explosion of tastes. Whether at a food truck, family gathering, or high-end eatery, tacos unite us.`,
     },
     {
       id: 65,
@@ -873,8 +971,8 @@ export const ProvideInfo = (props) => {
       category: 'food',
       image: img65,
       name: 'Ice Cream',
-      content:`Ice cream, a beloved frozen treat, has been enchanting taste buds for generations. With its rich and creamy texture, delightful array of flavors, and endless possibilities for customization, ice cream is more than just dessert – it's an experience that transcends age, culture, and time. Join us on a delectable journey through the world of ice cream, where we'll explore its history, flavors, making, and the joy it brings to people of all ages.`
-      
+      content: `Ice cream, a beloved frozen treat, has been enchanting taste buds for generations. With its rich and creamy texture, delightful array of flavors, and endless possibilities for customization, ice cream is more than just dessert – it's an experience that transcends age, culture, and time. Join us on a delectable journey through the world of ice cream, where we'll explore its history, flavors, making, and the joy it brings to people of all ages.`
+
     },
     {
       id: 66,
@@ -883,7 +981,7 @@ export const ProvideInfo = (props) => {
       desc: 'Indulge in creamy delight with Cheesecake - a luscious dessert crafted with a rich, velvety filling on a buttery graham crust.',
       category: 'food',
       name: 'Cheesecake',
-      content:`Indulge in the velvety decadence of a timeless dessert – the Cheesecake. With its rich and creamy texture, combined with a variety of luscious toppings and crust options, cheesecake is a true culinary masterpiece that has captured the hearts and taste buds of people around the world. In this article, we delve into the origins, flavors, and creative variations of this delectable treat.`    
+      content: `Indulge in the velvety decadence of a timeless dessert – the Cheesecake. With its rich and creamy texture, combined with a variety of luscious toppings and crust options, cheesecake is a true culinary masterpiece that has captured the hearts and taste buds of people around the world. In this article, we delve into the origins, flavors, and creative variations of this delectable treat.`
     },
     {
       id: 67,
@@ -892,21 +990,21 @@ export const ProvideInfo = (props) => {
       desc: 'Juicy burgers: A timeless classic of grilled perfection, savory toppings, nestled in a soft bun. Pure satisfaction in every bite.',
       category: 'food',
       name: 'Burgers',
-      content:`Burgers, the iconic culinary creation that has captured the hearts (and stomachs) of people around the globe. With their succulent patties, creative toppings, and perfect buns, burgers are the epitome of comfort food and culinary innovation. In this article, we'll delve into the history, variations, and tips to craft the perfect burger that satisfies even the most discerning taste buds.`
+      content: `Burgers, the iconic culinary creation that has captured the hearts (and stomachs) of people around the globe. With their succulent patties, creative toppings, and perfect buns, burgers are the epitome of comfort food and culinary innovation. In this article, we'll delve into the history, variations, and tips to craft the perfect burger that satisfies even the most discerning taste buds.`
     },
     {
       id: 68,
       image: img68,
-      dif:`eliciously twirling strands of pasta coated in rich sauces a classic comfort dish enjoyed worldwide.`,
+      dif: `eliciously twirling strands of pasta coated in rich sauces a classic comfort dish enjoyed worldwide.`,
       desc: 'Deliciously twirling strands of pasta coated in rich sauces, a classic comfort dish enjoyed worldwide.',
       category: 'food',
       name: 'Pasta',
-      content:`Pasta, a culinary masterpiece that has stolen the hearts of food enthusiasts around the globe, is much more than just a dish. It's a canvas of flavors, a representation of diverse cultures, and a testament to the art of gastronomy. From its humble beginnings in Italy to its status as a worldwide comfort food, pasta's journey is as rich as its taste.`
+      content: `Pasta, a culinary masterpiece that has stolen the hearts of food enthusiasts around the globe, is much more than just a dish. It's a canvas of flavors, a representation of diverse cultures, and a testament to the art of gastronomy. From its humble beginnings in Italy to its status as a worldwide comfort food, pasta's journey is as rich as its taste.`
     },
     {
       id: 69,
       image: img69,
-      dif:`Delight in the rich flavors of Curry...`,
+      dif: `Delight in the rich flavors of Curry...`,
       desc: 'Delight in the rich flavors of Curry, a harmonious blend of spices and ingredients that create a truly satisfying and aromatic culinary experience',
       category: 'food',
       name: 'Curry',

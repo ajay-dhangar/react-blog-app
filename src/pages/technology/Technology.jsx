@@ -49,7 +49,7 @@ const Info = () => {
                     </div>
                     <div className="tech-details">
                       <p className="tech-details-para tech-title"><span>{val.name}</span></p>
-                      <p className="tech-desc">{val.desc}</p>
+                      <p className="tech-desc">{val.details}</p>
                       {/* <div className="movie-data-contain">
                           <p className="movie-details-para IMdb"><b>IMdb:</b> {val.imdb} <b>,</b> </p>
                           <p className="movie-details-release-para release-left">
@@ -89,7 +89,7 @@ const Info = () => {
                         </div>
                         <div className="top-tech-post-details-wrapper">
                           <p className="top-tech-post-details top-tech-post-title"><span>{val.name}</span></p>
-                          <p className="top-tech-post-details tech-left-details"> {val.dif}</p>
+                          <p className="top-tech-post-details tech-left-details"> {val.details}</p>
 
                         </div>
                       </div>

@@ -1,27 +1,24 @@
-.article-title {
-    text-transform: uppercase;
-    font-size: 32px;
-    backdrop-filter: blur;
-    border-radius: 10px;
-    text-shadow: 4px 4px 10px #fe17e3;
-    -webkit-text-stroke: 2px #130f27;
-    color: transparent;
-}
-
-.article-content {
-    position: relative;
-    top: 1rem;
-    height: auto;
-    font-weight: 400;
-    line-height: 40px;
-    color: #262626;
-
+.ArticleContainer {
+    display: flex;
+    flex-wrap: wrap;
     /* background-color: red; */
 }
 
-.article-img {
-    border-radius: 30px;
+.extra-Content {
+    /* background-color: orange; */
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 100px;
+    /* font-size: 35px; */
 }
+
+.share-icon {
+    width: 35px;
+}
+
+/* .all-article-content{
+    background-color: red;
+} */
 
 .article-container {
     width: 60%;
@@ -32,63 +29,24 @@
     /* background-color: red; */
 }
 
+.article-title {
+    text-transform: uppercase;
+    font-size: 28px;
+    backdrop-filter: blur;
+    border-radius: 10px;
+    text-shadow: 0px 2px 10px #fe17e3;
+    -webkit-text-stroke: 2px #130f27;
+    color: rgba(255, 68, 0, 0.323);
+    text-align: center;
+}
+
+
 .article-img {
     width: 100%;
+    border-radius: 30px;
     height: 50vh;
     margin: auto;
     margin-top: 10px;
-}
-
-.name-info {
-    color: blueviolet;
-}
-
-.render-text-info {
-    margin-top: 10px;
-    display: block;
-    /* background-color: red; */
-}
-
-.writer-name {
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.written-date {
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.article-bottom-info {
-    height: auto;
-    display: flex;
-    padding: 5px;
-    margin: auto;
-    width: 70%;
-    align-items: center;
-    position: relative;
-    top: 1rem;
-    margin-bottom: 10px;
-    justify-content: space-evenly;
-    /* background-color: #fafafa; */
-    border-radius: 10px;
-}
-
-.extra-main-info {
-    color: rgb(18, 10, 33);
-    font-size: 0.8rem;
-    top: 0.5rem;
-    position: relative;
-}
-
-.extra-info {
-    color: rgb(68, 46, 87);
-    font-size: 0.6rem;
-    margin-left: 10px;
-    top: 0.5rem;
-    position: relative;
 }
 
 .writer-header {
@@ -114,6 +72,28 @@
     border: 1px solid rgb(238, 235, 237);
 }
 
+.render-text-info {
+    margin-top: 10px;
+    display: block;
+    /* background-color: red; */
+}
+
+.writer-name {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.name-info {
+    color: blueviolet;
+}
+
+.written-date {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .icons {
     display: flex;
     flex-wrap: wrap;
@@ -131,9 +111,82 @@
     display: inline-block;
     transition: 0.5s;
 }
+
+.article-content {
+    position: relative;
+    top: 1rem;
+    height: auto;
+    font-weight: 400;
+    line-height: 40px;
+    color: #262626;
+
+    /* background-color: red; */
+}
+
+.like-img {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .sb,
 .cb {
     display: none;
+}
+
+
+.article-bottom-info {
+    height: auto;
+    display: flex;
+    padding: 5px;
+    margin: auto;
+    width: 70%;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    /* background-color: #fafafa; */
+    border-radius: 10px;
+}
+
+.article-botton-contener {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(102, 98, 98);
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.article-botton-img {
+    width: 70%;
+    height: 150px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #262626;
+}
+
+.article-bottom-texts {
+    color: orangered;
+}
+
+.extra-main-info {
+    color: rgb(18, 10, 33);
+    font-size: 0.8rem;
+    top: 0.5rem;
+    position: relative;
+}
+
+.extra-info {
+    color: rgb(68, 46, 87);
+    font-size: 0.6rem;
+    margin-left: 10px;
+    top: 0.5rem;
+    position: relative;
 }
 
 @media screen and (max-width:1024px) {
@@ -155,15 +208,15 @@
         width: 35px;
     }
 
-    .writter-contentainer {
+    /* .writter-contentainer {
         width: 100%;
-    }
+    } */
 
 
-    .article-img {
+    /* .article-img {
         height: 40vh;
         width: 80%;
-    }
+    } */
 
     .article-container {
         width: 80%;
@@ -178,9 +231,6 @@
 
 }
 
-/* .all-article-content{
-    background-color: red;
-} */
 
 @media screen and (max-width:1000px) {
     .writter-container {
@@ -190,7 +240,8 @@
     .article-bottom-info {
         width: 95%;
         height: auto;
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
         position: relative;
         padding: 5px;
         margin-top: auto;
@@ -198,27 +249,49 @@
     }
 }
 
-.ArticleContainer {
-    display: flex;
-    flex-wrap: wrap;
-    /* background-color: red; */
+
+@media screen and (max-width:835px) {
+    .article-botton-contener {
+        width: 100%;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    .article-botton-img {
+        height: 300px;
+        width: 380px;
+        margin-bottom: 20px;
+    }
 }
 
-.extra-Content {
-    /* background-color: orange; */
-    position: fixed;
-    margin-top: 100px;
-    margin-left: 100px;
-    /* font-size: 35px; */
+@media screen and (max-width:735px){
+    .article-container {
+        width: 90%;
+        /* height: auto;
+        margin: auto;         */
+    }
 }
 
-.share-icon {
-    width: 35px;
+@media screen and (max-width:550px){
+    .article-img {
+        width: 100%;        
+        height: 35vh;
+        margin: auto;
+        margin-top: 10px;
+    }
 }
 
-.like-img {
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
+@media screen and (max-width:405px) {
+    .article-botton-img {
+        height: auto;
+        width: 70%;
+        margin-bottom: 20px;
+    }
 }
-
+@media screen and (max-width:370px){
+    .article-img {
+        width: 100%;        
+        height: 30vh;
+        margin: auto;
+    }
+}
