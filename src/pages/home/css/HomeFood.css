@@ -62,7 +62,7 @@
   
   @media screen and (max-width:405px) {
     .food-img {
-      height: 10%;
+      height: auto;
       width: 70%;
       margin-bottom: 20px;
     }
