@@ -3,28 +3,33 @@ import { ContextData } from '../../data/Data';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Technology.css';
-// import ImageSlider from '../home/ImageSlider';
+import ImageSlider from '../home/ImageSlider';
 import Footer from '../../component/footer/Footer'
 
-// import image1 from './img/check.jpg'
-// import image2 from './img/students.jpg'
+import image1 from '../../data/images/technology/banner.jpg'
+import image2 from '../../data/images/technology/banner-1.jpg'
 import image3 from '../../data/images/technology/tech.jpg'
-// import image4 from './img/pathan.jpg'
-// import image5 from './img/War-.jpg'
-// import image6 from './img/brahmastra.jpg'
-// import image7 from './img/don2.jpg'
-// import image8 from './img/War-.jpg'
+import image4 from '../../data/images/technology/banner-2.jpg'
+import image6 from '../../data/images/technology/banner-4.jpg'
+import image7 from '../../data/images/technology/banner-5.jpg'
+import image8 from '../../data/images/technology/banner-6.jpg'
+import image9 from '../../data/images/technology/banner-7.jpg'
+import image10 from '../../data/images/technology/banner-8.jpg'
+import image11 from '../../data/images/technology/banner-9.jpg'
+import image12 from '../../data/images/technology/banner-10.jpg'
 
-// const images = [
-//   image1,
-//   image2,
-//   image3,
-//   image4,
-//   image5,
-//   image6,
-//   image7,
-//   image8,
-// ];
+const images = [
+  image1,
+  image2,
+  image4,
+  image6,
+  image7,
+  image8,
+  image9,
+  image10,
+  image11,
+  image12
+];
 
 const Info = () => {
   const [data] = useContext(ContextData);
@@ -118,7 +123,7 @@ const Technology = () => {
   return (
     <>
       <div className="MainContainer">
-        {/* <ImageSlider images={images} /> */}
+        <ImageSlider images={images} />
         <div className="info-data">
           <Info />
         </div>

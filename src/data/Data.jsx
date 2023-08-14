@@ -35,9 +35,9 @@ import img29 from "./images/technology/Cloud Computing.jpg";
 import img30 from "./images/technology/Cybersecurity and Data Privacy.jpg";
 import img31 from "./images/technology/Internet of Things (IoT).jpg";
 import img32 from "./images/technology/Quantum Computing.jpg";
-import img33 from "./images/technology/tech-6.jpg";
-import img34 from "./images/technology/tech-9.jpg";
-import img35 from "./images/technology/tech-3.jpg";
+import img33 from "./images/technology/full-stack-developer.jpg";
+import img34 from "./images/technology/Nanotechnology.jpg";
+import img35 from "./images/technology/Smart-Home-and-Smart-City=-Solutions.jpg";
 
 //  Hollywood Images
 
@@ -478,56 +478,152 @@ And that, my dear readers, is the enchanting story of cloud computing – a tale
     {
       id: 30,
       category: 'technology',
-      name: 'Full Stack',
+      name: 'Cybersecurity and Data Privacy',
       image: img30,
-      details: 'The Rise of Full Stack Freelancing',
-      content:
-        'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
+      details: 'Guardians of the Digital Realm: A Tale of Cybersecurity and Data Privacy',
+      content: `In a bustling city named Cybertopia, where the hum of technology was constant and digital connections intertwined every aspect of life, lived two individuals named Alex and Maya. They were ordinary citizens who enjoyed the conveniences brought by technology but were also vigilant about the potential risks it posed.
+
+      One day, an ominous presence emerged in Cybertopia – a mysterious hacker known as "Shadowbyte." Shadowbyte was notorious for infiltrating systems, stealing personal information, and causing digital chaos. Citizens started experiencing data breaches, identity theft, and unauthorized access to their sensitive information.
+      
+      Alex, an aspiring computer programmer, and Maya, a cybersecurity enthusiast, were deeply concerned about the threat Shadowbyte posed to their city. They decided to take action. They realized that to protect their digital realm, they needed to understand the twin pillars of cybersecurity and data privacy.
+      
+      With determination, Alex and Maya delved into the world of cybersecurity. They learned about encryption, firewalls, and multi-factor authentication – the tools that acted as shields against cyber threats. They understood that just like locking the doors of their homes, securing their online presence was equally crucial.
+      
+      As they further explored, they encountered the concept of data privacy. They realized that their personal information was like a treasure that needed protection. They learned about the importance of giving consent before sharing data, being cautious about the information they disclosed online, and understanding how their data was collected and used.
+
+Empowered with knowledge, Alex and Maya decided to spread awareness among their fellow citizens. They started organizing workshops, seminars, and online campaigns. Their goal was to empower people to take control of their digital lives and make informed decisions about their online interactions.
+
+One day, as Shadowbyte's attacks escalated, Alex and Maya uncovered a lead. They traced the hacker's origins to a secluded underground lair. With the help of local law enforcement and cybersecurity experts, they orchestrated a digital showdown. They used their newfound skills to create a digital fortress, defending against Shadowbyte's attempts to breach their defenses.
+
+The battle raged on, both in the digital realm and the physical world. Through collaboration, innovation, and unwavering determination, Alex and Maya managed to corner Shadowbyte. With a final keystroke, they neutralized the hacker's threat and safeguarded the city's digital infrastructure.
+
+Their story spread far and wide, inspiring citizens in Cybertopia and beyond to become vigilant digital guardians. Alex and Maya's journey showcased the significance of cybersecurity and data privacy, illustrating that in this interconnected world, protection was not only possible but essential.
+
+And so, in the ever-evolving landscape of technology, the legend of Alex and Maya lived on, reminding everyone that while the digital realm held endless possibilities, it also required responsible stewardship to ensure a safe and secure future for all.
+
+`
     },
     {
       id: 31,
       category: 'technology',
-      name: 'Full Stack',
+      name: 'Internet of Things (IoT)',
       image: img31,
-      details: 'The Rise of Full Stack Freelancing',
-      content:
-        'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
+      details: 'Connecting the Dots: A Tale of the Internet of Things',
+      content: `In the not-so-distant future, in the bustling city of Technoville, life had transformed thanks to a remarkable innovation known as the Internet of Things, or IoT.
+
+      Meet Alex, an ordinary office worker who woke up to the wonders of IoT one morning. As he went about his day, his alarm clock not only woke him up but also signaled his coffee maker to start brewing his favorite coffee blend. While he enjoyed his breakfast, the refrigerator notified him that he was running low on milk and added it to his shopping list.
+      
+      As he stepped out onto the street, Alex noticed the city's smart traffic lights dynamically adjusting to the flow of vehicles, reducing congestion and minimizing his commute time. His car, too, was a part of this interconnected web of devices. It alerted him to a potential maintenance issue, prompting him to schedule a visit to the mechanic.
+      
+      At the office, Alex's workspace was equipped with smart lighting and temperature control, ensuring a comfortable environment. During his meetings, he received real-time updates on his smartwatch, reminding him of tasks and deadlines.
+      
+      During lunch, Alex visited a local farm-to-table restaurant. He marveled at how the menu displayed QR codes that, when scanned, provided detailed information about the ingredients' origin, nutritional value, and even the farmer who cultivated them. This transparency was made possible by IoT-enabled supply chain tracking.
+
+Later that evening, as Alex relaxed at home, he controlled his smart home system using voice commands. The lights dimmed, his favorite music played, and his thermostat adjusted to his preferred temperature. A delivery drone dropped off his groceries, having received instructions from his refrigerator to restock essentials.
+
+Alex's city had also embraced IoT for urban planning. Smart waste bins signaled when they were full, optimizing garbage collection routes and reducing unnecessary trips. The air quality monitoring system alerted the authorities to potential pollution spikes, allowing prompt intervention.
+
+As the day came to a close, Alex reflected on how the Internet of Things had seamlessly integrated into every aspect of his life, making it more convenient, efficient, and sustainable. From his personal space to the city around him, IoT had connected the dots, creating a harmonious symphony of technology and everyday life.
+
+The story of Technoville illustrates how the Internet of Things has the potential to revolutionize our lives by connecting devices, systems, and data in ways that enhance our experiences and streamline our interactions with the world around us. With IoT, the future is indeed a more connected and intelligent place.`
     },
     {
       id: 32,
       category: 'technology',
-      name: 'Full Stack',
+      name: 'Quantum Computing',
       image: img32,
-      details: 'The Rise of Full Stack Freelancing',
-      content:
-        'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
+      details: 'Journey into the Quantum Realm: The Story of Quantum Computing',
+      content: `In the vast landscape of technology, one field stands out as a beacon of revolutionary potential: Quantum Computing. Imagine a world where computers solve complex problems that were previously deemed impossible, processing vast amounts of data in mere moments. This is the world that quantum computing promises to unlock.
+
+      Our story begins with the limitations of classical computing. Traditional computers use bits, which can either be 0 or 1, to process information. While these bits have brought us to incredible heights of technological progress, they face a roadblock when it comes to certain problems, like simulating the behavior of molecules for drug discovery or optimizing complex systems.
+      
+      Enter the quantum realm. Quantum computing harnesses the principles of quantum mechanics, a branch of physics that deals with the behavior of matter and energy at the smallest scales. Instead of bits, quantum computers use quantum bits, or qubits. Unlike classical bits, qubits can exist in multiple states simultaneously, thanks to a phenomenon called superposition. This allows quantum computers to process a multitude of possibilities at once.
+      
+      But that's not all. Another quantum phenomenon, entanglement, allows qubits to be interconnected in such a way that the state of one qubit instantly influences the state of another, no matter the distance between them. This property has the potential to create incredibly powerful and parallel computational processes.
+      
+      Now, let's dive into a real-world scenario to showcase the power of quantum computing. Imagine a complex optimization problem, like finding the most efficient route for a fleet of delivery trucks. In classical computing, this could take an impractical amount of time as the number of variables increases. Quantum computing, on the other hand, can process all potential routes simultaneously, thanks to superposition and entanglement. This could revolutionize logistics, supply chain management, and more.
+
+However, this tale isn't without its challenges. Quantum computers are delicate and susceptible to interference from their environment. Scientists and engineers are working tirelessly to overcome these hurdles and create stable quantum systems. Major tech players, startups, and research institutions are investing heavily in the development of quantum hardware and algorithms.
+
+As our story continues, quantum computing promises advancements in fields like cryptography, optimization, materials science, and artificial intelligence. Researchers are exploring new frontiers, and as the technology matures, it will have a profound impact on industries, economies, and our understanding of the universe.
+
+In conclusion, the story of quantum computing is one of groundbreaking possibilities and exciting challenges. It's a tale of bits and qubits, of superposition and entanglement, and of a future where complex problems are solvable in the blink of an eye. As we journey into the quantum realm, we're rewriting the rules of computation and taking technology to heights we've only dreamed of.`
     },
     {
       id: 33,
       category: 'technology',
       name: 'Full Stack',
       image: img33,
-      details: 'The Rise of Full Stack Freelancing',
-      content:
-        'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
+      details: 'Journey Through the Full Stack: The Complete Web Development Experience',
+      content: `Once upon a digital era, in the bustling realm of the internet, lived a young and ambitious programmer named Ajay. Ajay had a deep passion for building websites and applications that could make people's lives easier and more enjoyable. However, the world of web development seemed vast and complex, with many layers of technology to unravel.
+
+      Ajay's journey began with learning the basics of web development. Starting with HTML and CSS, the foundational languages that gave structure and style to web pages, Ajay could already create static websites that looked pleasing to the eye. But something was missing – interactivity.
+      Curious and determined, Ajay delved into the world of JavaScript. This magical scripting language allowed Ajay to breathe life into web pages. Buttons could now be clicked, forms filled, and elements dynamically changed. The websites were no longer just static entities but living, breathing creations.
+
+As Ajay's skills grew, so did the complexity of the projects. Ajay realized that modern web development was not limited to just one layer; it spanned the entire spectrum of technology. And thus, the concept of Full Stack development revealed itself.
+
+The Full Stack, Ajay learned, referred to the complete range of technologies required to build a web application. It was like constructing a grand skyscraper, with each floor representing a different layer of technology.
+
+The journey upward began with the Front-End. This was where the user interface came to life. Ajay mastered various JavaScript frameworks like React and Vue.js, which allowed for the creation of dynamic and responsive front-end experiences. The user's every click was met with instant feedback, creating a sense of magic.
+
+But as Ajay looked down from the heights of the Front-End, a realization dawned – every interaction by the user triggered a series of events in the background. This was the realm of the Back-End. Ajay descended to this layer, learning server-side languages like Node.js, Python, and databases like MySQL and MongoDB. Here, data was stored, processed, and served to the Front-End.
+
+The story did not end there. Ajay realized that no skyscraper stood without a strong foundation. The DevOps layer was the invisible force that kept everything running smoothly. Ajay learned about deployment, server management, and continuous integration tools that ensured the application was always available and reliable.
+
+With newfound knowledge, Ajay's creations evolved into full-fledged web applications. These applications seamlessly connected users, data, and services, providing meaningful experiences on the digital landscape.
+
+And so, Ajay's journey through the Full Stack came to a fulfilling conclusion. From the heights of the Front-End to the depths of the Back-End, and the stability of DevOps in between, Ajay had mastered the art of Full Stack development. Armed with this knowledge, Ajay continued to build remarkable digital wonders that enriched the lives of people all around the world.
+
+And thus, dear readers, we come to the end of our tale – a journey through the Full Stack, where a dedicated programmer like Ajay discovered the power of weaving together technologies to create extraordinary web experiences. Just as every layer contributed to the whole, so did Ajay's determination and passion contribute to the realm of web development, shaping the digital world one code at a time.`
     },
     {
       id: 34,
       category: 'technology',
-      name: 'Full Stack',
+      name: 'Nanotechnology',
       image: img34,
-      details: 'The Rise of Full Stack Freelancing',
-      content:
-        'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
+      details: 'Catalyzing Change: The Nanotechnology Revolution Unveiled',
+      content:`In the ever-evolving landscape of science and technology, one field stands out as a true testament to human ingenuity and innovation: nanotechnology. Imagine a world where the invisible becomes tangible, and the unimaginable becomes reality. This is the realm of nanotechnology – a captivating journey into the world of the ultra-small.
+
+      Nanotechnology derives its name from the nanometer, a unit of measurement so minuscule that it's hard to fathom. A nanometer is one billionth of a meter – for perspective, a sheet of paper is about 100,000 nanometers thick. At this scale, the properties of materials can drastically change, leading to astonishing possibilities.
+      
+      Our story begins with a scientist named Dr. Emily Carter. Driven by an insatiable curiosity and a passion for discovery, she delved into the world of nanotechnology with a vision to reshape the future. At her state-of-the-art laboratory, she carefully manipulates atoms and molecules, assembling them like building blocks.
+      
+      One day, while experimenting with carbon atoms, Dr. Carter stumbled upon a groundbreaking discovery: graphene. A single layer of carbon atoms arranged in a hexagonal lattice, graphene turned out to be an extraordinary material with exceptional strength, electrical conductivity, and flexibility. The potential applications seemed boundless.
+      
+      As news of her breakthrough spread, industries around the world took notice. In electronics, graphene's exceptional conductivity promised ultra-efficient devices. Medical researchers saw potential in its ability to detect diseases at an early stage, thanks to its unparalleled sensitivity. Engineers explored its potential for creating lightweight, yet incredibly strong, materials for construction and transportation.
+      
+      But nanotechnology wasn't confined to graphene alone. Nanomaterials like quantum dots began revolutionizing displays, enabling vibrant colors and energy-efficient screens. Nanomedicine allowed for targeted drug delivery, minimizing side effects and maximizing treatment efficacy. Even the energy sector underwent a transformation with nanoscale solar cells and energy storage devices.
+      
+      However, with great power comes great responsibility. The unprecedented capabilities of nanotechnology also raised ethical concerns. The ability to manipulate matter at the atomic level posed questions about safety, environmental impact, and unintended consequences.
+      
+      Governments, scientists, and organizations worldwide collaborated to establish guidelines and regulations to ensure the responsible development of nanotechnology. Dr. Carter herself became an advocate for ethical and sustainable practices, emphasizing the importance of considering long-term implications.
+      
+      As the years passed, the marvels of nanotechnology became an integral part of our lives. From nano-enabled clothing that adapts to temperature changes to water purification systems that remove contaminants at the molecular level, the influence of nanotechnology is felt in every corner of society.
+      
+      And so, the story of nanotechnology continues to unfold, filled with a sense of wonder and responsibility. Dr. Emily Carter's journey remains a testament to human determination and the limitless potential of the nano-world. As we venture deeper into this realm, let us remember that the true measure of our success lies not just in what we create, but in how we ensure its positive impact on our world.`
     },
     {
       id: 35,
       category: 'technology',
-      name: 'Full Stack',
+      name: 'Smart Home and Smart City Solutions',
       image: img35,
-      details: 'The Rise of Full Stack Freelancing',
-      content:
-        'A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.Full Stack Developers are highly intelligent people who have trained through their education or through years in related fields on the job force. These jobs are in high demand, but employers don’t want to trust their web development to just anyone. There are certain standards of education and work experience that Full Stack Developers have to meet to be hired. These vary from employer to employer, but here are some good bets.',
+      details: 'Cultivating Comfort and Efficiency: Exploring Smart Home and Smart City Solutions',
+      content: `In the bustling city of Futura, where technology seamlessly intertwined with daily life, lived a young woman named Maya. Maya was an architect who had always been fascinated by the concept of creating sustainable and intelligent living spaces. She had a dream of building a home that not only provided comfort but also adapted to the needs of its occupants.
+
+      One day, Maya's dream took a giant leap forward when she was offered the chance to work on a groundbreaking project – the development of a smart city called Elysium. Elysium aimed to transform urban living by integrating advanced technologies into every facet of its infrastructure. Maya was tasked with designing smart homes that would redefine modern living.
+      
+      As Maya delved into her work, she envisioned homes that could anticipate the needs of their inhabitants. Lights that adjusted according to the time of day, thermostats that optimized energy usage, and windows that automatically tinted based on sunlight were just the beginning. Maya's homes were equipped with AI-driven systems that learned the residents' routines and preferences, making life more convenient and efficient.
+      
+      Beyond individual homes, Maya was also instrumental in shaping the city's infrastructure. Elysium had smart traffic management that used real-time data to optimize traffic flow, reducing congestion and emissions. Public spaces were equipped with solar-powered benches that provided charging ports and Wi-Fi. Waste management systems automatically sorted and recycled waste, contributing to a cleaner environment.
+      
+      Maya's work wasn't just about technology; it was about enhancing the quality of life. Elderly residents could enjoy independent living with wearable devices that monitored health and alerted medical services in case of emergencies. Parks were designed with interactive play equipment that encouraged physical activity and social interaction among children.
+      
+      Definition - Smart Home and Smart City Solutions:
+      Smart Home Solutions refer to the integration of advanced technologies into residential spaces to enhance comfort, convenience, security, and energy efficiency. These solutions often involve the use of Internet of Things (IoT) devices, sensors, and automation systems to allow homeowners to control various aspects of their homes remotely and create an environment that adapts to their preferences and needs.
+      
+      Smart City Solutions, on the other hand, involve the incorporation of technology and data-driven approaches to enhance urban living. This includes the integration of digital infrastructure, data analytics, and connectivity to optimize city services, improve resource management, and provide a better quality of life for residents. These solutions encompass a wide range of areas, including transportation, energy, healthcare, waste management, public safety, and more.
+      
+      In essence, both Smart Home and Smart City Solutions leverage technology to create environments that are not only efficient but also sustainable, user-friendly, and responsive to the changing needs of individuals and communities. These solutions play a crucial role in shaping the future of urban living by promoting innovation, sustainability, and improved overall well-being.`
     },
     // Hollywood (id: 36 - 48)
     {

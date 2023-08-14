@@ -3,36 +3,30 @@ import { ContextData } from '../../data/Data';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 // import './Bollywood.css';
-// import ImageSlider from '../home/ImageSlider';
+import ImageSlider from '../home/ImageSlider';
 import Footer from '../../component/footer/Footer'
 import './Food.css'
-// import image1 from '../../data/images/food/Burgers.jpg'
-// import image2 from '../../data/images/food/Cheesecake.jpg'
-import image3 from '../../data/images/hollywood/Avengers-Endgame.jpg'
-// import image4 from '../../data/images/food/Curry.jpg'
-// import image5 from '../../data/images/food/Donuts.jpg'
-// import image6 from '../../data/images/food/Ice-cream.jpg'
-// import image7 from '../../data/images/food/Macarons.jpg'
-// import image8 from '../../data/images/food/Pasta.jpg'
-// import image9 from '../../data/images/food/Pizza.jpg'
-// import image10 from '../../data/images/food/Ramen.jpg'
-// import image11 from '../../data/images/food/Sushi.jpg'
-// import image12 from '../../data/images/food/Tacos.jpg'
+import image1 from '../../data/images/food/img-1.jpg'
+import image2 from '../../data/images/food/img-2.jpg'
+import image3 from '../../data/images/food/banner.jpg'
+import image4 from '../../data/images/food/img-3.jpg'
+import image5 from '../../data/images/food/ing-4.jpg'
+import image6 from '../../data/images/food/img-5.jpg'
+import image7 from '../../data/images/food/img-6.jpg'
+import image8 from '../../data/images/food/img-7.jpg'
+import image9 from '../../data/images/food/img-8.jpg'
 
-// const images = [
-//   image1,
-//   image2,
-//   image3,
-//   image4,
-//   image5,
-//   image6,
-//   image7,
-//   image8,
-//   image9,
-//   image10,
-//   image11,
-//   image12,
-// ];
+const images = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
+  image9,
+];
 
 const Info = () => {
   const [data] = useContext(ContextData);
@@ -124,7 +118,7 @@ const Food = () => {
   return (
     <>
       <div className="Food-Main-Container">
-        {/* <ImageSlider images={images} /> */}
+        <ImageSlider images={images} />
         <div className="food-info-data">
           <Info />
         </div>

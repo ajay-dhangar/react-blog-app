@@ -2,21 +2,22 @@ import React from 'react';
 import { ContextData } from '../../data/Data';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
-// import ImageSlider from '../home/ImageSlider';
+import ImageSlider from '../home/ImageSlider';
 import Footer from '../../component/footer/Footer'
 import './Fitness.css'
-// import image1 from './img/img-1.jpg'
-// import image2 from './img/img-2.jpg'
-// import image3 from '../../data/images/fitness/banner.jpg'
-// import image4 from './img/img-4.jpg'
-// import image5 from './img/img-3.jpg'
+import image1 from '../../data/images/fitness/banner.jpg'
+import image2 from '../../data/images/fitness/banner-1.jpg'
+import image3 from '../../data/images/fitness/banner-2.jpg'
+import image4 from '../../data/images/fitness/banner-3.jpg'
+import image5 from '../../data/images/fitness/banner-4.jpg'
 
-// const images = [
-//   image1,
-//   image2,
-//   image4,
-//   image5,
-// ];
+const images = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+];
 
 const Info = () => {
   const [data] = useContext(ContextData);
@@ -109,7 +110,7 @@ const Fitness = () => {
   return (
     <>
       <div className="main-fit-Container">
-        {/* <ImageSlider images={images} /> */}
+        <ImageSlider images={images} />
         <div className="info-data">
           <Info />
         </div>

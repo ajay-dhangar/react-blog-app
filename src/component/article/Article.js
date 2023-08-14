@@ -8,8 +8,8 @@ import Footer from '../footer/Footer'
 
 const writter = [
   { name: "Ajay Dhangar", date: "28th July, 2023", img: 'https://avatars.githubusercontent.com/u/99037494?v=4', },
-  { name: "Jane Smith", date: "1st August, 2023", img: 'https://avatars.githubusercontent.com/u/99037494?v=4' },
-  { name: "Shivay", date: "30th July, 2023", img: 'https://avatars.githubusercontent.com/u/99037494?v=4' },
+  { name: "Ajay Dhangar", date: "1st August, 2023", img: 'https://avatars.githubusercontent.com/u/99037494?v=4' },
+  { name: "Ajay Dhangar", date: "30th July, 2023", img: 'https://avatars.githubusercontent.com/u/99037494?v=4' },
 ];
 
 const Article = () => {

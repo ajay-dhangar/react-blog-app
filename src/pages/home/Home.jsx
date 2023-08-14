@@ -18,18 +18,38 @@ import './css/HomeFood.css';
 
 // All Images importing
 
-import image1 from '../../data/images/hollywood/Avengers-Endgame.jpg'
-import image2 from '../../data/images/bollywood/Bahubali2.jpg'
-import image3 from '../../data/images/technology/Internet of Things (IoT).jpg'
-import image4 from '../../data/images/technology/Cybersecurity and Data Privacy.jpg'
-import image5 from '../../data/images/hollywood/The-Dark-Knight.jpg'
+import image1 from './img/banner-1.jpg'
+import image2 from './img/banner-2.jpg'
+import image3 from './img/banner-3.jpg'
+import image4 from './img/banner-4.jpg'
+import image5 from './img/banner-5.jpg'
+import image6 from './img/banner-6.jpg'
+import image7 from './img/banner-8.jpg'
+import image8 from './img/banner-9.jpg'
+import image9 from './img/banner.jpg'
+import image10 from './img/banner-10.jpg'
+import image11 from '../../data/images/hollywood/Avengers-Endgame.jpg'
+import image12 from '../../data/images/bollywood/Bahubali2.jpg'
+import image13 from '../../data/images/technology/Internet of Things (IoT).jpg'
+import image14 from '../../data/images/technology/Cybersecurity and Data Privacy.jpg'
+import image15 from '../../data/images/hollywood/The-Dark-Knight.jpg'
 
 const images = [
   image1,
   image2,
   image3,
   image4,
-  image5
+  image5,
+  image6,
+  image7,
+  image8,
+  image9,
+  image10,
+  image11,
+  image12,
+  image13,
+  image14,
+  image15
 ];
 
 const Sportstories = () => {
