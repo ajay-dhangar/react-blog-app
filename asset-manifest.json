@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-blog-app/static/css/main.69264a86.css",
-    "main.js": "/react-blog-app/static/js/main.b58fe094.js",
+    "main.js": "/react-blog-app/static/js/main.f684be57.js",
     "static/media/wallpaper-5.jpg": "/react-blog-app/static/media/wallpaper-5.4a250810390cb21f990e.jpg",
     "static/media/Automation and Robotics.jpg": "/react-blog-app/static/media/Automation and Robotics.3d4ef7ece7123df06177.jpg",
     "static/media/wallpaper-2.jpg": "/react-blog-app/static/media/wallpaper-2.1ef5151aa3cf88728af0.jpg",
@@ -82,10 +82,10 @@
     "static/media/Sushi.jpg": "/react-blog-app/static/media/Sushi.183719dd3d91ff5aec2c.jpg",
     "index.html": "/react-blog-app/index.html",
     "main.69264a86.css.map": "/react-blog-app/static/css/main.69264a86.css.map",
-    "main.b58fe094.js.map": "/react-blog-app/static/js/main.b58fe094.js.map"
+    "main.f684be57.js.map": "/react-blog-app/static/js/main.f684be57.js.map"
   },
   "entrypoints": [
     "static/css/main.69264a86.css",
-    "static/js/main.b58fe094.js"
+    "static/js/main.f684be57.js"
   ]
 }
