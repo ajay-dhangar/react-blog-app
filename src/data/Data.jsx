@@ -241,85 +241,139 @@ export const ProvideInfo = (props) => {
       id: 17,
 
       category: 'bollywood',
-      name: 'Shershaah',
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      name: 'Bhediya',
+      desc: "Bhediya is a story of a man named Bhaskar who gets bitten by a wolf in the forests of Arunachal.",
       image: img17,
-      release: '12th August,2021',
-      imdb: '8.9/10',
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+      release: '25th November, 2022',
+      imdb: '6.8/10',
+      content: `Bhaskar and his cousin Janardhan "Jana" visit a small town in Arunachal Pradesh as part of a road-building project. They meet two natives named Jomin and Panda , who show them around. Bhaskar is chased and bitten by a wolf in the wild one night. Jana and Jomin quickly transport him to Dr. Anika, the local veterinarian. Seeing the large bite mark on Bhaskar's back and his obvious discomfort, she administers an injection in the hopes of relieving his suffering.
+
+      The next day, Bhaskar begins to see changes inside himself. He has heightened senses of smell and hearing, and he communicates with animals. Meanwhile, the locals and tribals are opposed to the idea of cutting down trees in woods to build roads and refuse to support it. However, Bhaskar is able to gain the backing of the youth, who agree to the scheme. Soon after, two persons who were involved in the project are discovered dead. The scratch and bite marks on their bodies indicate that they were mauled and killed by an animal. Panda claims that the killings are the work of a shape-shifting werewolf, but no one believes him.
+      
+      Jana assumes Bhaskar is the shape-shifting werewolf based on his increasingly weird behaviour. Jana and Jomin steal some of Bhaskar's stools to run a stool test and discover that human bone fragments were found in Bhaskar's stools. It is revealed that Bhaskar is really the perpetrator of the crimes, as he tells them that he has been transforming into a werewolf every night since being bitten by the wolf, and that he has no control over it.
+
+They decide to confine Bhaskar in a remote location so that he does not succumb to his own desires. However, a local cop notices them and learns the truth, threatening to divulge Bhaskar's name to everyone. The wolf that had bitten Bhaskar then appears and kills the cop, allowing them to flee. They go to an elderly doctor in try to discover a treatment for Bhaskar's ailment. He informs them that the only way for Bhaskar to be cured of his metamorphosis is for him to be bitten by the same wolf on a new moon night in the same location as before.
+
+Bhaskar walks to the forest with Jana and Jomin, wearing protective gear all over his body save his rear end, where he has to be bitten by the wolf, and waits for the wolf to emerge. They are surprised to realise that the wolf is none other than Dr. Anika, who is also a shape-shifter. She reveals that she was bitten by a wolf around a century ago. She has been the forest's protector since then, murdering anybody who attempted to ruin the forest and its trees. She had bitten Bhaskar with the intention of killing him, but she had spared him because she sensed kindness within him. She advises him to avoid deforestation and its consequences.
+
+Anika, suddenly, is shot down and captured by the local police force. Bhaskar transforms into a werewolf and rescues Anika, killing the policemen. However, Anika succumbs to her injuries and falls off a cliff, leaving Bhaskar heartbroken. He decides to work on constructing the roads, but around the borders of the forest, leaving the trees unharmed.`
     },
     {
       id: 18,
-
       category: 'bollywood',
-      name: 'Title',
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      name: 'Shivay',
+      desc: "Ajay Devgn's 'Shivaay': A Gripping Tale of Sacrifice, Action, and Undying Love",
       image: img18,
-      release: '12th August,2021',
-      imdb: '8.9/10',
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+      release: '28th October, 2016',
+      imdb: '6.3/10',
+      content: `"Shivaay" follows the journey of Shivaay, a skilled mountaineer and a skilled trekking guide, who lives in the Himalayas. He values his solitude and has a deep connection with the mountains. During one of his treks, he meets Olga, a Bulgarian tourist, and they eventually fall in love. Olga becomes pregnant, and despite their cultural differences, she gives birth to their daughter, Gaura.
+
+      A few years later, Gaura expresses a desire to meet her mother's family in Bulgaria. Shivaay, wanting the best for his daughter, takes her on a trip to Bulgaria. However, their joyous journey takes a dark turn when Gaura is kidnapped by a child trafficking gang. Shivaay is determined to rescue his daughter and embarks on a perilous journey across different countries to find her.
+      His path is filled with dangerous obstacles and intense action sequences as he battles against powerful and ruthless individuals involved in the trafficking ring. Throughout his journey, Shivaay's love for his daughter and his determination to bring her back become his driving force. The story highlights the lengths a father would go to protect his child and the sacrifices he's willing to make.
+
+As the story unfolds, Shivaay's character goes through intense emotional turmoil, and he encounters both friends and adversaries who shape his journey. The film explores themes of love, sacrifice, and the strength of a parent's bond with their child.
+
+Through a series of heart-stopping action scenes and emotional moments, Shivaay's relentless pursuit of his daughter takes center stage. The film combines breathtaking visuals of the Himalayas with adrenaline-pumping action sequences, creating a unique cinematic experience.
+
+In the end, Shivaay's determination and bravery lead him to a final confrontation where he must not only save his daughter but also confront the villains responsible for the tragedy. The movie concludes with a powerful message about the importance of family and the lengths one can go to protect their loved ones.
+
+"Shivaay" is a gripping tale of a father's unconditional love and his unwavering fight against all odds to reunite with his daughter. It's a roller-coaster ride of emotions, action, and adventure that showcases the power of a parent's love in the face of adversity.`
     },
     {
       id: 19,
-
       category: 'bollywood',
-      name: 'Title',
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      name: 'Pathaan',
+      desc: "An Indian agent races against a doomsday clock as a ruthless mercenary, with a bitter vendetta, mounts an apocalyptic attack against the country.",
       image: img19,
-      release: '12th August,2021',
-      imdb: '8.9/10',
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+      release: '25th January 2023',
+      imdb: '5.9/10',
+      content: `Meanwhile, Pathaan is a RAW agent, who along with his senior officer Nandini Grewal open a unit dubbed "Joint Operations and Covert Research" (JOCR) in order to recruit former RAW agents who were forced to retire due to past trauma or injury, but want to continue serving the country. With RAW joint secretary, Colonel Sunil Luthra's acceptance, Pathaan and his team head to Dubai to stop Outfit X's suspected plans of attacking the President of India at a scientific conference. However, they realize that their actual plan was to kidnap two scientists Dr. Farooqui and Dr. Sahani and the information they received about the imminent attack on the President was just a ruse to mislead them.
+
+      Jim attacks the scientists' convoy and Pathaan tries to stop him. A fight ensues, where Jim manages to escape with Dr. Sahani. At the debrief back at the agency, Luthra reveals that Jim was a former RAW agent, who was awarded with the Vir Puraskar for his bravery after the agency could not find his body when Somalian terrorists killed his wife and unborn child after the government refused to pay out the ransom demanded. He had apparently faked his death in order to seek vengeance against the agency and country for not saving his family.
+      
+      Meanwhile, Pathaan learns about the codeword dubbed "Raktbeej" and also that the dead people in Dubai were ex-agents and their money was transferred from the account of Rubina Mohsin (Rubai), a Pakistani doctor in Spain. Pathaan travels to Spain and is captured by Jim's men, where he also learns that Rubai is an ex-ISI agent. When Jim leaves his hideout, Rubai attacks Jim's men and escapes with Pathaan. Rubai reveals that Raktbeej is in Moscow, where they travel to steal it before Jim does. However, Rubai betrays Pathaan and has him captured by the Russian police. It is revealed that Jim used Rubai to make Pathaan steal the Raktbeej for himself. Pathaan is captured and taken to prison by train, but is saved by Avinash Singh "Tiger" Rathore.
+      
+      Three years later, Pathaan travels to Africa and captures Jim's henchman Raafe. He meets Nandini and reveals about Jim purchasing two saber missiles, while Nandini reveals Rubai's location in Paris. Pathaan meets Rubai, who reveals that the Raktbeej is a mutated smallpox virus, which was forcibly developed by a captive Dr. Sahani under Jim's orders. She also expresses guilt about betraying Pathaan without knowing that her country would plan such a heinous attack. They travel to Jim's lab in Siberia and manage to recover one orb containing the virus with great difficulty, while Jim escapes with the other orb. Luthra and Nandini reach Jim's lab to take the orb back to India in order to develop a vaccine. Luthra also has Rubai arrested for having questionable loyalties.
+      
+      At the Indian Institute of Contagious Diseases (IICD), Dr. Farooqui opens up the orb to Nandini without apparently finding anything. Jim calls them and reveals that the orb has already spread the virus in the facility. The infected scientists, along with Nandini die in the facility by shooting themselves, to curb the spread of the virus. Later, the facility is destroyed in a controlled blast. Jim provides an ultimatum to evacuate Indian soldiers out of Kashmir within 24 hours. Pathaan interrogates Raafe about the location of the missile and learns that the missile is situated in Afghanistan. After rescuing Rubai, they lure Jim's associates into a trap and attack Jim's base. Qadir is killed by Rubai after he activated the missile containing the virus. Pathaan chases after Jim with a jetpack and they both crash land into a cabin.
+      
+      Meanwhile, Rubai deactivates the missile, but finds that Raktbeej is not in the missile, but instead in a passenger-bound airplane, which is about to land in Delhi. Rubai informs Pathaan, who finds that Jim has the detonator. Luthra calls the air traffic control to prevent the plane from landing in Delhi. In the cabin, Pathaan and Jim fight brutally, resulting in the cabin to begin sliding off a cliff. Despite getting stabbed by Jim, Pathaan steals the detonator, deactivates Raktbeej and kills Jim by throwing him out of the cabin as the foundation is about to break. Afterwards, Pathaan is reinstated into RAW and made as the head of JOCR, while Nandini is posthumously awarded with the Vir Puraskar for her bravery.`
     },
     {
       id: 20,
-
       category: 'bollywood',
-      name: 'Title',
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      name: 'Shershaah',
+      desc: "Vikram Batra's Legacy Comes Alive: Shershaah's Real-Life Inspirations",
       image: img20,
-      release: '12th August,2021',
-      imdb: '8.9/10',
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+      release: '12th August, 2021',
+      imdb: '7.8/10',
+      content:`The story revolves around the life of Vikram Batra, played by Siddharth Malhotra, who hailed from a small town in Himachal Pradesh, India. Right from his early days, Vikram displayed a zest for life, a deep sense of duty, and an infectious charisma that drew people towards him.
+
+      As Vikram joins the Indian Military Academy (IMA) with the dream of serving his country, he quickly stands out as a natural leader. His nickname "Shershaah," meaning "Lion King," becomes a symbol of his courage and determination. The film takes viewers through his rigorous training, where his bond with fellow cadets and his love story with Dimple Cheema, played by Kiara Advani, blossom amidst the challenges.
+      
+      The heart of the movie lies in the Kargil War, a conflict between India and Pakistan that took place in the high-altitude region of Kargil. As part of the 13 JAK Rifles Regiment, Captain Vikram Batra's courage shines on the battlefield. His iconic words "Yeh Dil Maange More" (This heart craves for more) during a mission to recapture a strategic peak become etched in the memory of the nation.
+      
+      Vikram Batra's valiant efforts and leadership inspire his unit, leading them to victory in several critical missions. However, during the battle for Point 4875, a fierce encounter with enemy forces unfolds. Despite facing treacherous conditions, Captain Batra exemplifies unparalleled bravery, putting the safety of his men above his own. Tragically, he makes the ultimate sacrifice in the line of duty.
+      
+      Legacy and Impact:
+      "Shershaah" not only recounts Captain Vikram Batra's heroic acts on the battlefield but also celebrates his humility, camaraderie, and selflessness. His legacy lives on, serving as an inspiration for generations to come. The movie underscores the sacrifices made by Indian soldiers and the indomitable spirit that defines the armed forces.`
     },
     {
       id: 21,
 
       category: 'bollywood',
-      name: 'Title',
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      name: 'Main Tera Hero',
+      desc: `Varun Dhawan's Energetic Performance Shines in "Main Tera Hero"`,
       image: img21,
-      release: '12th August,2021',
-      imdb: '8.9/10',
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+      release: '4th April, 2014',
+      imdb: '5.2/10',
+      content: `The story revolves around the life of Seenu (Varun Dhawan), a mischievous and fun-loving young man who is sent to Bangalore for his higher studies by his parents. Seenu is not much interested in studies and often gets into trouble due to his playful nature.
+
+      During his time in Bangalore, Seenu falls in love with Sunaina (Ileana D'Cruz), a beautiful and strong-willed girl. However, Sunaina is also being pursued by Angad (Arunoday Singh), a corrupt police officer. Seenu's attempts to win Sunaina's heart lead him into humorous and chaotic situations.
+      
+      In an unexpected turn of events, Seenu crosses paths with Ayesha (Nargis Fakhri), an eccentric and outgoing girl who is smitten by him. Ayesha mistakes Seenu for a tough and fearless guy due to a misunderstanding. Seenu decides to play along with this misconception, leading to hilarious situations as he juggles between Ayesha and Sunaina.
+      
+      As the story unfolds, Seenu's web of lies becomes more complex, and his efforts to keep both Ayesha and Sunaina happy lead to a series of comedic mishaps. Angad, too, gets caught up in the confusion, adding to the chaos.
+      
+      The climax of the film takes place during a wedding ceremony, where Seenu's true identity is revealed to both Ayesha and Sunaina. The confusion is cleared up, and the characters come to terms with their feelings.`
     },
     {
       id: 22,
 
       category: 'bollywood',
-      name: 'Title',
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      name: 'Mujhse Shaadi Karogi',
+      desc: "Salman Khan, Priyanka Chopra, and Akshay Kumar Shine in This Bollywood Hit",
       image: img22,
-      release: '12th August,2021',
-      imdb: '8.9/10',
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+      release: '30th July, 2004',
+      imdb: '6.7/10',
+      content: `Sameer (played by Salman Khan) is a young and vibrant man with a quick temper. He is trying to find a job and starts working as a lifeguard in Goa. One day, while on duty, he saves a beautiful woman named Rani (played by Priyanka Chopra) from drowning. Sameer falls head over heels for Rani and decides to pursue her. However, Rani mistakes his intentions and believes him to be a pervert.
+
+      Unbeknownst to Sameer, Rani is already in love with her friend Sunny (played by Akshay Kumar), who is a well-mannered and kind-hearted man. Sunny is also Sameer's neighbor, leading to various comedic situations as Sameer tries to win Rani's heart.
+      
+      As Sameer attempts to woo Rani, his efforts often backfire due to his impulsive and unpredictable behavior. He seeks advice from his quirky and mischievous landlord, played by Amrish Puri, who adds to the chaos by encouraging Sameer's eccentric strategies.
+      
+      Throughout the movie, Sameer and Sunny's friendship is tested as they both vie for Rani's affection. The movie's comedic elements come from the misunderstandings and rivalry between Sameer and Sunny. Their attempts to one-up each other lead to hilarious situations and comic confrontations.
+      
+      As the story unfolds, misunderstandings are cleared up, and the characters realize the truth about their feelings. Sameer and Sunny eventually reconcile, and Sameer learns that love is not about pursuing someone relentlessly but understanding and respecting their feelings.`
     },
     {
       id: 23,
 
       category: 'bollywood',
-      name: 'Title',
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      name: 'Partner',
+      desc: "Salman Khan and Govinda Shine in This Bollywood Comedy Blockbuster.",
       image: img23,
-      release: '12th August,2021',
-      imdb: '8.9/10',
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam nesciunt unde doloremque exercitationem tenetur alias, aspernatur consectetur! Quod voluptatibus, recusandae rem magni sunt laboriosam blanditiis laudantium. Alias, odit repellat!",
+      release: '20th July, 2007',
+      imdb: '5.5/10',
+      content: `The story revolves around a love guru named Prem (Salman Khan), who runs a successful business helping couples in troubled relationships. He believes he has a special gift for understanding love and relationships. However, his own love life is quite the opposite. Prem himself struggles to find true love and has a history of failed relationships.
+
+      One day, a wealthy businessman named Raj (Govinda) approaches Prem for help with his girlfriend's relationship issues. Raj's girlfriend is a modern and successful businesswoman named Priya (Katrina Kaif). Priya, however, is oblivious to the fact that Raj is seeking Prem's guidance.
+      
+      As Prem starts giving Raj advice on how to win Priya's heart, hilarious misunderstandings and complications arise. Raj follows Prem's suggestions, leading to comical situations and mistaken identities. Meanwhile, Prem's best friend Naina (Lara Dutta) is secretly in love with him but is afraid to express her feelings.
+      
+      As the story unfolds, Raj and Prem's friendship deepens, and Raj becomes aware of the advice Prem has been providing. The climax of the film takes place during a cruise trip, where all the misunderstandings and secrets are revealed, leading to a series of funny and heartwarming moments.
+      
+      In the end, true love prevails, misunderstandings are cleared, and Raj and Priya's relationship is strengthened. Naina also finds the courage to confess her feelings to Prem, and they too find happiness together.`
     },
 
     // Technology (id: 24 - 36)
